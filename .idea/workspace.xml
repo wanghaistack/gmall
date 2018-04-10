@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/fastdfs-client-java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/FileUploadController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/tracker.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/pom.xml" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -51,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpuController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpuController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
@@ -66,7 +59,7 @@
       <file leaf-file-name="spuListPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuListPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-830">
+            <state relative-caret-position="-968">
               <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="81" />
               <folding />
             </state>
@@ -93,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploadController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileUploadController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="132">
+              <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +101,8 @@
       <file leaf-file-name="spuInfoPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-990">
-              <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -118,10 +111,10 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1523370903467" expanded="true" signature="4334:4358" ph="..." />
-                <marker date="1523370903467" expanded="true" signature="4475:4521" ph="..." />
-                <marker date="1523370903467" expanded="true" signature="4614:4668" ph="..." />
-                <marker date="1523370903467" expanded="true" signature="4740:4786" ph="..." />
+                <marker date="1523375217990" expanded="true" signature="4341:4365" ph="..." />
+                <marker date="1523375217990" expanded="true" signature="4482:4528" ph="..." />
+                <marker date="1523375217990" expanded="true" signature="4621:4675" ph="..." />
+                <marker date="1523375217990" expanded="true" signature="4747:4793" ph="..." />
               </folding>
             </state>
           </provider>
@@ -318,12 +311,12 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/SpuInfoService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuListPage.html" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/tracker.conf" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" />
       </list>
     </option>
   </component>
@@ -451,7 +444,7 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="fastdfs-client-java" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
@@ -541,6 +534,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -596,7 +598,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallManageServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GmallManageWebApplication">
     <configuration name="GmallIndentWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.GmallIndentWebApplication" />
@@ -728,7 +730,7 @@
       <workItem from="1523200904297" duration="4296000" />
       <workItem from="1523233882519" duration="38002000" />
       <workItem from="1523321274532" duration="10709000" />
-      <workItem from="1523365850629" duration="7439000" />
+      <workItem from="1523365850629" duration="8240000" />
     </task>
     <task id="LOCAL-00001" summary="商品模块">
       <created>1523322049882</created>
@@ -793,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523372622410</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="商品模块">
+      <created>1523374648817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1523374648817</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99527000" />
+    <option name="totallyTimeSpent" value="100328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +829,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3484487" sideWeight="0.33909288" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13444924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5453461" sideWeight="0.4762419" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20883055" sideWeight="0.66090715" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20883055" sideWeight="0.66090715" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.4913607" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -833,7 +842,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17821783" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.398568" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -974,6 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,6 +1053,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,6 +1146,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,24 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/ManageWebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/attrListPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1353,14 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuListPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-830">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/tracker.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1369,10 +1357,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuListPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-968">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1381,18 +1387,26 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1523370903467" expanded="true" signature="4334:4358" ph="..." />
-            <marker date="1523370903467" expanded="true" signature="4475:4521" ph="..." />
-            <marker date="1523370903467" expanded="true" signature="4614:4668" ph="..." />
-            <marker date="1523370903467" expanded="true" signature="4740:4786" ph="..." />
+            <marker date="1523375217990" expanded="true" signature="4341:4365" ph="..." />
+            <marker date="1523375217990" expanded="true" signature="4482:4528" ph="..." />
+            <marker date="1523375217990" expanded="true" signature="4621:4675" ph="..." />
+            <marker date="1523375217990" expanded="true" signature="4747:4793" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/FileUploadController.java">
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/ManageWebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="198">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
