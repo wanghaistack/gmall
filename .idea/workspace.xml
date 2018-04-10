@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="商品模块">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
+    <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/vcs.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -566,7 +566,7 @@
       <workItem from="1523193399386" duration="6270000" />
       <workItem from="1523200904297" duration="4296000" />
       <workItem from="1523233882519" duration="38002000" />
-      <workItem from="1523321274532" duration="1165000" />
+      <workItem from="1523321274532" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="商品模块">
       <created>1523322049882</created>
@@ -582,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523322239921</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="商品模块">
+      <created>1523322452614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523322452614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82544000" />
+    <option name="totallyTimeSpent" value="82593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
