@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../gmall1108/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/../gmall1108/fastdfs-client-java/fastdfs-client-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gmall1108/gmall-beans/gmall-beans.iml" filepath="$PROJECT_DIR$/../gmall1108/gmall-beans/gmall-beans.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gmall1108/gmall-common-util/gmall-common-util.iml" filepath="$PROJECT_DIR$/../gmall1108/gmall-common-util/gmall-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/gmall-indent-web.iml" filepath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/gmall-indent-web.iml" />
