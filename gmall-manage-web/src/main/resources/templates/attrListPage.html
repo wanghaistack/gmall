@@ -167,8 +167,14 @@ $('#ctg3ForAttrList').combobox('clear');
     }
 
     function deleteAttrInfo(){
-        var ctg3val = $("#ctg3ForAttrList").combobox('getSelected');
-        var attrInfoId =ctg3val.id;
+        if (! checkBeforeDialog){
+            return;
+        }
+        // 初始化datagrid
+        initAttrValueDatagrid();
+
+        var attrInfoRow=$("#dg").datagrid('getSelected');
+        var attrInfoId =attrInfoRow.id;
         var attrJson ={'id':attrInfoId} ;
         //ajax 传递id到后台
         $.post("deleteAttrInfo",attrJson,function(data){
