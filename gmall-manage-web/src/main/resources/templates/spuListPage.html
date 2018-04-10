@@ -14,6 +14,8 @@
     <!--引入图片上传工具webuploader-->
     <link rel="stylesheet" type="text/css" href="/webuploader/webuploader.css">
     <script type="text/javascript" src="/webuploader/webuploader.js"></script>
+    <script type="text/javascript" src="/easyui/datagrid-detailview.js"></script>
+
 </head>
 <body>
 <div class="easyui-panel" title=""  data-options="border:true">
@@ -61,3 +63,12 @@
         </div>
     </div>
 </div>
+
+<div th:include="spuInfoPage"></div>
+<script type="text/javascript">
+    function addSpuInfo(){
+        initSpuInfoDlg();  //在spuInfoPage.html中
+    }
+
+
+</script>
