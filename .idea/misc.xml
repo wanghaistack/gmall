@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../gmall1108/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-user-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-ordernew-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-orders-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-web/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../gmall1108/out" />
+  </component>
+</project>

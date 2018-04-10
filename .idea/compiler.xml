@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall-beans" />
+        <module name="gmall-common-util" />
+        <module name="gmall-indent-web" />
+        <module name="gmall-interface" />
+        <module name="gmall-manage-service" />
+        <module name="gmall-manage-web" />
+        <module name="gmall-ordernew-web" />
+        <module name="gmall-service-util" />
+        <module name="gmall-user-manage" />
+        <module name="gmall-web-util" />
+        <module name="gmallbean" />
+        <module name="order-web" />
+        <module name="order-web (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="gmall-bean" target="1.8" />
+      <module name="gmall-beans" target="1.8" />
+      <module name="gmall-common-util" target="1.8" />
+      <module name="gmall-indent-web" target="1.8" />
+      <module name="gmall-interface" target="1.8" />
+      <module name="gmall-manage-service" target="1.8" />
+      <module name="gmall-manage-web" target="1.8" />
+      <module name="gmall-order-web" target="1.8" />
+      <module name="gmall-ordernew-web" target="1.8" />
+      <module name="gmall-orders-web" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-service-util" target="1.8" />
+      <module name="gmall-user-manage" target="1.8" />
+      <module name="gmall-web-util" target="1.8" />
+      <module name="gmall1108" target="1.5" />
+      <module name="gmallbean" target="1.8" />
+      <module name="order-web" target="1.8" />
+      <module name="order-web (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
