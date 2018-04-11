@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="ee" class="easyui-dialog" title="My Dialog" style="width:400px;height:200px;"
+     data-options="iconCls:'icon-save', toolbar: '#saleAttr'，resizable:true,modal:true ,buttons:'#saleButtons'">
+
+    <select id="sale" class="easyui-combobox" name="dept" style="width:200px;">
+        $('#sale').combobox({
+        url:'getSpuSaleAttrList',
+        valueField:'id',
+        textField:'text'
+        });
+    </select>
+    <table class="easyui-datagrid" style="width:400px;height:250px"
+           data-options="url:'datagrid_data.json',fitColumns:true,singleSelect:true">
+        <thead>
+        <tr>
+            <th data-options="field:'code',width:100">编码</th>
+            <th data-options="field:'name',width:100">名称</th>
+            <th data-options="field:'price',width:100,align:'right'">价格</th>
+        </tr>
+        </thead>
+    </table>
+
+</div>
+
+<div id="saleAttr">
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'add',plain:true">添加属性</a>
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'remove',plain:true">删除属性</a>
+</div>
+<div id="saleButtons">
+    <a href="#" class="easyui-linkbutton">保存</a>
+    <a href="#" class="easyui-linkbutton">关闭</a>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
