@@ -71,6 +71,7 @@ public class ManageWebController {
     @ResponseBody
     public String deleteAttrInfo(BaseAttrInfo baseAttrInfo){
         manageService.deleteAttrInfoByPrimaryKey(baseAttrInfo.getId());
+
         return "success";
     }
 

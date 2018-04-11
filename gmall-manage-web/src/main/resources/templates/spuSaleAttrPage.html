@@ -4,43 +4,94 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<div id="spuSaleDialog" class="easyui-dialog" title="My Dialog" style="width:400px;height:200px;"
-     data-options="iconCls:'icon-save', toolbar: '#saleAttr'，resizable:true,modal:true ,buttons:'#saleButtons'">
+<div id="spuSaleDialog" class="easyui-dialog" title="属性" style="width:400px;height:300px;"
+     data-options="iconCls:'icon-save',resizable:true,modal:true ,buttons:'#saleButtons',closed:true">
 
-    <select id="sale" class="easyui-combobox" name="dept" style="width:200px;">
-        $('#sale').combobox({
-        url:'getSpuSaleAttrList',
-        valueField:'id',
-        textField:'text'
-        });
+    销售属性:<select id="sale" class="easyui-combobox" name="dept" style="width:200px;">
+
+
     </select>
-    <table class="easyui-datagrid" style="width:400px;height:250px"
-           data-options="url:'datagrid_data.json',fitColumns:true,singleSelect:true">
-        <thead>
-        <tr>
-            <th data-options="field:'code',width:100">编码</th>
-            <th data-options="field:'name',width:100">名称</th>
-            <th data-options="field:'price',width:100,align:'right'">价格</th>
-        </tr>
-        </thead>
+    <table id="spuSaleAttrValueDg" class="easyui-datagrid" style="width:400px;height:250px"
+           data-options="fitColumns:true, toolbar: '#saleAttrValueDg',singleSelect:true">
+
     </table>
-
+    <div id="saleAttrValueDg">
+        <a href="#" class="easyui-linkbutton" onclick="addSpuSaleAttrValues()" data-options="iconCls:'icon-add', plain:true">添加属性</a>
+        <a href="#" class="easyui-linkbutton" onclick="deleteSpuSaleAttrValues()" data-options="iconCls:'icon-remove',plain:true">删除属性</a>
+    </div>
+    <div id="saleButtons">
+        <a href="#" onclick="saveAttrValueDg()" class="easyui-linkbutton">保存</a>
+        <a href="#" class="easyui-linkbutton">关闭</a>
+    </div>
 </div>
 
-<div id="saleAttr">
-    <a href="#" class="easyui-linkbutton" data-options="iconCls:'add',plain:true">添加属性</a>
-    <a href="#" class="easyui-linkbutton" data-options="iconCls:'remove',plain:true">删除属性</a>
-</div>
-<div id="saleButtons">
-    <a href="#" class="easyui-linkbutton">保存</a>
-    <a href="#" class="easyui-linkbutton">关闭</a>
-</div>
+
 
 
 <script type="text/javascript">
     function initSpuSaleAttr() {
         $('#spuSaleDialog').dialog('open');
+        initsaleAttrValueDg();
+        $('#sale').combobox({
+            url:'getBaseSaleAttrrList',
+            valueField:'id',
+            textField:'name'
+        });
     }
+    function initsaleAttrValueDg() {
+       var spuSaleAttrValueDg= $("#spuSaleAttrValueDg").datagrid('load',{
+
+        });
+        spuSaleAttrValueDg.datagrid({
+            columns:[[
+                {field:'id',title:'属性id',width:'30%'},
+                {field:'saleAttrValueName',title:'属性值',width:'70%',
+                    editor :{
+                        type : 'validatebox',
+                        options :'required :true'
+                    }
+                }
+
+            ]],
+            onDblClickCell: function(index,field,value){
+                $(this).datagrid('beginEdit', index);
+                $("input.datagrid-editable-input").val(value).bind("blur",function(evt){
+                    spuSaleAttrValueDg.datagrid('endEdit',index);
+                });
+            }
+
+
+        });
+
+    }
+    function addSpuSaleAttrValues() {
+        var spuSaleAttrValueDg=$("#spuSaleAttrValueDg");
+        spuSaleAttrValueDg.datagrid('appendRow',{
+            id:'',
+            saleAttrValueName :''
+        });
+    }
+    function saveAttrValueDg() {
+        var spuSaleAttrValueDg=$("#spuSaleAttrValueDg");
+
+
+    }
+    function deleteSpuSaleAttrValues() {
+        var spuSaleAttrValueDg=$("#spuSaleAttrValueDg");
+        //返回第一个所选中的行的值
+        var selectRow=spuSaleAttrValueDg.datagrid("getSelected");
+        //Json对象转字符串  JSON.stringify(json对象);
+        //字符串转JSON     String.parseJSON()
+        console.log("getSelected返回的值"+JSON.stringify(selectRow));
+        //返回选中行的id索引
+       var index= spuSaleAttrValueDg.datagrid("getRowIndex",selectRow);
+       console.log("getRowIndex返回的索引"+index);
+        spuSaleAttrValueDg.datagrid("deleteRow",index);
+
+    }
+
+
+
 
 </script>
 

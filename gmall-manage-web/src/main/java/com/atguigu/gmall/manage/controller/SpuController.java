@@ -1,6 +1,7 @@
 package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.atguigu.gmall.bean.BaseSaleAttr;
 import com.atguigu.gmall.bean.SpuInfo;
 import com.atguigu.gmall.service.SpuInfoService;
 import org.springframework.stereotype.Controller;
@@ -27,6 +28,12 @@ public class SpuController {
         spuInfo.setCatalog3Id(catalog3Id);
         List<SpuInfo> spuInfoList = spuInfoService.getSpuInfoList(spuInfo);
         return spuInfoList;
+    }
+    @RequestMapping("getBaseSaleAttrrList")
+    @ResponseBody
+    public List<BaseSaleAttr> getBaseSaleAttrrList(){
+       List<BaseSaleAttr> baseSaleAttrList= spuInfoService.getBaseSaleAttrrList();
+       return baseSaleAttrList;
     }
 
 

@@ -231,17 +231,17 @@
             saleAttrName:''
         });
      //获取datagrid值
-        $("#spuSaleAttrDg").datagrid({
+        var spuSaleAttrDg =$("#spuSaleAttrDg").datagrid({
             columns:[[
                 {field:'saleAttrId',title:'销售属性id',width:100},
                 {field:'saleAttrName',title:'销售属性',width:100},
-                {field:'spuSaleAttrValueList',title:'价格',width:100,align:'right',hidden:true}
+                {field:'spuSaleAttrValueList',title:'销售属性集合',width:100,align:'right',hidden:true}
             ]]
         });
 
-
-
     }
+
+
 
 
 
