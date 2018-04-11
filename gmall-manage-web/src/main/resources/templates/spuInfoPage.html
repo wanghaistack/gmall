@@ -75,7 +75,6 @@
         //初始化销售属性列表
         initSpuSaleAttrListDatagrid(spuInfo);
     }
-
     function initSpuForm(spuInfo){
         //清空文本框
         $("#spuForm").form("clear");
@@ -226,17 +225,17 @@
 
     //初始化
     function initSpuSaleAttrListDatagrid(spuInfo) {
-        //清空数据
-       var spuSaleAttrDg= $("#spuSaleAttrDg").datagrid('load',{
-            saleAttrId :'',
-            saleAttrName :''
+
+        $("#spuSaleAttrDg").datagrid('load',{
+            saleAttrId:'',
+            saleAttrName:''
         });
-        //定义datagrid
-        spuSaleAttrDg.datagrid({
+     //获取datagrid值
+        $("#spuSaleAttrDg").datagrid({
             columns:[[
                 {field:'saleAttrId',title:'销售属性id',width:100},
-                {field:'saleAttrName',title:'销售属性名字',width:100},
-                {field:'saleAttrValueList',title:'销售属性值',width:100,hiddern:true,align:'right'}
+                {field:'saleAttrName',title:'销售属性',width:100},
+                {field:'spuSaleAttrValueList',title:'价格',width:100,align:'right',hidden:true}
             ]]
         });
 

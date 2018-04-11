@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<div id="ee" class="easyui-dialog" title="My Dialog" style="width:400px;height:200px;"
+<div id="spuSaleDialog" class="easyui-dialog" title="My Dialog" style="width:400px;height:200px;"
      data-options="iconCls:'icon-save', toolbar: '#saleAttr'，resizable:true,modal:true ,buttons:'#saleButtons'">
 
     <select id="sale" class="easyui-combobox" name="dept" style="width:200px;">
@@ -38,10 +37,14 @@
 </div>
 
 
+<script type="text/javascript">
+    function initSpuSaleAttr() {
+        $('#spuSaleDialog').dialog('open');
+    }
+
+</script>
 
 
 
 
-
-</body>
 </html>
