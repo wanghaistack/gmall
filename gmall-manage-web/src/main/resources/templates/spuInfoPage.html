@@ -220,7 +220,7 @@
     }
 
     function addSpuSaleAttr() {
-        initSpuSaleAttr(); //在spuSaleAttrPage.html页面中
+        initSpuSaleAttr(); //在spuSaleAttrPage.html页面中  //弹出spu销售属性对话框(属性名、属性值列表)
     }
 
     //初始化
@@ -232,6 +232,7 @@
         });
      //获取datagrid值
         var spuSaleAttrDg =$("#spuSaleAttrDg").datagrid({
+            idField:'saleAttrId',
             columns:[[
                 {field:'saleAttrId',title:'销售属性id',width:100},
                 {field:'saleAttrName',title:'销售属性',width:100},
@@ -239,6 +240,11 @@
             ]]
         });
 
+    }
+    function editSpuSaleAttr() {
+        var saleAttr=$("#spuSaleAttrDg").datagrid(" getSelected");
+        console.log("获取saleAttr的值为："+Json.stringify(saleAttr));
+        initSpuSaleAttr(saleAttr);
     }
 
 

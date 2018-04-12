@@ -7,10 +7,10 @@
 <div id="spuSaleDialog" class="easyui-dialog" title="属性" style="width:400px;height:300px;"
      data-options="iconCls:'icon-save',resizable:true,modal:true ,buttons:'#saleButtons',closed:true">
 
-    销售属性:<select id="saleAttrValueSelect" class="easyui-combobox" name="dept" style="width:200px;">
+    销售属性:
+    <select id="saleAttrValueSelect" class="easyui-combobox" name="dept" style="width:200px;" data-options="valueField:'id',textField:'name',url:'getBaseSaleAttrrList'">
 
-
-        </select>
+    </select>
         <table id="spuSaleAttrValueDg" class="easyui-datagrid" style="width:400px;height:250px"
         data-options="fitColumns:true, toolbar: '#saleAttrValueDg',singleSelect:true">
 
@@ -29,16 +29,12 @@
 
 
 <script type="text/javascript">
-    function initSpuSaleAttr() {
+    function initSpuSaleAttr(saleAttr) {
         $('#spuSaleDialog').dialog('open');
-        initsaleAttrValueDg();
-        $('#saleAttrValueSelect').combobox({
-            url:'getBaseSaleAttrrList',
-            valueField:'id',
-            textField:'name'
-        });
+        initsaleAttrValueDg(saleAttr);
+
     }
-    function initsaleAttrValueDg() {
+    function initsaleAttrValueDg(saleAttr) {
        var spuSaleAttrValueDg= $("#spuSaleAttrValueDg").datagrid('load',{
 
         });
@@ -62,6 +58,12 @@
 
 
         });
+        //点击编辑时，把值载入
+        if (saleAttr){
+            $("#saleAttrValueSelect").combobox("select",saleAttr.saleAttrId);
+            spuSaleAttrValueDg.datagrid("loadData",saleAttr.spuSaleAttrValueList);
+
+        }
 
     }
     function addSpuSaleAttrValues() {
@@ -78,11 +80,11 @@
         var saleAttrName=saleAttrValueSelect.combobox("getText");
         //获取属性id
         var saleAttrId=saleAttrValueSelect.combobox("getValue");
-        console.log("选中的saveAttrId:"+saleAttrId);
+        console.log("选中的saleAttrId:"+saleAttrId);
         //获取所返回的数据
         var dgData =$("#spuSaleAttrValueDg").datagrid("getData");
         console.log("返回的JSON串"+JSON.stringify(dgData));
-        var spuSaleAttrDg=$("spuSaleAttrDg");
+        var spuSaleAttrDg=$("#spuSaleAttrDg");
         //获取当前选中行的索引值
         var index = spuSaleAttrDg.datagrid('getRowIndex',saleAttrId);
         console.log("index"+index);
@@ -97,7 +99,7 @@
             spuSaleAttrValueList :dgData
             });
 
-        $("#spuSaleAttrValueDg").dialog("close");
+        $("#spuSaleDialog").dialog("close");
 
 
 
