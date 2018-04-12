@@ -28,11 +28,11 @@
 
 
 
-            <script type="text/javascript">
-            function initSpuSaleAttr() {
-                $('#spuSaleDialog').dialog('open');
-                initsaleAttrValueDg();
-        $('#sale').combobox({
+<script type="text/javascript">
+    function initSpuSaleAttr() {
+        $('#spuSaleDialog').dialog('open');
+        initsaleAttrValueDg();
+        $('#saleAttrValueSelect').combobox({
             url:'getBaseSaleAttrrList',
             valueField:'id',
             textField:'name'
@@ -78,12 +78,13 @@
         var saleAttrName=saleAttrValueSelect.combobox("getText");
         //获取属性id
         var saleAttrId=saleAttrValueSelect.combobox("getValue");
+        console.log("选中的saveAttrId:"+saleAttrId);
         //获取所返回的数据
         var dgData =$("#spuSaleAttrValueDg").datagrid("getData");
-        console.log(JSON.stringify("返回的JSON串"+dgData));
+        console.log("返回的JSON串"+JSON.stringify(dgData));
         var spuSaleAttrDg=$("spuSaleAttrDg");
         //获取当前选中行的索引值
-        var index=spuSaleAttrDg.datagrid("getRowIndex",saleAttrId);
+        var index = spuSaleAttrDg.datagrid('getRowIndex',saleAttrId);
         console.log("index"+index);
         //根据index判断是否重复
         if (index !='-1'){
