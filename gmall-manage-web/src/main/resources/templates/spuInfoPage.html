@@ -268,7 +268,7 @@
         }
         console.log("返回的spuInfo信息"+JSON.stringify(spuInfoJsonObj));
         
-        $.ajax("saveSpuInfo",spuInfoJsonObj,function (result) {
+        $.post("saveSpuInfo",spuInfoJsonObj,function (result) {
             console.log(result);
         })
 
