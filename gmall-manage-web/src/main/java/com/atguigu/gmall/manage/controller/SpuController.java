@@ -41,5 +41,12 @@ public class SpuController {
         spuInfoService.saveSpuInfo(spuInfo);
         return "success";
     }
+    @RequestMapping("getSpuInfoList")
+    @ResponseBody
+    public List<SpuInfo> getSpuList(@RequestParam Map<String,String> map){
+        String catalog3Id = map.get("catalog3Id");
+        List<SpuInfo> spuInfoList=spuInfoService.getSpuList(catalog3Id);
+        return spuInfoList;
+    }
 
 }

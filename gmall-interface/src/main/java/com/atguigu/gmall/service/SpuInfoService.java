@@ -11,4 +11,6 @@ public interface SpuInfoService {
     List<BaseSaleAttr> getBaseSaleAttrrList();
 
     void saveSpuInfo(SpuInfo spuInfo);
+
+    List<SpuInfo> getSpuList(String catalog3Id);
 }

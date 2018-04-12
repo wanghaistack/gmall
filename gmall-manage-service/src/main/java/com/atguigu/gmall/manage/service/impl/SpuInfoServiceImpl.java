@@ -57,4 +57,11 @@ public class SpuInfoServiceImpl implements SpuInfoService{
 
         }
     }
+
+    @Override
+    public List<SpuInfo> getSpuList(String catalog3Id) {
+        SpuInfo spuInfo=new SpuInfo();
+        spuInfo.setCatalog3Id(catalog3Id);
+        return spuInfoMapper.select(spuInfo);
+    }
 }

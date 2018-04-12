@@ -69,6 +69,9 @@
     function addSpuInfo(){
         initSpuInfoDlg();  //在spuInfoPage.html中
     }
-
+    function reloadSpuList() {
+        var ctg3val = $("#ctg3ForAttrList").combobox('getValue');
+        $('#dg').datagrid({url: 'getSpuInfoList?catalog3Id=' + ctg3val});
+    }
 
 </script>
