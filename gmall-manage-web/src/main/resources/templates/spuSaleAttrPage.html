@@ -29,46 +29,17 @@
 
 
 <script type="text/javascript">
-    function initSpuSaleAttrNull() {
-        $('#spuSaleDialog').dialog('open');
-        initsaleAttrValueDgNull();
 
-    }
-    function initsaleAttrValueDgNull() {
-        var spuSaleAttrValueDg = $("#spuSaleAttrValueDg").datagrid('load', {
-            id :'',
-            saleAttrValueName :''
-        });
-        spuSaleAttrValueDg.datagrid({
-            columns: [[
-                {field: 'id', title: '属性id', width: '30%'},
-                {
-                    field: 'saleAttrValueName', title: '属性值', width: '70%',
-                    editor: {
-                        type: 'validatebox',
-                        options: 'required :true'
-                    }
-                }
-
-            ]],
-            onDblClickCell: function (index, field, value) {
-                $(this).datagrid('beginEdit', index);
-                $("input.datagrid-editable-input").val(value).bind("blur", function (evt) {
-                    spuSaleAttrValueDg.datagrid('endEdit', index);
-                });
-            }
-
-        });
-    }
     function initSpuSaleAttr(saleAttr) {
         $('#spuSaleDialog').dialog('open');
         initsaleAttrValueDg(saleAttr);
 
     }
     function initsaleAttrValueDg(saleAttr) {
-       var spuSaleAttrValueDg= $("#spuSaleAttrValueDg").datagrid('load',{
-
-        });
+        var spuSaleAttrValueDg=$("#spuSaleAttrValueDg");
+        $("#spuSaleAttrValueDg").datagrid('loadData',
+        { total: 0, rows: [] }
+        );
         spuSaleAttrValueDg.datagrid({
             columns:[[
                 {field:'id',title:'属性id',width:'30%'},

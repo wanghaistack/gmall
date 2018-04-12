@@ -7,7 +7,7 @@
 <body>
 
 <!-----------------弹出框----------------------------->
-<div id="spu_dlg" class="easyui-dialog" title="编辑spu" style="width:700px;height:520px;"
+<div id="spu_dlg" class="easyui-dialog" title="编辑spu" style="width:700px;height:400px;"
      closed="true"  data-options="iconCls:'icon-save',resizable:true,modal:false" buttons="#spuBtns" >
     <form id="spuForm">
         <br/>
@@ -238,7 +238,7 @@
 
     }
     function addSpuSaleAttr() {
-        initSpuSaleAttrNull(); //在spuSaleAttrPage.html页面中  //弹出spu销售属性对话框(属性名、属性值列表)
+        initSpuSaleAttr(); //在spuSaleAttrPage.html页面中  //弹出spu销售属性对话框(属性名、属性值列表)
     }
     function editSpuSaleAttr(){
         var saleAttr = $("#spuSaleAttrDg").datagrid("getSelected");
@@ -253,8 +253,8 @@
         spuInfoJsonObj["catalog3Id"]=$("#ctg3ForSpuList").combobox("getValue");
         var imgRows=$("#spuImgDg").datagrid("getRows");
         for ( i=0;i<imgRows.length;i++){
-            spuInfoJsonObj["spuImageList:["+i+"].imgName"]= imgRows[i].imgName;
-            spuInfoJsonObj["spuImageList:["+i+"].imgUrl"] =  imgRows[i].imgUrl;
+            spuInfoJsonObj["spuImageList["+i+"].imgName"]= imgRows[i].imgName;
+            spuInfoJsonObj["spuImageList["+i+"].imgUrl"] =  imgRows[i].imgUrl;
         }
         var spuRows= $("#spuSaleAttrDg").datagrid("getRows");
         for (i=0;i<spuRows.length;i++){
