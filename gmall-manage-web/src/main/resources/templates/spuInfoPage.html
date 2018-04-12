@@ -271,10 +271,12 @@
         $.post("saveSpuInfo",spuInfoJsonObj,function (result) {
             console.log(result);
         })
-        $("#spu_dlg").dialog("#");
+        reloadSpuList();
         $("#spu_dlg").dialog("close");
     }
-
+    function closeSpu() {
+        $("#spu_dlg").dialog("close");
+    }
 
 
 

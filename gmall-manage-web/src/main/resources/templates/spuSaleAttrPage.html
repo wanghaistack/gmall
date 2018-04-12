@@ -21,7 +21,7 @@
             </div>
             <div id="saleButtons">
             <a href="#" onclick="saveAttrValueDg()" class="easyui-linkbutton">保存</a>
-            <a href="#" class="easyui-linkbutton">关闭</a>
+            <a href="#" class="easyui-linkbutton" onclick="closeSpuSaleAttrDigLog()">关闭</a>
             </div>
             </div>
 
@@ -100,7 +100,8 @@
             saleAttrName: saleAttrName,
             spuSaleAttrValueList :dgData
             });
-
+        重新加载数据
+        reloadSpuList();
         $("#spuSaleDialog").dialog("close");
 
 
@@ -119,6 +120,9 @@
        console.log("getRowIndex返回的索引"+index);
         spuSaleAttrValueDg.datagrid("deleteRow",index);
 
+    }
+    function closeSpuSaleAttrDigLog() {
+        $("#spuSaleDialog").dialog("close");
     }
 
 
