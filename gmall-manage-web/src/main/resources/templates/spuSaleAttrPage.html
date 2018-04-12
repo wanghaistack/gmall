@@ -29,6 +29,34 @@
 
 
 <script type="text/javascript">
+    function initSpuSaleAttr() {
+        $('#spuSaleDialog').dialog('open');
+        initsaleAttrValueDg();
+
+    }
+    function initsaleAttrValueDg() {
+        var spuSaleAttrValueDg = $("#spuSaleAttrValueDg").datagrid('load', {});
+        spuSaleAttrValueDg.datagrid({
+            columns: [[
+                {field: 'id', title: '属性id', width: '30%'},
+                {
+                    field: 'saleAttrValueName', title: '属性值', width: '70%',
+                    editor: {
+                        type: 'validatebox',
+                        options: 'required :true'
+                    }
+                }
+
+            ]],
+            onDblClickCell: function (index, field, value) {
+                $(this).datagrid('beginEdit', index);
+                $("input.datagrid-editable-input").val(value).bind("blur", function (evt) {
+                    spuSaleAttrValueDg.datagrid('endEdit', index);
+                });
+            }
+
+        });
+    }
     function initSpuSaleAttr(saleAttr) {
         $('#spuSaleDialog').dialog('open');
         initsaleAttrValueDg(saleAttr);
