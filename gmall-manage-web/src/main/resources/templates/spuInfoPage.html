@@ -245,7 +245,35 @@
         console.log("获取saleAttr的值为："+JSON.stringify(saleAttr));
         initSpuSaleAttr(saleAttr);
     }
+    function saveSpu(){
+        var spuInfoJsonObj={};
+        spuInfoJsonObj["id"]=$("#spuId").val();
+        spuInfoJsonObj["spuName"]=$("#spuName").val();
+        spuInfoJsonObj["description"]=$("#description").val();
+        spuInfoJsonObj["catalog3Id"]=$("#ctg3ForSpuList").combobox("getValue");
+        var imgRows=$("#spuImgDg").datagrid("getRows");
+        for ( i=0;i<imgRows.length;i++){
+            spuInfoJsonObj["spuImageList:["+i+"].imgName"]= imgRows[i].imgName;
+            spuInfoJsonObj["spuImageList:["+i+"].imgUrl"] =  imgRows[i].imgUrl;
+        }
+        var spuRows= $("#spuSaleAttrDg").datagrid("getRows");
+        for (i=0;i<spuRows.length;i++){
+            spuInfoJsonObj["spuSaleAttrList["+i+"].saleAttrId"]=spuRows[i].saleAttrId;
+            spuInfoJsonObj["spuSaleAttrList["+i+"].saleAttrName"]=spuRows[i].saleAttrName;
+            var valueRows= spuRows[i].spuSaleAttrValueList.rows;
+            for (j=0;j<valueRows.length;j++){
+                spuInfoJsonObj["spuSaleAttrList["+i+"].spuSaleAttrValueList["+j+"].saleAttrId"]=valueRows[j].saleAttrId;
+                spuInfoJsonObj["spuSaleAttrList["+i+"].spuSaleAttrValueList["+j+"].saleAttrValueName"]= valueRows[j].saleAttrValueName;
+            }
+        }
+        console.log("返回的spuInfo信息"+JSON.stringify(spuInfoJsonObj));
+        
+        $.ajax("saveSpuInfo",spuInfoJsonObj,function (result) {
+            console.log(result);
+        })
 
+        $("#spu_dlg").dialog("close");
+    }
 
 
 

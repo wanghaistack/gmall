@@ -35,6 +35,11 @@ public class SpuController {
        List<BaseSaleAttr> baseSaleAttrList= spuInfoService.getBaseSaleAttrrList();
        return baseSaleAttrList;
     }
-
+    @RequestMapping("saveSpuInfo")
+    @ResponseBody
+    public String saveSpuInfo(SpuInfo spuInfo){
+        spuInfoService.saveSpuInfo(spuInfo);
+        return "success";
+    }
 
 }

@@ -9,4 +9,6 @@ public interface SpuInfoService {
     public List<SpuInfo> getSpuInfoList(SpuInfo spuInfo);
 
     List<BaseSaleAttr> getBaseSaleAttrrList();
+
+    void saveSpuInfo(SpuInfo spuInfo);
 }
