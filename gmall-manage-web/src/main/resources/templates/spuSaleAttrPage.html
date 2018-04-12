@@ -7,31 +7,31 @@
 <div id="spuSaleDialog" class="easyui-dialog" title="属性" style="width:400px;height:300px;"
      data-options="iconCls:'icon-save',resizable:true,modal:true ,buttons:'#saleButtons',closed:true">
 
-    销售属性:<select id="sale" class="easyui-combobox" name="dept" style="width:200px;">
+    销售属性:<select id="saleAttrValueSelect" class="easyui-combobox" name="dept" style="width:200px;">
 
 
-    </select>
-    <table id="spuSaleAttrValueDg" class="easyui-datagrid" style="width:400px;height:250px"
-           data-options="fitColumns:true, toolbar: '#saleAttrValueDg',singleSelect:true">
+        </select>
+        <table id="spuSaleAttrValueDg" class="easyui-datagrid" style="width:400px;height:250px"
+        data-options="fitColumns:true, toolbar: '#saleAttrValueDg',singleSelect:true">
 
-    </table>
-    <div id="saleAttrValueDg">
-        <a href="#" class="easyui-linkbutton" onclick="addSpuSaleAttrValues()" data-options="iconCls:'icon-add', plain:true">添加属性</a>
-        <a href="#" class="easyui-linkbutton" onclick="deleteSpuSaleAttrValues()" data-options="iconCls:'icon-remove',plain:true">删除属性</a>
-    </div>
-    <div id="saleButtons">
-        <a href="#" onclick="saveAttrValueDg()" class="easyui-linkbutton">保存</a>
-        <a href="#" class="easyui-linkbutton">关闭</a>
-    </div>
-</div>
-
-
+            </table>
+            <div id="saleAttrValueDg">
+            <a href="#" class="easyui-linkbutton" onclick="addSpuSaleAttrValues()" data-options="iconCls:'icon-add', plain:true">添加属性</a>
+            <a href="#" class="easyui-linkbutton" onclick="deleteSpuSaleAttrValues()" data-options="iconCls:'icon-remove',plain:true">删除属性</a>
+            </div>
+            <div id="saleButtons">
+            <a href="#" onclick="saveAttrValueDg()" class="easyui-linkbutton">保存</a>
+            <a href="#" class="easyui-linkbutton">关闭</a>
+            </div>
+            </div>
 
 
-<script type="text/javascript">
-    function initSpuSaleAttr() {
-        $('#spuSaleDialog').dialog('open');
-        initsaleAttrValueDg();
+
+
+            <script type="text/javascript">
+            function initSpuSaleAttr() {
+                $('#spuSaleDialog').dialog('open');
+                initsaleAttrValueDg();
         $('#sale').combobox({
             url:'getBaseSaleAttrrList',
             valueField:'id',
@@ -72,7 +72,33 @@
         });
     }
     function saveAttrValueDg() {
-        var spuSaleAttrValueDg=$("#spuSaleAttrValueDg");
+
+        var saleAttrValueSelect=$("#saleAttrValueSelect");
+        //获取提交的文本值
+        var saleAttrName=saleAttrValueSelect.combobox("getText");
+        //获取属性id
+        var saleAttrId=saleAttrValueSelect.combobox("getValue");
+        //获取所返回的数据
+        var dgData =$("#spuSaleAttrValueDg").datagrid("getData");
+        console.log(JSON.stringify("返回的JSON串"+dgData));
+        var spuSaleAttrDg=$("spuSaleAttrDg");
+        //获取当前选中行的索引值
+        var index=spuSaleAttrDg.datagrid("getRowIndex",saleAttrId);
+        console.log("index"+index);
+        //根据index判断是否重复
+        if (index !='-1'){
+            spuSaleAttrDg.datagrid("deleteRow",index);
+        }
+        //追加一个新行。新行将被添加到最后的位置。
+        spuSaleAttrDg.datagrid('appendRow',{
+            saleAttrId:saleAttrId ,
+            saleAttrName: saleAttrName,
+            spuSaleAttrValueList :dgData
+            });
+
+        $("#spuSaleAttrValueDg").dialog("close");
+
+
 
 
     }
