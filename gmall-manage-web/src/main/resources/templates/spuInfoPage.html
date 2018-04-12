@@ -219,10 +219,6 @@
 
     }
 
-    function addSpuSaleAttr() {
-        initSpuSaleAttr(); //在spuSaleAttrPage.html页面中  //弹出spu销售属性对话框(属性名、属性值列表)
-    }
-
     //初始化
     function initSpuSaleAttrListDatagrid(spuInfo) {
 
@@ -241,8 +237,11 @@
         });
 
     }
-    function editSpuSaleAttr() {
-        var saleAttr=$("#spuSaleAttrDg").datagrid(" getSelected");
+    function addSpuSaleAttr() {
+        initSpuSaleAttr(); //在spuSaleAttrPage.html页面中  //弹出spu销售属性对话框(属性名、属性值列表)
+    }
+    function editSpuSaleAttr(){
+        var saleAttr = $("#spuSaleAttrDg").datagrid("getSelected");
         console.log("获取saleAttr的值为："+Json.stringify(saleAttr));
         initSpuSaleAttr(saleAttr);
     }
