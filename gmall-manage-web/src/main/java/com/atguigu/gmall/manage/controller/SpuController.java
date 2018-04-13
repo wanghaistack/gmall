@@ -59,10 +59,10 @@ public class SpuController {
     }
     @RequestMapping("getAttrInfoList")
     @ResponseBody
-    public List<BaseAttrInfo>getAttrInfoList(@RequestParam Map<String,String>map){
+    public BaseAttrInfo getAttrInfoList(@RequestParam Map<String,String>map){
         String ctg3Id = map.get("ctg3Id");
-        List<BaseAttrInfo> baseAttrInfoList=spuInfoService.getAttrInfoList(ctg3Id);
-        return baseAttrInfoList;
+        BaseAttrInfo baseAttrInfo = spuInfoService.getAttrInfoList(ctg3Id);
+        return baseAttrInfo;
     }
 
 }

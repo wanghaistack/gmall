@@ -18,6 +18,6 @@ public interface SpuInfoService {
 
     List<SpuImage> getSpuImgList(String spuId);
 
-    List<BaseAttrInfo> getAttrInfoList(String ctg3Id);
+    BaseAttrInfo getAttrInfoList(String ctg3Id);
 
 }

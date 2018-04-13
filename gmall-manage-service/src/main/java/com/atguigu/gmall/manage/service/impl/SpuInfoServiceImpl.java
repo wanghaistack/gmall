@@ -21,6 +21,8 @@ public class SpuInfoServiceImpl implements SpuInfoService{
     SpuSaleAttrMapper spuSaleAttrMapper;
     @Autowired
     BaseAttrInfoMapper baseAttrInfoMapper;
+    @Autowired
+    BaseAttrValueMapper baseAttrValueMapper;
     @Override
     public List<SpuInfo> getSpuInfoList(SpuInfo spuInfo) {
         //获取SpuInfo信息集合
@@ -80,11 +82,16 @@ public class SpuInfoServiceImpl implements SpuInfoService{
     }
 
     @Override
-    public List<BaseAttrInfo> getAttrInfoList(String ctg3Id) {
-        BaseAttrInfo baseAttrInfo=new BaseAttrInfo();
-        baseAttrInfo.setCatalog3Id(ctg3Id);
-        List<BaseAttrInfo>baseAttrInfoList=baseAttrInfoMapper.select(baseAttrInfo);
-        return baseAttrInfoList;
+    public BaseAttrInfo getAttrInfoList(String ctg3Id) {
+        //查询平台属性基本信息
+        BaseAttrInfo baseAttrInfo = baseAttrInfoMapper.selectByPrimaryKey(ctg3Id);
+        //查询属性值
+        BaseAttrValue baseAttrValue=new BaseAttrValue();
+        baseAttrValue.setAttrId(baseAttrInfo.getId());
+        List<BaseAttrValue> baseAttrValueList = baseAttrValueMapper.select(baseAttrValue);
+        baseAttrInfo.setAttrValueList(baseAttrValueList);
+        return baseAttrInfo;
+
     }
 
 }
