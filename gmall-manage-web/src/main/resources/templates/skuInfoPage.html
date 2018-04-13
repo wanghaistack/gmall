@@ -68,7 +68,7 @@
             //初始化图片表格
             initSkuImageTable(spuId);
             //初始化销售属性
-           // initSaleAttrInfoSelect();
+           initSaleAttrInfoSelect(spuId);
             //初始化平台属性
             initBaseAttrInfoSelect();
 
@@ -146,6 +146,30 @@
                     $("#attrInfoGroup").append($(baseAttrInfoHtml));
                 }
             })
+
+        }
+        function initSaleAttrInfoSelect(spuId) {
+            $("#spuSaleAttrGroup").html('');
+            $.get("getSpuSaleAttrList?spuId="+spuId,function (data) {
+                //ajax用get请求获取销售属性的集合
+                var spuSaleAttrList=data;
+                //遍历拼接html页码
+                for (i=0;i<spuSaleAttrList.length;i++){
+                    var spuSaleAttrInfo=spuSaleAttrList[i];
+                    var baseAttrInfoHtml="<span>"+baseAttrInfo.attrName+":</span><select class='easyui-combobox' attrInfoId='"+baseAttrInfo.id+"' style='width:100px'> ";
+                    var baseAttrValueList= baseAttrInfo.attrValueList;
+                    for (j=0;j<baseAttrValueList.length;j++){
+                        var baseAttrValue=baseAttrValueList[j];
+                        var baseAttrValueHtml="<option value='"+baseAttrValue.id+"'>"+baseAttrValue.valueName+"</option>";
+                        baseAttrInfoHtml+=baseAttrValueHtml;
+                    }
+                    baseAttrInfoHtml+="</select>";
+                    console.log(JSON.stringify(baseAttrInfoList));
+                    console.log("baseAttrInfoHtml"+baseAttrInfoHtml);
+                    $("#spuSaleAttrGroup").append($(baseAttrInfoHtml));
+                }
+            })
+
 
         }
 

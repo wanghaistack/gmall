@@ -109,6 +109,8 @@ $('#ctg3ForAttrList').combobox('clear');
         if(!checkBeforeDialog()){
             return ;
         }
+        //弹出框
+        $("#dlg").dialog("open");
         //进系统前先清空
         $("#attrId").val("");
         $("#attrName").textbox('clear');
@@ -116,14 +118,15 @@ $('#ctg3ForAttrList').combobox('clear');
         // 初始化datagrid
         initAttrValueDatagrid();
 
-        //弹出框
-        $("#dlg").dialog("open");
+
     }
 
     function editAttrInfo(){
         if(!checkBeforeDialog()){
             return ;
         }
+        //弹出框
+        $("#dlg").dialog("open");
         // 初始化datagrid
         initAttrValueDatagrid();
         //进页面前先加载数据
@@ -132,8 +135,7 @@ $('#ctg3ForAttrList').combobox('clear');
         $("#attrId").val(attrInfoRow.id);
         $("#attrName").textbox('setValue',attrInfoRow.attrName);
 
-        //弹出框
-        $("#dlg").dialog("open");
+
     }
 
     function checkBeforeDialog(){

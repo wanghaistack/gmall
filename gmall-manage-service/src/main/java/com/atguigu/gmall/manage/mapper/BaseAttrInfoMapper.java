@@ -6,5 +6,6 @@ import tk.mybatis.mapper.common.Mapper;
 import java.util.List;
 
 public interface BaseAttrInfoMapper extends Mapper<BaseAttrInfo> {
+    List<BaseAttrInfo> getAttrInfoListByctg3Id(long ctg3Id);
 }
 

@@ -82,16 +82,16 @@ public class SpuInfoServiceImpl implements SpuInfoService{
     }
 
     @Override
-    public BaseAttrInfo getAttrInfoList(String ctg3Id) {
-        //查询平台属性基本信息
-        BaseAttrInfo baseAttrInfo = baseAttrInfoMapper.selectByPrimaryKey(ctg3Id);
-        //查询属性值
-        BaseAttrValue baseAttrValue=new BaseAttrValue();
-        baseAttrValue.setAttrId(baseAttrInfo.getId());
-        List<BaseAttrValue> baseAttrValueList = baseAttrValueMapper.select(baseAttrValue);
-        baseAttrInfo.setAttrValueList(baseAttrValueList);
-        return baseAttrInfo;
+    public List<BaseAttrInfo> getAttrInfoList(String ctg3Id) {
+      List<BaseAttrInfo>baseAttrInfoList= baseAttrInfoMapper.getAttrInfoListByctg3Id(Long.parseLong(ctg3Id));
+        return baseAttrInfoList;
 
+    }
+
+    @Override
+    public List<SpuSaleAttr> getSpuSaleAttrList(String spuId) {
+       List<SpuSaleAttr> spuSaleAttrList= spuSaleAttrMapper.getSpuSaleAttrList(Long.parseLong(spuId));
+       return spuSaleAttrList;
     }
 
 }

@@ -1,10 +1,7 @@
 package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.atguigu.gmall.bean.BaseAttrInfo;
-import com.atguigu.gmall.bean.BaseSaleAttr;
-import com.atguigu.gmall.bean.SpuImage;
-import com.atguigu.gmall.bean.SpuInfo;
+import com.atguigu.gmall.bean.*;
 import com.atguigu.gmall.service.SpuInfoService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -59,10 +56,19 @@ public class SpuController {
     }
     @RequestMapping("getAttrInfoList")
     @ResponseBody
-    public BaseAttrInfo getAttrInfoList(@RequestParam Map<String,String>map){
+    public List<BaseAttrInfo>getAttrInfoList(@RequestParam Map<String,String>map){
         String ctg3Id = map.get("ctg3Id");
-        BaseAttrInfo baseAttrInfo = spuInfoService.getAttrInfoList(ctg3Id);
-        return baseAttrInfo;
+        List<BaseAttrInfo> baseAttrInfoList= spuInfoService.getAttrInfoList(ctg3Id);
+        return baseAttrInfoList;
     }
+    @RequestMapping("getSpuSaleAttrList")
+    @ResponseBody
+    public List<SpuSaleAttr> getSpuSaleAttrList(@RequestParam Map<String,String>map){
+        String spuId = map.get("spuId");
+
+       List<SpuSaleAttr> spuSaleAttrList= spuInfoService.getSpuSaleAttrList(spuId);
+       return spuSaleAttrList;
+    }
+
 
 }
