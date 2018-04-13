@@ -19,6 +19,8 @@ public class SpuInfoServiceImpl implements SpuInfoService{
     SpuSaleAttrValueMapper spuSaleAttrValueMapper;
     @Autowired
     SpuSaleAttrMapper spuSaleAttrMapper;
+    @Autowired
+    BaseAttrInfoMapper baseAttrInfoMapper;
     @Override
     public List<SpuInfo> getSpuInfoList(SpuInfo spuInfo) {
         //获取SpuInfo信息集合
@@ -30,7 +32,10 @@ public class SpuInfoServiceImpl implements SpuInfoService{
         List<BaseSaleAttr> baseSaleAttrList = baseSaleAttrMapper.selectAll();
         return baseSaleAttrList;
     }
-
+    /*
+    修改和保存性质一样，唯一区别根据条件判断spuId是否为Null，如果为Null，则视为保存添加
+    如果不为Null，则视为修改。
+     */
     @Override
     public void saveSpuInfo(SpuInfo spuInfo) {
         if (spuInfo.getId()!=null && spuInfo.getId().length()==0){
@@ -64,4 +69,22 @@ public class SpuInfoServiceImpl implements SpuInfoService{
         spuInfo.setCatalog3Id(catalog3Id);
         return spuInfoMapper.select(spuInfo);
     }
+
+    //获取spuImgList图片内容属性的集合
+    @Override
+    public List<SpuImage> getSpuImgList(String spuId) {
+        SpuImage spuImage=new SpuImage();
+        spuImage.setSpuId(spuId);
+        List<SpuImage> spuImageList = spuImageMapper.select(spuImage);
+        return spuImageList;
+    }
+
+    @Override
+    public List<BaseAttrInfo> getAttrInfoList(String ctg3Id) {
+        BaseAttrInfo baseAttrInfo=new BaseAttrInfo();
+        baseAttrInfo.setCatalog3Id(ctg3Id);
+        List<BaseAttrInfo>baseAttrInfoList=baseAttrInfoMapper.select(baseAttrInfo);
+        return baseAttrInfoList;
+    }
+
 }

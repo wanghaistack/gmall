@@ -73,5 +73,10 @@
         var ctg3val = $("#ctg3ForSpuList").combobox('getValue');
         $('#spulist_dg').datagrid({url: 'getSpuInfoList?catalog3Id=' + ctg3val});
     }
-
+    function addSkuInfo() {
+        var ctg3Id= $("#ctg3ForSpuList").combobox("getValue");
+        var row= $("#spulist_dg").datagrid("getSelected");
+        var spuId=row.id;
+        initSkuInfoDlg(spuId,ctg3Id);
+    }
 </script>

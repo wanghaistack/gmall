@@ -3,7 +3,7 @@ package com.atguigu.gmall.bean;
 import javax.persistence.Column;
 import javax.persistence.Id;
 import java.io.Serializable;
-
+//平台属性s
 public class BaseSaleAttr implements Serializable {
 
     @Id

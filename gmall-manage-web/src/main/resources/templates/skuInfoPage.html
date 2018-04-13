@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<div id="sku_dlg" class="easyui-dialog" title="编辑sku" style="width:700px;height:520px;"
+     closed="true"  data-options="iconCls:'icon-save',resizable:true,modal:false" buttons="#skuBtns" >
+    <form id="skuForm">
+        <br/>
+        <label>sku名称:</label>
+        <input  id="skuName" name="skuName" class="easyui-textbox" data-options="" style="width:300px;"/>
+        <br/><br/>
+        <label>商品价格:</label>
+        <input  id="price" name="price" class="easyui-numberbox" data-options="min:0,precision:2" style="width:300px;"/>
+        <br/><br/>
+        <label>商品重量（千克):</label>
+        <input  id="weight" name="weight" class="easyui-numberbox" data-options="min:0,precision:2" style="width:300px;"/>
+        <br/><br/>
+        <label>商品规格描述:</label>
+        <input  id="skuDesc" name="skuDesc" class="easyui-textbox" data-options="multiline:true" style="width:500px;height:100px"/>
+        <input id="spuIdForSku" name="spuId" type="hidden"/>
+
+        <input id="skuId" name="id" type="hidden"/>
+
+        <input id="catalog3IdForSku" name="catalog3Id" type="hidden"/>
+        <br/><br/>
+
+        <input id="skuInfo" name="skuInfo" type="hidden"/>
+
+
+        <div id="attrInfoGroup"  title="平台属性" class="easyui-panel" style="padding:5px;" ></div>
+
+        <div id="spuSaleAttrGroup" title="销售属性" class="easyui-panel" style="padding:5px;" ></div>
+
+
+
+        <!----------------商品图片列表 ----------------------->
+
+        <table id="skuImgDg" class="easyui-datagrid" title="商品图片列表"
+               data-options="singleSelect:false,selectOnCheck:false,method:'get'" ></table>
+
+        <br/><br/>
+
+
+
+
+        <!-------------->
+
+
+
+    </form>
+</div>
+<!----------------弹出框的按钮组----------------------->
+<div id="skuBtns">
+    <a href="#" class="easyui-linkbutton" onclick="saveSku()">保 存</a>
+    <a href="#" class="easyui-linkbutton" onclick="closeSku()">关 闭</a>
+</div>
+
+<script type="text/javascript">
+        function initSkuInfoDlg(spuId,ctg3Id) {
+            //打开对话框
+
+            $("#sku_dlg").dialog("open");
+            //初始化表单
+            initSkuForm();
+
+            //初始化图片表格
+            initSkuImageTable(spuId);
+            //初始化销售属性
+            initSaleAttrInfoSelect();
+            //初始化平台属性
+            initBaseAttrInfoSelect();
+
+        }
+        function initSkuForm() {
+            $("#skuForm").form("reset");
+        }
+        function initSkuImageTable(spuId) {
+            $("#skuImgDg").datagrid("loadData",{
+                total:0,
+                rows:[]
+            });
+            $('#skuImgDg').datagrid({
+                url:'',
+                columns:[[
+
+                    {field:'checkFlag',checkbox:true,width:'10%'},
+                    {field:'id',title:'文件编号',width:'15%'},
+                    {field:'imgName',title:'图片简称',width:'15%'},
+                    {
+                        field: 'imgUrl', title: '图片路径', width: '30%',
+                        /*
+                        单元格formatter(格式化器)函数，带3个参数：
+                                value：字段值。
+                                row：行记录数据。
+                                index: 行索引。
+                         */
+                        formatter: function (value, row, index) {
+                            var html="<img  src='"+value+"'  style='width: 100px ; height: 100px' > ";
+                            return html;
+                        }
+
+                    },
+                    {field:'isDefault',title:'是否默认图片',width:'15%',
+                        editor :{type:'checkbox',
+                            options: {
+                                on : "1",
+                                off:"0"
+                            }
+                        }
+
+                    }
+
+                ]],
+                onLoadSuccess:function () {
+                   var rows= $("#skuImgDg").datagrid("getRows");
+                    for (i=0;i<rows.length;i++){
+                        $("#skuImgDg").datagrid("beginEdit",i);
+                    }
+
+                }
+            });
+            $('#skuImgDg').datagrid({url:'getSpuImgList?spuId='+spuId});
+
+        }
+        function initBaseAttrInfoSelect() {
+           var ctg3Id= $("#ctg3ForSpuList").combobox("getValue");
+            $("#attrInfoGroup").html('');
+            $.get("getAttrInfoList?ctg3Id="+ctg3Id,function (data) {
+                //ajax用get请求获取平台属性的集合
+                var baseAttrInfoList=data;
+                //遍历拼接html页码
+                for (i=0;i<baseAttrInfoList.length;i++){
+                    var baseAttrInfo=baseAttrInfoList[i];
+                    var baseAttrInfoHtml="<span>"+baseAttrInfo.attrName+":</span><select class='easyui-combobox' attrInfoId='"+baseAttrInfo.id+"' style='width:100px'> ";
+                    var baseAttrValueList= baseAttrInfo.attrValueList;
+                    for (j=0;j<baseAttrValueList.length;j++){
+                        var baseAttrValue=baseAttrValueList[j];
+                        var baseAttrValueHtml="<option value='"+baseAttrValue.id+"'>"+baseAttrValue.valueName+"</option>";
+                        baseAttrInfoHtml+=baseAttrValueHtml;
+                    }
+                    baseAttrInfoHtml+="</select>";
+                    console.log(JSON.stringify(baseAttrInfoList));
+                    console.log("baseAttrInfoHtml"+baseAttrInfoHtml);
+                    $("#attrInfoGroup").append($(baseAttrInfoHtml));
+                }
+            })
+
+        }
+
+</script>
+
+
+</html>

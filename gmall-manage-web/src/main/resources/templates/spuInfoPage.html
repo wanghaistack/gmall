@@ -247,6 +247,7 @@
     }
     function saveSpu(){
         var spuInfoJsonObj={};
+        //根据Javabean的依赖关系进行拼串处理，转成json串然后发送ajax请求url传递参数data发送到后台。
         spuInfoJsonObj["id"]=$("#spuId").val();
         spuInfoJsonObj["spuName"]=$("#spuName").val();
         spuInfoJsonObj["description"]=$("#description").val();

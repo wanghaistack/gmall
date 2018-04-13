@@ -1,7 +1,9 @@
 package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.atguigu.gmall.bean.BaseAttrInfo;
 import com.atguigu.gmall.bean.BaseSaleAttr;
+import com.atguigu.gmall.bean.SpuImage;
 import com.atguigu.gmall.bean.SpuInfo;
 import com.atguigu.gmall.service.SpuInfoService;
 import org.springframework.stereotype.Controller;
@@ -47,6 +49,20 @@ public class SpuController {
         String catalog3Id = map.get("catalog3Id");
         List<SpuInfo> spuInfoList=spuInfoService.getSpuList(catalog3Id);
         return spuInfoList;
+    }
+    //获取spuImg的集合并返回到页面中
+    @RequestMapping("getSpuImgList")
+    @ResponseBody
+    public List<SpuImage> getSpuImgList(@RequestParam ("spuId") String spuId){
+        List<SpuImage>spuImageList =spuInfoService.getSpuImgList(spuId);
+        return spuImageList;
+    }
+    @RequestMapping("getAttrInfoList")
+    @ResponseBody
+    public List<BaseAttrInfo>getAttrInfoList(@RequestParam Map<String,String>map){
+        String ctg3Id = map.get("ctg3Id");
+        List<BaseAttrInfo> baseAttrInfoList=spuInfoService.getAttrInfoList(ctg3Id);
+        return baseAttrInfoList;
     }
 
 }
