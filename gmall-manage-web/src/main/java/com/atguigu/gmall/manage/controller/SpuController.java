@@ -67,6 +67,7 @@ public class SpuController {
         String spuId = map.get("spuId");
 
        List<SpuSaleAttr> spuSaleAttrList= spuInfoService.getSpuSaleAttrList(spuId);
+        System.out.println(spuSaleAttrList);
        return spuSaleAttrList;
     }
 

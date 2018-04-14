@@ -6,9 +6,9 @@
         sv.id sale_attr_value_id,
         sv.sale_attr_value_name FROM spu_sale_attr  sa INNER JOIN spu_sale_attr_value sv ON sa.`sale_attr_id`=sv.`sale_attr_id`
         AND sa.`spu_id`=sv.`spu_id`
-WHERE sa.`spu_id`=#{spuId}
+WHERE sa.`spu_id`=#{spu_id}
     </select>
-    <resultMap id="SpuSaleAttrMap" type="com.atguigu.gmall.bean.BaseAttrInfo" autoMapping="true">
+    <resultMap id="SpuSaleAttrMap" type="com.atguigu.gmall.bean.SpuSaleAttr" autoMapping="true">
         <result column="id" property="id"></result>
         <collection property="spuSaleAttrValueList" ofType="com.atguigu.gmall.bean.SpuSaleAttrValue" autoMapping="true">
             <result property="id" column="sale_attr_value_id"></result>
