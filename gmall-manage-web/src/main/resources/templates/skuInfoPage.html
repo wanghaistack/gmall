@@ -156,17 +156,17 @@
                 //遍历拼接html页码
                 for (i=0;i<spuSaleAttrList.length;i++){
                     var spuSaleAttrInfo=spuSaleAttrList[i];
-                    var baseAttrInfoHtml="<span>"+baseAttrInfo.attrName+":</span><select class='easyui-combobox' attrInfoId='"+baseAttrInfo.id+"' style='width:100px'> ";
-                    var baseAttrValueList= baseAttrInfo.attrValueList;
-                    for (j=0;j<baseAttrValueList.length;j++){
-                        var baseAttrValue=baseAttrValueList[j];
-                        var baseAttrValueHtml="<option value='"+baseAttrValue.id+"'>"+baseAttrValue.valueName+"</option>";
-                        baseAttrInfoHtml+=baseAttrValueHtml;
+                    var spuSaleAttrInfoHtml="<span>"+ spuSaleAttrInfo.saleAttrName+":</span><select class='easyui-combobox' saleAttrId='"+spuSaleAttrInfo.id+"' style='width:100px'> ";
+                    var spuSaleAttrInfoValueList= spuSaleAttrInfo.spuSaleAttrValueList;
+                    for (j=0;j<spuSaleAttrInfoValueList.length;j++){
+                        var spuSaleAttrInfoValue=spuSaleAttrInfoValueList[j];
+                        var spuSaleAttrInfoValueHtml="<option value='"+spuSaleAttrInfoValue.id+"'>"+spuSaleAttrInfoValue.saleAttrValueName+"</option>";
+                        spuSaleAttrInfoHtml+= spuSaleAttrInfoValueHtml;
                     }
-                    baseAttrInfoHtml+="</select>";
-                    console.log(JSON.stringify(baseAttrInfoList));
-                    console.log("baseAttrInfoHtml"+baseAttrInfoHtml);
-                    $("#spuSaleAttrGroup").append($(baseAttrInfoHtml));
+                    spuSaleAttrInfoHtml+="</select>";
+                    console.log(JSON.stringify(spuSaleAttrList));
+                    console.log("baseAttrInfoHtml"+ spuSaleAttrInfoHtml);
+                    $("#spuSaleAttrGroup").append($( spuSaleAttrInfoHtml));
                 }
             })
 

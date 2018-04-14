@@ -43,6 +43,7 @@ public class SpuInfoServiceImpl implements SpuInfoService{
         if (spuInfo.getId()!=null && spuInfo.getId().length()==0){
             spuInfo.setId(null);
         }
+        spuInfoMapper.insert(spuInfo);
         //获取SpuImage集合
         List<SpuImage> spuImageList = spuInfo.getSpuImageList();
         for (SpuImage spuImage : spuImageList) {
@@ -59,6 +60,7 @@ public class SpuInfoServiceImpl implements SpuInfoService{
             List<SpuSaleAttrValue> spuSaleAttrValueList = spuSaleAttr.getSpuSaleAttrValueList();
             for (SpuSaleAttrValue spuSaleAttrValue : spuSaleAttrValueList) {
                 spuSaleAttrValue.setSpuId(spuInfo.getId());
+                spuSaleAttrValue.setSaleAttrId(spuSaleAttr.getSaleAttrId());
                 spuSaleAttrValueMapper.insertSelective(spuSaleAttrValue);
             }
 
