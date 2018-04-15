@@ -56,44 +56,46 @@ $(function(){
 
 
 
-	
-	    function switchSkuId() {
-			var checkDivs = $(".redborder div");
-			console.log("len:"+checkDivs.length)
-			var valueIds="";
-            for (var i = 0; i < checkDivs.length; i++) {
-                var saleAttrValueDiv = checkDivs.eq(i);
-                if(i>0){
-                    valueIds= valueIds+"|";
-				}
-                valueIds=valueIds+saleAttrValueDiv.attr("value");
-
+    function switchSkuId() {
+        var redborderDivs = $(".redborder div");
+        var valueIdkeys="";
+        for(i=0;i<redborderDivs.length;i++){
+            var redborderDiv= redborderDivs.eq(i);
+            var attrValueId = redborderDiv.attr("value");
+            if(i>0){
+                valueIdkeys+="|";
             }
-            console.log("valueIds:"+valueIds);
-            var valuesSku = $("#valuesSku").attr("value");
-            console.log("valuesSku:"+valuesSku);
-            var valuesSkuJson=JSON.parse(valuesSku);
-            var skuId= valuesSkuJson[valueIds];
-			console.log("skuId:"+skuId);
-			var skuIdSelf=$("#skuId").val();
-			if(skuId){
-				if(skuId==skuIdSelf){
-                    $("#cartBtn").attr("class","box-btns-two");
-				}else{
-                    window.location.href="/"+skuId+".html";
-				}
+            valueIdkeys+=attrValueId;
+        }
+        console.log("valueIdkeys:"+valueIdkeys);
+        var valueIdSkuJson= $("#valueIdSkuJson").val();
+        console.log("valueIdSkuJson:"+valueIdSkuJson);
+        var skuSelfId= $("#skuId").val();
 
-
-			}else{
-                $("#cartBtn").attr("class","box-btns-two-off");
-			}
-
+        var valueIdSku = JSON.parse(valueIdSkuJson);
+        var skuIdTarget = valueIdSku[valueIdkeys];
+        if(!skuIdTarget){
+            $("#cartBtn").attr("class","box-btns-two-off");
+            $("#cartBtn").attr("canClick",'0');
+            $("#cartBtn").css("cursor",'not-allowed') ;
+        }else{
+            if(skuSelfId!=skuIdTarget){
+                window.location.href="/"+skuIdTarget+".html";
+            }else{
+                $("#cartBtn").attr("class","box-btns-two");
+                $("#cartBtn").attr("canClick",'1');
+                $("#cartBtn").css("cursor",'pointer') ;
+            }
         }
 
+    }
 
-	
 
-		$(".box-attr dd").click(function() {
+
+
+
+
+$(".box-attr dd").click(function() {
 			$(this).css({
 				"border": "solid 1px red"
 			}).siblings("dd").css({

@@ -95,5 +95,10 @@ public class SpuInfoServiceImpl implements SpuInfoService{
        List<SpuSaleAttr> spuSaleAttrList= spuSaleAttrMapper.getSpuSaleAttrList(Long.parseLong(spuId));
        return spuSaleAttrList;
     }
+    @Override
+    public List<SpuSaleAttr> getSpuSaleAttrListes(SkuInfo skuInfo) {
+        List<SpuSaleAttr>spuSaleAttrList =spuSaleAttrMapper.selectSpuSaleAttrList(Long.parseLong(skuInfo.getId()),Long.parseLong(skuInfo.getSpuId()));
+        return spuSaleAttrList;
+    }
 
 }

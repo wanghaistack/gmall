@@ -19,5 +19,5 @@ public interface SpuInfoService {
 
     List<SpuSaleAttr> getSpuSaleAttrList(String spuId);
 
-
+    List<SpuSaleAttr> getSpuSaleAttrListes(SkuInfo skuInfo);
 }

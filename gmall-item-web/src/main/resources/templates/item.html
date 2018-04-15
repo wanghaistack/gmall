@@ -116,12 +116,7 @@
 						<div class="box-lh-one">
 							<ul>
  
- 								<li><img src="./img/59ded62eN64a9784c.jpg" /></li>
-								<li><img src="./img/59ded626Ne3c69b70.jpg" /></li>
-								<li><img src="./img/59ded626N7c4cb0a3.jpg" /></li>
-								<li><img src="./img/59ded626Ne3c69b70.jpg" /></li>
-								<li><img src="./img/59ded62dN7e28abc5 (1).jpg" /></li>
- 
+ 								<li th:each="skuImage:${skuInfo.skuImageList}"><img th:src="${skuImage.imgUrl}" /></li>
 								 
 							</ul>
 						</div>
@@ -146,7 +141,7 @@
 
 					</div>
 					<div class="box-two">
-						<div class="box-name"  >
+						<div class="box-name" th:text="${skuInfo.skuName}"  >
 							华为 HUAWEI Mate 10 6GB+128GB 亮黑色 移动联通电信4G手机 双卡双待
 						</div>
  
@@ -170,7 +165,7 @@
 								<li>惊喜价</li>
 								<li>
 									<span>￥</span>
-									<span>4499.00</span>
+									<span th:text="${#numbers.formatDecimal(skuInfo.price,1,2)}">4499.00</span>
 								</li>
 								<li>
 								 
@@ -210,7 +205,7 @@
  
 
 								</li>
-								<li   >
+								<li th:text="${#numbers.formatDecimal(skuInfo.weight,1,2)}+' kg'" >
 									  10 kg
 								</li>
  
@@ -219,15 +214,15 @@
 						  
 						<div class="box-attr-3">
 						<br/>
-							<div class="box-attr-2 clear"  >
+							<div class="box-attr-2 clear" th:each="saleAttrInfo:${spuSaleAttrList}" >
 								<dl>
-									<dt >选择颜色</dt>
-									<dd  class="redborder" >
-										<div  >
+									<dt th:text="'选择'+${saleAttrInfo.saleAttrName}" >选择颜色</dt>
+									<dd  th:class="(${saleAttrInfo.isCheck}=='1')?'redborder':''" class="redborder" th:each="saleAttrValue:${saleAttrInfo.spuSaleAttrValueList}" >
+										<div th:value="${saleAttrValue.id}" th:text="${saleAttrValue.saleAttrValueName}" >
 											  摩卡金
 										</div>
 									</dd>
-									<dd  class="" >
+									<!--<dd  class="" >
 										<div  >
 											  太空银
 										</div>
@@ -242,7 +237,7 @@
 									</dd>
 									<dd>
 										<a href="#">套装版</a>
-									</dd>
+									</dd>-->
 								</dl>
 							</div>
 <!--
@@ -1006,6 +1001,10 @@
 			<img src="/img/44.png" />
 			<span>购物车还没有商品，赶紧选购吧！</span>
 		</div>
+
+	<input id="valueIdSkuJson" name="valueIdSkuJson" th:value="${valueIdSkuJson}" type="hidden">
+	<input id="skuId" name="skuId" th:value="${skuInfo.id}" type="hidden">
+
 	</body>
 
 	<script src="/js/jquery1.9.js" type="text/javascript" charset="utf-8"></script>

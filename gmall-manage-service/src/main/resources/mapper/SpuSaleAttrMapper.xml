@@ -14,4 +14,16 @@ WHERE sa.`spu_id`=#{spu_id}
             <result property="id" column="sale_attr_value_id"></result>
         </collection>
     </resultMap>
+    <select id="selectSpuSaleAttrList" resultMap="SpuSaleAttrMap">
+        select sa.`id`,sa.`spu_id`,sa.`sale_attr_id`,
+        sa.`sale_attr_name`,sv.`id` sale_attr_value_id ,
+        sv.`sale_attr_value_name`,skv.`sku_id`, IF(skv.`sku_id` IS NULL,0,1) is_check
+        from spu_sale_attr sa inner join spu_sale_attr_value sv
+        on sa.`sale_attr_id`=sv.`sale_attr_id`
+        and sa.`spu_id`=sv.`spu_id`
+        left join sku_sale_attr_value skv on sv.`id`=skv.`sale_attr_value_id` and sku_id=#{skuId}
+        where sa.`spu_id`=#{spuId}
+        ORDER BY sv.sale_attr_id,sv.id
+
+    </select>
 </mapper>
