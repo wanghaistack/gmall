@@ -46,7 +46,10 @@ public class SkuInfoServiceImpl implements SkuInfoService {
 
     @Override
     public SkuInfo getSkuInfo(String skuId) {
-        SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(Long.parseLong(skuId));
+        SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(skuId);
+        if (skuInfo==null){
+            return null;
+        }
         SkuImage skuImage=new SkuImage();
         skuImage.setSkuId(skuId);
         List<SkuImage> skuImageList = skuImageMapper.select(skuImage);

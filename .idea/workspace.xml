@@ -2,327 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/image/eee_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/1f80c3d6fabfd3418e54b005312c00b5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/2017-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/2017.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/2e19336b961586468ef36dc9f7199d4f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/3130323235303039372d313439343631373831333737363031343436353833_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/31333238343438363638385f7031343139383436323836343333_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/31353536363035383838375f7031343639393139313530303839_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/31353630323636363637315f7031343635383936363632333730_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/36313339393636322d33383232363231353037303333373238343937_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/36860afb69afa241beeb33ae86678093.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/4a79b87a68623d4e8a73aff3e25fa99b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/54b8871eNa9a7067e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/54b8872dNe37a9860.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/54b8875fNad1e0c4c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5698dc03N23f2e3b8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5698dc16Nb2ab99df.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/56a0a994Nf1b662dc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/56a89b8fNfbaade9a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/56ca6792N64e5eafc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/571734fdN2c8bfdb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/574d4bf8N700d614f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/577dd103N67caec65.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5799a118N7da215bc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/579ef71eNc5bce6cf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/579f23ccN5e22e48f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/57cfb628N297332ea.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5804908cNd869da01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5825a5a6Nde8ecb75.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/583eb3dbN1df5d225.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/584fcc3eNdb0ab94c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/586d9acaNf1123347.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58afca92Ncb38b8b8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58bf6956N07a174eb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58c9f736N4e611532.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58ccfeb4N58fd70f0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58cfadb2Ndb66ef86.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58d3c4fcNd94a9537.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58d862f3Nb2291131.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58dcd97eN5cfbd0de.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58ec3c6eN4f9970ec.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/58f9c1bbN6965b210.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59015444N27317512.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/591582a1N44d6d0e8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5919637aN271a1301.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5926991bN5cbadbde.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59277e26Nfaca3cae.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59279a1bN999990f5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5929482aN80510784.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/592e7127N2313be91.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/592e9b89N008ee685.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/592e9f09N5bd34e60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/592ee10bN1dea85b1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5930ff6dN0abb0b30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59365592Nc6fe3227.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/593e1fdaN28207ecb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59433015N866b682e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/594a358cN71d43ef0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5959a860Nd7c3a633.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5959f94dN8804eb46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/596f2dfcN17900184.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/597ee771Nd8cd840e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/597fd125N28f99324.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5985525bN8ec74aba.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59880667Nc3ecfba2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/598d474bN3e3dde68.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/599079abNa63762a2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/599a806bN9d829c1c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59a37d83Ne80e527f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ad0fabN2634aa72.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59b6538cN394d8cbb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59bfbe3cN63e4979b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59c0e2afNe6b7016a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59cc9591N5ce2ba2e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ce706fN6f3f2a4a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59dd8156N3d39c5d5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ddfcb1Nc3edb8f1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded60eN3110f3a8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded620Nfc0ab489.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded626N7c4cb0a3(1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded626N7c4cb0a3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded626Nda317ce2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded626Ne3c69b70.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62cN6e9ac17c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62dN7e28abc5 (1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62dN7e28abc5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62dNfed003a8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(2).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(3).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(4).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ded682N99d4efcc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59e55e01N369f98f2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59e99c57Ne1056e92.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59e9b89bNf3f066a0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59e9bbecNe58deb0b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb0df9Nd66d7585.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb1e23N6c63b4ea.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb1e44N0f65afb8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb1e45N462c0a2f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb1e46Nb58fc1ba.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb1e54N9518347e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eb1e56N3fcf5478.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ec0131Nf239df75.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59ed97f0N0810fae9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edbbf0Ne7e848c3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edbbf5Nb8fe2f00.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edbbf5Ne0e97545.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfde5Nd6b2eeec.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfdf4Ncd1e9097.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfdfcNe72f8b35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfdffNe3f35b75.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfe00N0e8c9a2f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfe00N18280283.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59edfe01N0c0b49cf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eea4ffNfe6271f1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eefb49Nfc2d1436.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eefb60N51a2e6c9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eefb61N56f65626.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eefb62N9b058172.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eefb63N035a6300.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59eefb64Na67961ff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f0427fN3ada7866.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f16e15Ndfc05e79.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b961Nc55260a2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b96dNdbbcfb43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b96dNff5d8def.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b96eN385f8ca5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b96eN56cd24dc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b96eN8b7e8fae.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b96fN67ba96f4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f1b970N903fa8d1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f2d175N26c13dd1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f3d654Nfcf1f120.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f3d66cN9a0ef348.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f3d66dN045d4a51.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f3d66dN56606681.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f3d66dN8597cc84.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f6a384Nf2289c0d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f6e051N89d361f4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f814e7N34bad14a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f815a3N45b22491.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f81727N622de50e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f847a8Nfd15df61.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f85b47Nc7a82590.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f964cbN88dc1222.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59f994e4N84199d91.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59fa8badNdb1b317e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59fab4e4Nff5ffb05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59fac6f8N9099950f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/59fe85ddN280ddf1a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a002ba3N126c2f73.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a016416N62c825e9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a016448N87be4827.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0547fcN92c93957.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a054809N97546816.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a054815N64e6dc84.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a054816Nd8c5ae42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a054816Nddc0ec46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a054817Na82392d7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a054818N3176323e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a05481aN8ba33038.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a055f60Nac74f518.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a05a299Nf9e5af06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a068a75N20bddaec.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a06b868Nf3f72d02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a06b8afN2b65caed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a06b993Nceef8000.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a06c2d7N0ab96524.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a06c340N03fa254d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0717e2N8cf04467.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a071cf4N7d87ee5a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a07ca99N6b2d7aab.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a07ca9cN0d94db58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a084a1aNa1aa0a71.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0942d8N7265b647.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0942d9N6147e3f0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0942d9Nd22f8a9c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0942daN090b3406.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0942daN4abbd574.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0942dbNe7b03ec3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0950c8N0b273e29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0afeddNb34732af.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0c0bdeN7d5fb661.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0cee42Ndde54756.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0ceebdNeac43da1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0d4181Nf70c5ebf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0d47c6N9a39a6ca.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0d4aa3N09ae70b3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0e4f24Ned35e1cf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a0e9616Nd5f8770f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a125861N0d1919b5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a125889N8f23fee1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a12588dN18850f0d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a12588eN24965b9c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a12588fNa21bad0c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a125890Ncf84abea.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a125892N8dc9ab04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a125893Neaf6da9a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a12873eN41754123.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a128eb5N17547a87.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a128f16N8c26ce84.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/5a14f5d5Nb20384f9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/6a645f3438653131303136363135633031343435353936373635323334_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/6a645f3539646565346232353163643631353130383139343135343432_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/7270ffc3baecdd448958f9f5e69cf60f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/73637134313531343537343034363439373539_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/7a797171353831333939383236383733373130_sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/81a6326edc82d343a5a8860a6970f93b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/90a6fa41d0d46b4fb0ff6907ca17c478.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/9224fcea62bfff479a6712ba3a6b47cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/a400e3d61d5645459f769b00d9f431e7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/afb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/animaite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/asma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/b769782fe4ecca40913ad375a71cb92d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/c688c683503b0547af23704aaec9c680.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/e4ed3606843f664591ff1f68f7fda12d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/eb0df.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/efod.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/f5831b9848b32440b381bcd30a3d96c7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/f64963b63d6e5849977ddd6afddc1db5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/fsma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/ggg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/gwc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/herder-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/huawei.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/igg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/iid.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/iig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/iii.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/iin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/ing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/inn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/logo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/ngi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/nnn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/oppo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/qglb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/shop_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/shop_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/shop_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/shop_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/sj_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/sj_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/sj_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/sj_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/sma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/smaa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/smaaa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/smabb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/start.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/sy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/tome.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/toolbars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/xl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/ys.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/zj_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/zj_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/zj_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/zj_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/GmallItemWebApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/bootstrap/js/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/js/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/js/jquery1.9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/js/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/scss/SHOUhou.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/scss/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/scss/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/scss/shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/test/java/com/atguigu/gmall/item/GmallItemWebApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/SkuInfoService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/SkuInfoService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/skuInfoPage.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/skuInfoPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuListPage.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuListPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuSaleAttrPage.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuSaleAttrPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -354,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -376,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkuInfoServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SkuInfoServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -779,25 +460,25 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -805,19 +486,11 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1031,7 +704,7 @@
       <workItem from="1523637925281" duration="235000" />
       <workItem from="1523665961885" duration="7489000" />
       <workItem from="1523685480227" duration="8023000" />
-      <workItem from="1523771469975" duration="12131000" />
+      <workItem from="1523771469975" duration="12633000" />
     </task>
     <task id="LOCAL-00001" summary="商品模块">
       <created>1523322049882</created>
@@ -1250,11 +923,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523774795230</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="商品模块">
+      <created>1523784140035</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1523784140035</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218462000" />
+    <option name="totallyTimeSpent" value="218964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1270,7 +950,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1290,7 +970,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41527447" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5357995" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1475,11 +1155,17 @@
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="99" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1872,10 +1558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        <state relative-caret-position="154">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1890,10 +1576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
