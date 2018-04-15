@@ -60,7 +60,6 @@
 <script type="text/javascript">
         function initSkuInfoDlg(spuId,ctg3Id) {
             //打开对话框
-
             $("#sku_dlg").dialog("open");
             //初始化表单
             initSkuForm();
@@ -124,6 +123,7 @@
             $('#skuImgDg').datagrid({url:'getSpuImgList?spuId='+spuId});
 
         }
+        //初始化平台属性
         function initBaseAttrInfoSelect() {
            var ctg3Id= $("#ctg3ForSpuList").combobox("getValue");
             $("#attrInfoGroup").html('');
@@ -148,6 +148,7 @@
             })
 
         }
+        //初始化销售属性
         function initSaleAttrInfoSelect(spuId) {
             $("#spuSaleAttrGroup").html('');
             $.get("getSpuSaleAttrList?spuId="+spuId,function (data) {
@@ -170,8 +171,72 @@
                 }
             })
 
+        }
+        function saveSku() {
+            var skuJson ="";
+            //SkuInfo属性拼串
+           skuJson["skuName"]= $("#skuName").val();
+           skuJson["price"] =$("#price").val();
+           skuJson["weight"]=$("#weight").val();
+           skuJson["skuDesc"]=$("#skuDesc").val();
+           skuJson["catalog3Id"]= $("#ctg3ForSpuList").combobox("getValue");
+           skuJson["spuId"]=$("#spulist_dg").datagrid("getSelected").id;
+            //平台属性拼串
+            var selectList= $("#attrInfoGroup").children("select");
+            for (i=0;i<selectList.length;i++){
+                var attrInfoValue=selectList.eq(i);
+                var attrInfoId=attrInfoValue.attr("attrInfoId");
+                var attrValueId=attrInfoValue.find("option:selected").val();
+                skuJson["skuAttrValueList["+i+"].attrId"]=attrInfoId;
+                skuJson["skuAttrValueList["+i+"].valueId"]=attrValueId;
+
+            }
+            //销售属性
+
+            var saleSelectList= $("#spuSaleAttrGroup").children("select");
+            for (i=0;i<saleSelectList.length;i++){
+                var saleAttrInfoValue=selectList.eq(i);
+                var saleAttrId=saleAttrInfoValue.attr("saleAttrId");
+                var saleAttrValueId=saleAttrInfoValue.find("option:selected").val();
+                var saleAttrName = saleAttrInfoValue.attr("spuSaleAttrName");
+                var saleAttrValueName=  saleAttrInfoValue.find("option:selected").text();
+                skuJson["skuAttrValueList["+i+"].saleAttrId"]=saleAttrId;
+                skuJson["skuAttrValueList["+i+"].saleAttrValueId"]=saleAttrValueId;
+                skuJson["skuAttrValueList["+i+"].saleAttrValueId"]=saleAttrValueId;
+                skuJson["skuAttrValueList["+i+"]. saleAttrValueName"]= saleAttrValueName;
+                skuJson["skuAttrValueList["+i+"].  saleAttrName"]=  saleAttrName;
+            }
+            //图片
+            endEdit();
+
+           var imgList= $("#skuImgDg").datagrid("getChecked");
+            for (i=0;i<imgList.length;i++){
+                var img=imgList[i];
+                skuJson["skuImageList["+i+"].imgName"]=img.imgName;
+                skuJson["skuImageList["+i+"].imgUrl"]=img.imgUrl;
+                skuJson["skuImageList["+i+"].isDefault"]=img.isDefault;
+                skuJson["skuImageList["+i+"].id"]=img.id;
+                if (img.isDefault =='1'){
+                    skuJson["skuDefaultImg"]=img.imgUrl;
+                }
+            }
+            console.log("skuJson:***"+JSON.stringify(skuJson));
+            $.post("saveSkuInfo",skuJson,function (data) {
+                $.messager.alert('data','success');
+            })
 
         }
+        function endEdit() {
+            var rows = $("#skuImgDg").datagrid("getRows");
+            for(i=0;i<rows.length;i++){
+                $("#skuImgDg").datagrid("endEdit",i);
+            }
+
+        }
+        function closeSku(){
+            $("#sku_dlg").dialog("close");
+        }
+
 
 </script>
 

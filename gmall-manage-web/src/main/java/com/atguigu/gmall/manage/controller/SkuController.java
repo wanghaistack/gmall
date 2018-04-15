@@ -1,6 +1,7 @@
 package com.atguigu.gmall.manage.controller;
 
 import com.atguigu.gmall.bean.BaseAttrInfo;
+import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.bean.SpuImage;
 import com.atguigu.gmall.service.SkuInfoService;
 import jdk.nashorn.internal.ir.annotations.Reference;
@@ -16,5 +17,11 @@ import java.util.Map;
 public class SkuController  {
     @Reference
     SkuInfoService skuInfoService;
+    @RequestMapping("saveSkuInfo")
+    @ResponseBody
+    public String saveSkuInfo(SkuInfo skuInfo){
+         System.out.println(skuInfo);
+        return "succeess";
+    }
 
 }
