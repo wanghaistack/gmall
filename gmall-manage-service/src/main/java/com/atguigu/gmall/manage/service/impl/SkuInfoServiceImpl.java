@@ -1,10 +1,8 @@
 package com.atguigu.gmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.atguigu.gmall.bean.BaseAttrInfo;
-import com.atguigu.gmall.bean.SpuImage;
-import com.atguigu.gmall.manage.mapper.SkuInfoMapper;
-import com.atguigu.gmall.manage.mapper.SpuImageMapper;
+import com.atguigu.gmall.bean.*;
+import com.atguigu.gmall.manage.mapper.*;
 import com.atguigu.gmall.service.SkuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,8 +12,54 @@ import java.util.List;
 public class SkuInfoServiceImpl implements SkuInfoService {
     @Autowired
     SkuInfoMapper skuInfoMapper;
+    @Autowired
+    SkuSaleAttrValueMapper skuSaleAttrValueMapper;
+    @Autowired
+    SkuAttrValueMapper skuAttrValueMapper;
+    @Autowired
+    SkuImageMapper skuImageMapper;
 
 
+    @Override
+    public void saveSkuInfo(SkuInfo skuInfo) {
+        if (skuInfo.getId()!=null && skuInfo.getId().length()==0){
+            skuInfo.setId(null);
+        }
+        skuInfoMapper.insertSelective(skuInfo);
+        List<SkuSaleAttrValue> skuSaleAttrValueList = skuInfo.getSkuSaleAttrValueList();
+        for (SkuSaleAttrValue skuSaleAttrValue : skuSaleAttrValueList) {
+            skuSaleAttrValue.setSkuId(skuInfo.getId());
+            skuSaleAttrValueMapper.insertSelective(skuSaleAttrValue);
+        }
+        List<SkuAttrValue> skuAttrValueList = skuInfo.getSkuAttrValueList();
+        for (SkuAttrValue skuAttrValue : skuAttrValueList) {
+            skuAttrValue.setSkuId(skuInfo.getId());
+            skuAttrValueMapper.insertSelective(skuAttrValue);
+        }
+        List<SkuImage> skuImageList = skuInfo.getSkuImageList();
+        for (SkuImage skuImage : skuImageList) {
+            skuImage.setSkuId(skuInfo.getId());
+            skuImageMapper.insertSelective(skuImage);
+        }
 
+    }
 
+    @Override
+    public SkuInfo getSkuInfo(String skuId) {
+        SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(Long.parseLong(skuId));
+        SkuImage skuImage=new SkuImage();
+        skuImage.setSkuId(skuId);
+        List<SkuImage> skuImageList = skuImageMapper.select(skuImage);
+        skuInfo.setSkuImageList(skuImageList);
+        SkuAttrValue skuAttrValue=new SkuAttrValue();
+        skuAttrValue.setSkuId(skuId);
+        List<SkuAttrValue> skuAttrValueList = skuAttrValueMapper.select(skuAttrValue);
+        skuInfo.setSkuAttrValueList(skuAttrValueList);
+        SkuSaleAttrValue skuSaleAttrValue=new SkuSaleAttrValue();
+        skuSaleAttrValue.setSkuId(skuId);
+        List<SkuSaleAttrValue> skuSaleAttrValueList = skuSaleAttrValueMapper.select(skuSaleAttrValue);
+        skuInfo.setSkuSaleAttrValueList(skuSaleAttrValueList);
+        return skuInfo;
+
+    }
 }
