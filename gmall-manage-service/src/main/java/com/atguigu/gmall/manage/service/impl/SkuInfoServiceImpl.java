@@ -68,7 +68,7 @@ public class SkuInfoServiceImpl implements SkuInfoService {
 
     @Override
     public List<SkuSaleAttrValue> getSkuSaleAttrValueListBySpu(String spuId) {
-       List<SkuSaleAttrValue> skuSaleAttrValueList= skuInfoMapper.selectSkuSaleAttrValueListBySpu(Long.parseLong(spuId));
+       List<SkuSaleAttrValue> skuSaleAttrValueList= skuSaleAttrValueMapper.selectSkuSaleAttrValueListBySpu(Long.parseLong(spuId));
         return skuSaleAttrValueList;
     }
 
