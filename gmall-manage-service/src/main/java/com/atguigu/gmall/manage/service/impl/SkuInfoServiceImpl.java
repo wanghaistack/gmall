@@ -54,6 +54,7 @@ public class SkuInfoServiceImpl implements SkuInfoService {
     public SkuInfo getSkuInfo(String skuId) {
 
         try {
+            Thread.sleep(3*1000);
             //自定义从redis工具类中获取jedis对象
             Jedis jedis = redisUtil.getJedis();
             //拼接字符串创建Redis里面的Key值
@@ -113,28 +114,24 @@ public class SkuInfoServiceImpl implements SkuInfoService {
     @Override
     public SkuInfo getSkuInfoDB(String skuId) {
         System.out.println(Thread.currentThread().getName()+"查询数据库");
-        //睡3秒钟
-        try {
-            Thread.sleep(3*1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(skuId);
         if (skuInfo==null){
             return null;
+        } else {
+            SkuImage skuImage=new SkuImage();
+            skuImage.setSkuId(skuId);
+            List<SkuImage> skuImageList = skuImageMapper.select(skuImage);
+            skuInfo.setSkuImageList(skuImageList);
+            SkuAttrValue skuAttrValue=new SkuAttrValue();
+            skuAttrValue.setSkuId(skuId);
+            List<SkuAttrValue> skuAttrValueList = skuAttrValueMapper.select(skuAttrValue);
+            skuInfo.setSkuAttrValueList(skuAttrValueList);
+            SkuSaleAttrValue skuSaleAttrValue=new SkuSaleAttrValue();
+            skuSaleAttrValue.setSkuId(skuId);
+            List<SkuSaleAttrValue> skuSaleAttrValueList = skuSaleAttrValueMapper.select(skuSaleAttrValue);
+            skuInfo.setSkuSaleAttrValueList(skuSaleAttrValueList);
         }
-        SkuImage skuImage=new SkuImage();
-        skuImage.setSkuId(skuId);
-        List<SkuImage> skuImageList = skuImageMapper.select(skuImage);
-        skuInfo.setSkuImageList(skuImageList);
-        SkuAttrValue skuAttrValue=new SkuAttrValue();
-        skuAttrValue.setSkuId(skuId);
-        List<SkuAttrValue> skuAttrValueList = skuAttrValueMapper.select(skuAttrValue);
-        skuInfo.setSkuAttrValueList(skuAttrValueList);
-        SkuSaleAttrValue skuSaleAttrValue=new SkuSaleAttrValue();
-        skuSaleAttrValue.setSkuId(skuId);
-        List<SkuSaleAttrValue> skuSaleAttrValueList = skuSaleAttrValueMapper.select(skuSaleAttrValue);
-        skuInfo.setSkuSaleAttrValueList(skuSaleAttrValueList);
+
         return skuInfo;
 
     }
