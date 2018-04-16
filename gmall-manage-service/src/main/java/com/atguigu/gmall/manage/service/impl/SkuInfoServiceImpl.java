@@ -2,9 +2,11 @@ package com.atguigu.gmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.atguigu.gmall.bean.*;
+import com.atguigu.gmall.config.RedisUtil;
 import com.atguigu.gmall.manage.mapper.*;
 import com.atguigu.gmall.service.SkuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import redis.clients.jedis.Jedis;
 
 import java.util.List;
 
@@ -46,6 +48,13 @@ public class SkuInfoServiceImpl implements SkuInfoService {
 
     @Override
     public SkuInfo getSkuInfo(String skuId) {
+        RedisUtil redisUtil=new RedisUtil();
+        Jedis jedis= redisUtil.getJedis();
+        jedis.set("k1","v1");
+        jedis.close();
+
+
+
         SkuInfo skuInfo = skuInfoMapper.selectByPrimaryKey(skuId);
         if (skuInfo==null){
             return null;

@@ -13,8 +13,9 @@
         <module>gmall-common-util</module>
         <module>gmall-service-util</module>
         <module>gmall-web-util</module>
-        <module>gmall-interface</module>
         <module>gmall-beans</module>
+        <module>gmall-interface</module>
+
 
     </modules>
 

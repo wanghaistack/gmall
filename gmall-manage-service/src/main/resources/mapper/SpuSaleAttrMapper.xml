@@ -12,6 +12,7 @@ WHERE sa.`spu_id`=#{spu_id}
         <result column="id" property="id"></result>
         <collection property="spuSaleAttrValueList" ofType="com.atguigu.gmall.bean.SpuSaleAttrValue" autoMapping="true">
             <result property="id" column="sale_attr_value_id"></result>
+
         </collection>
     </resultMap>
     <select id="selectSpuSaleAttrList" resultMap="SpuSaleAttrMap">

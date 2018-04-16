@@ -217,7 +217,7 @@
 							<div class="box-attr-2 clear" th:each="saleAttrInfo:${spuSaleAttrList}" >
 								<dl>
 									<dt th:text="'选择'+${saleAttrInfo.saleAttrName}" >选择颜色</dt>
-									<dd  th:class="(${saleAttrInfo.isCheck}=='1')?'redborder':''" class="redborder" th:each="saleAttrValue:${saleAttrInfo.spuSaleAttrValueList}" >
+									<dd  th:class="(${saleAttrValue.isCheck}=='1')?'redborder':''" class="redborder" th:each="saleAttrValue:${saleAttrInfo.spuSaleAttrValueList}" >
 										<div th:value="${saleAttrValue.id}" th:text="${saleAttrValue.saleAttrValueName}" >
 											  摩卡金
 										</div>
