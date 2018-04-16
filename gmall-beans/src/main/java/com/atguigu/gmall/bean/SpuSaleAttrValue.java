@@ -2,6 +2,7 @@ package com.atguigu.gmall.bean;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.io.Serializable;
 
 public class SpuSaleAttrValue implements Serializable {
@@ -19,6 +20,17 @@ public class SpuSaleAttrValue implements Serializable {
 
     @Column
     String saleAttrValueName;
+
+    @Transient
+    String isCheck;
+
+    public String getIsCheck() {
+        return isCheck;
+    }
+
+    public void setIsCheck(String isCheck) {
+        this.isCheck = isCheck;
+    }
 
     public String getId() {
         return id;

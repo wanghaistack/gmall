@@ -22,20 +22,11 @@ public class SpuSaleAttr implements Serializable {
     String saleAttrName;
 
     @Transient
-    String isCheck;
-    @Transient
     List<SpuSaleAttrValue> spuSaleAttrValueList;
 
     @Transient
     Map spuSaleAttrValueJson;
 
-    public String getIsCheck() {
-        return isCheck;
-    }
-
-    public void setIsCheck(String isCheck) {
-        this.isCheck = isCheck;
-    }
 
     public String getId() {
         return id;
