@@ -105,6 +105,7 @@ public class SkuInfoServiceImpl implements SkuInfoService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
         return getSkuInfoDB(skuId);
 
 
