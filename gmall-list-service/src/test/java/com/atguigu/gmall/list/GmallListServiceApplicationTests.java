@@ -19,7 +19,7 @@ public class GmallListServiceApplicationTests {
 	@Autowired
 	JestClient jestClient;
 	@Test
-	public void contextLoads() throws IOException {
+	public void contextLoads()  {
 		String query="{\n" +
 				"  \"query\": {\n" +
 				"    \"match\": {\n" +
@@ -28,7 +28,12 @@ public class GmallListServiceApplicationTests {
 				"  }\n" +
 				"}";
 		Search search = new Search.Builder(query).addIndex("fruits_index").addType("fruit").build();
-		SearchResult result = jestClient.execute(search);
+		SearchResult result = null;
+		try {
+			result = jestClient.execute(search);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		List<SearchResult.Hit<HashMap, Void>> hits = result.getHits(HashMap.class);
 		for (SearchResult.Hit<HashMap, Void> hit : hits) {
 			HashMap source = hit.source;
