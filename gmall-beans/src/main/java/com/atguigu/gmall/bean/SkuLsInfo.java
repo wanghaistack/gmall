@@ -18,7 +18,7 @@ public class SkuLsInfo implements Serializable{
 
     String skuDefaultImg;
 
-    Long hotScore;
+    Long hotScore=0L;
 
     List<SkuLsAttrValue>skuAttrValueList;
 
