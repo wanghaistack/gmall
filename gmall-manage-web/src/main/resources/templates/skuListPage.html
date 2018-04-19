@@ -41,15 +41,21 @@
 <script type="text/javascript">
     function  initSkuListDlg(spuId,catalog3Id){
         $('#spuIdForSkuList').val(spuId);
-        $('#catalog3IdForSkuList').val(catalog3Id);
+       $('#catalog3IdForSkuList').val(catalog3Id);
         $('#skulist_dlg').dialog("open");
         initSkuListDatagrid(spuId);
     }
-    function initSkuListDatagrid(spuId) {
-        $.get("getSkuList?spuId="+spuId,function (data) {
 
-        })
+    function initSkuListDatagrid(spuId){
+        $("#skulist_dg").datagrid({url:"getSkuList?spuId="+spuId});
     }
+    function editSkuInfo(){
+        var spuId = $('#spuIdForSkuList').val();
+        var catalog3Id=$('#catalog3IdForSkuList').val();
+        var skuInfo = $('#skulist_dg').datagrid('getSelected');
+        initSkuInfoDlg(spuId,catalog3Id);  //在spuInfoPage.html中
+    }
+
 </script>
 </html>
 

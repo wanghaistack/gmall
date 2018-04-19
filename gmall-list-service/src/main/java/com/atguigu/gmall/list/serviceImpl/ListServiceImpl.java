@@ -1,6 +1,7 @@
 package com.atguigu.gmall.list.serviceImpl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.bean.SkuLsInfo;
 import com.atguigu.gmall.bean.SkuLsParams;
@@ -77,6 +78,8 @@ public class ListServiceImpl implements ListService {
             searchSourceBuilder.highlight(highlightBuilder);
             //聚合
             TermsBuilder groupby_attr = AggregationBuilders.terms("groupby_attr").field("skuAttrValueList.valueId");
+            //把聚合添加进去
+            searchSourceBuilder.aggregation(groupby_attr);
         }
         if (skuLsParams.getCatalog3Id()!=null){
             QueryBuilder termQueryBuilder=new TermQueryBuilder("catalog3Id",skuLsParams.getCatalog3Id());
@@ -132,6 +135,7 @@ public class ListServiceImpl implements ListService {
         //把总页数设置到返回结果中
         skuLsResult.setTotalPages(totalPages);
         //取出涉及的属性值id
+        System.out.println("searchResult = " + searchResult.getJsonString());
         List<String> attrValueList=new ArrayList<>();
         MetricAggregation aggregations = searchResult.getAggregations();
         TermsAggregation groupby_attr = aggregations.getTermsAggregation("groupby_attr");

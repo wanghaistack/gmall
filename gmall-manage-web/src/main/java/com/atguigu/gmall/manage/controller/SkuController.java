@@ -5,7 +5,11 @@ import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.service.SkuInfoService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+import java.util.Map;
 
 
 @Controller
@@ -24,6 +28,13 @@ public class SkuController  {
              return "failed";
          }
 
+    }
+    @RequestMapping("getSkuList")
+    @ResponseBody
+    public List<SkuInfo> getSkuList(@RequestParam Map <String,String> map){
+        String spuId = map.get("spuId");
+       List<SkuInfo> skuInfoList = skuInfoService.getSkuInfoList(spuId);
+       return skuInfoList;
     }
 
 }

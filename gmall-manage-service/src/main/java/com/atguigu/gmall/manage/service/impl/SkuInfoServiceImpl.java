@@ -45,7 +45,7 @@ public class SkuInfoServiceImpl implements SkuInfoService {
         }
         List<SkuImage> skuImageList = skuInfo.getSkuImageList();
         for (SkuImage skuImage : skuImageList) {
-            skuImage.setSkuId(skuInfo.getId());
+            skuImage.setSpuImgId(skuInfo.getSpuId());
             skuImageMapper.insertSelective(skuImage);
         }
 
@@ -135,6 +135,11 @@ public class SkuInfoServiceImpl implements SkuInfoService {
 
         return skuInfo;
 
+    }
+
+    @Override
+    public List<SkuInfo> getSkuInfoList(String spuId) {
+        return skuInfoMapper.selectSkuInfoListBySpuId(Long.parseLong(spuId));
     }
 
     @Override
