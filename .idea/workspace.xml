@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsInfo.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -43,12 +44,12 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="ListServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="-194">
+              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="532">
+              <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkuLsInfo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsInfo.java">
+      <file leaf-file-name="ListService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkuLsAttrValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsAttrValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="110">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -229,8 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuSaleAttrValue.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/templates/spuInfoPage.html" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/GmallItemWebApplication.java" />
@@ -272,14 +261,16 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsAttrValue.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/GmallListServiceApplication.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-common-util/src/main/java/com/atguigu/gmall/constutil/ListServiceCont.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/test/java/com/atguigu/gmall/list/GmallListServiceApplicationTests.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsInfo.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsResult.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsParams.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" />
       </list>
     </option>
   </component>
@@ -328,10 +319,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="248" />
-    <option name="y" value="30" />
-    <option name="width" value="1280" />
-    <option name="height" value="794" />
+    <option name="x" value="112" />
+    <option name="y" value="26" />
+    <option name="width" value="1724" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -373,7 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -402,7 +392,25 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -410,11 +418,11 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
@@ -623,9 +631,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -839,8 +848,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
         <item index="2" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.GmallListServiceApplicationTests.contextLoads" />
       </list>
@@ -886,7 +895,8 @@
       <workItem from="1523925119454" duration="10443000" />
       <workItem from="1524012048963" duration="11048000" />
       <workItem from="1524048143456" duration="837000" />
-      <workItem from="1524049559090" duration="2850000" />
+      <workItem from="1524049559090" duration="14184000" />
+      <workItem from="1524101556519" duration="6113000" />
     </task>
     <task id="LOCAL-00001" summary="商品模块">
       <created>1523322049882</created>
@@ -1203,7 +1213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524048250193</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="商品模块">
+      <created>1524052448555</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1524052448555</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1239,7 +1256,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299656000" />
+    <option name="totallyTimeSpent" value="317103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1255,7 +1272,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1267,7 +1283,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.274838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1275,11 +1291,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.424821" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57488656" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05399568" sideWeight="0.29012346" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1336,58 +1353,82 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="154" />
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
-          <line>21</line>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="158" />
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
-          <line>23</line>
+          <line>90</line>
           <properties />
-          <option name="timeStamp" value="159" />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="160" />
+      <option name="time" value="172" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1398,21 +1439,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/GmallManageServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1452,7 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="98" column="29" lean-forward="false" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,7 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="16" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1662,13 +1686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -1696,7 +1713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1750,15 +1766,51 @@
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsAttrValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="-194">
+          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1767,19 +1819,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="532">
+          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>

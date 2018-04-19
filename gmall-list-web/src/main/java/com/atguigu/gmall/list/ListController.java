@@ -1,8 +1,11 @@
 package com.atguigu.gmall.list;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.bean.SkuLsInfo;
+import com.atguigu.gmall.bean.SkuLsParams;
+import com.atguigu.gmall.bean.SkuLsResult;
 import com.atguigu.gmall.service.ListService;
 import com.atguigu.gmall.service.SkuInfoService;
 import org.springframework.stereotype.Controller;
@@ -23,5 +26,12 @@ public class ListController {
         SkuLsInfo skuLsInfo = listService.copySkuToList(skuInfo);
         listService.saveSkuInfo(skuLsInfo);
         return "";
+    }
+    @RequestMapping("queryES")
+    @ResponseBody
+    public String getSkuLsResult(SkuLsParams skuLsParams){
+        SkuLsResult skuLsResult = listService.search(skuLsParams);
+        return JSON.toJSONString(skuLsResult);
+
     }
 }
