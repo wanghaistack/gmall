@@ -13,13 +13,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Map;
+
 @Controller
 public class ListController {
     @Reference
     ListService listService;
     @Reference
     SkuInfoService skuInfoService;
-    @RequestMapping("onSale/{skuId}")
+    @RequestMapping("updateES/{skuId}")
     @ResponseBody
     public String getSkuLsInfo(@PathVariable("skuId")String skuId){
         SkuInfo skuInfo = skuInfoService.getSkuInfo(skuId);
@@ -27,11 +29,11 @@ public class ListController {
         listService.saveSkuInfo(skuLsInfo);
         return "";
     }
-    @RequestMapping("queryES")
-    @ResponseBody
-    public String getSkuLsResult(SkuLsParams skuLsParams){
+    @RequestMapping("list.html")
+    public String getSkuLsResult(SkuLsParams skuLsParams, Map<String,Object> map){
         SkuLsResult skuLsResult = listService.search(skuLsParams);
-        return JSON.toJSONString(skuLsResult);
+        map.put("skuLsResult",skuLsResult);
+        return "list";
 
     }
 }
