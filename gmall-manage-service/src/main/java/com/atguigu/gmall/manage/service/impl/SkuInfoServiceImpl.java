@@ -10,6 +10,7 @@ import com.atguigu.gmall.service.SkuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.exceptions.JedisConnectionException;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -29,23 +30,37 @@ public class SkuInfoServiceImpl implements SkuInfoService {
 
     @Override
     public void saveSkuInfo(SkuInfo skuInfo) {
-        if (skuInfo.getId()!=null && skuInfo.getId().length()==0){
+        if(skuInfo.getId()==null||skuInfo.getId().length()==0){
             skuInfo.setId(null);
+            skuInfoMapper.insertSelective(skuInfo);
+        }else {
+            skuInfoMapper.updateByPrimaryKeySelective(skuInfo);
         }
-        skuInfoMapper.insertSelective(skuInfo);
+        Example skuSaleAttrValueExample=new Example(SkuSaleAttrValue.class);
+        skuSaleAttrValueExample.createCriteria().andEqualTo("skuId",skuInfo.getId());
+        skuSaleAttrValueMapper.deleteByExample(skuSaleAttrValueExample);
         List<SkuSaleAttrValue> skuSaleAttrValueList = skuInfo.getSkuSaleAttrValueList();
         for (SkuSaleAttrValue skuSaleAttrValue : skuSaleAttrValueList) {
             skuSaleAttrValue.setSkuId(skuInfo.getId());
             skuSaleAttrValueMapper.insertSelective(skuSaleAttrValue);
         }
+        Example skuAttrValueExample=new Example(SkuAttrValue.class);
+        skuAttrValueExample.createCriteria().andEqualTo("skuId",skuInfo.getId());
+        skuAttrValueMapper.deleteByExample(skuAttrValueExample);
         List<SkuAttrValue> skuAttrValueList = skuInfo.getSkuAttrValueList();
         for (SkuAttrValue skuAttrValue : skuAttrValueList) {
             skuAttrValue.setSkuId(skuInfo.getId());
             skuAttrValueMapper.insertSelective(skuAttrValue);
         }
+        Example skuImageExample=new Example(SkuImage.class);
+        skuImageExample.createCriteria().andEqualTo("skuId",skuInfo.getId());
+        skuImageMapper.deleteByExample(skuImageExample);
         List<SkuImage> skuImageList = skuInfo.getSkuImageList();
         for (SkuImage skuImage : skuImageList) {
-            skuImage.setSpuImgId(skuInfo.getSpuId());
+            skuImage.setSkuId(skuInfo.getId());
+            if(skuImage.getId()!=null&&skuImage.getId().length()==0) {
+                skuImage.setId(null);
+            }
             skuImageMapper.insertSelective(skuImage);
         }
 
@@ -140,6 +155,25 @@ public class SkuInfoServiceImpl implements SkuInfoService {
     @Override
     public List<SkuInfo> getSkuInfoList(String spuId) {
         return skuInfoMapper.selectSkuInfoListBySpuId(Long.parseLong(spuId));
+    }
+
+    @Override
+    public void deleteSkuInfoBySkuId(String skuId) {
+        skuInfoMapper.deleteByPrimaryKey(skuId);
+        SkuImage skuImage=new SkuImage();
+        skuImage.setSkuId(skuId);
+        Example skuSaleAttrValueExample=new Example(SkuSaleAttrValue.class);
+        skuSaleAttrValueExample.createCriteria().andEqualTo("skuId",skuId);
+        skuSaleAttrValueMapper.deleteByExample(skuSaleAttrValueExample);
+
+        Example skuAttrValueExample=new Example(SkuAttrValue.class);
+        skuAttrValueExample.createCriteria().andEqualTo("skuId",skuId);
+        skuAttrValueMapper.deleteByExample(skuAttrValueExample);
+
+        Example skuImageExample=new Example(SkuImage.class);
+        skuImageExample.createCriteria().andEqualTo("skuId",skuId);
+        skuImageMapper.deleteByExample(skuImageExample);
+
     }
 
     @Override

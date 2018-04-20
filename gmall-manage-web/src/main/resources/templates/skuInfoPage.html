@@ -186,6 +186,7 @@
     function saveSku() {
         var skuJson ={};
         //SkuInfo属性拼串
+        skuJson["id"] = $("#skuId").val();
         skuJson["skuName"]= $("#skuName").val();
         var skuName=$("#skuName").val();
         console.log("skuName:**"+skuName);
@@ -237,6 +238,7 @@
         $.post("saveSkuInfo",skuJson,function (data) {
             console.log(data);
         })
+        $("#skulist_dg").datagrid("reload");
         closeSku();
 
     }

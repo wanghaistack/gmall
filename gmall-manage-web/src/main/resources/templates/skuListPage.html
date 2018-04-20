@@ -27,7 +27,7 @@
         <div style="margin-bottom:5px">
 
             <a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editSkuInfo()">编辑</a>
-            <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true">删除</a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="deleteSkuInfo()">删除</a>
         </div>
         <input id="spuIdForSkuList" name="spuIdForSkuId" type="hidden"/>
         <input id="catalog3IdForSkuList" name="catalog3IdForSkuId" type="hidden"/>
@@ -56,7 +56,21 @@
         initSkuInfoDlgs(spuId,skuInfo,catalog3Id);  //在spuInfoPage.html中
     }
     function reloadSkuList() {
-        initSkuListDatagrid(spuId);
+        var spuId = $('#spuIdForSkuList').val();
+        $.get("getSkuList?spuId="+spuId,function (data) {
+            $("#skulist_dg").datagrid("loadData",data);
+        })
+
+    }
+    function deleteSkuInfo() {
+        var checkRow= $("#skulist_dg").datagrid("getSelected");
+        var skuId= checkRow.id;
+        var jsonObj={
+            "skuId":skuId
+        };
+        $.post("deleteSkuInfoBySkuId",jsonObj,function (data) {
+            console.log(data);
+        })
     }
 
 </script>

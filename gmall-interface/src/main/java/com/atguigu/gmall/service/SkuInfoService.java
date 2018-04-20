@@ -16,4 +16,6 @@ public interface SkuInfoService {
     public SkuInfo getSkuInfoDB(String skuId);
 
     List<SkuInfo> getSkuInfoList(String spuId);
+
+    void deleteSkuInfoBySkuId(String skuId);
 }

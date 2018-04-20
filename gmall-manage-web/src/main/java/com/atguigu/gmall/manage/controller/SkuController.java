@@ -36,5 +36,12 @@ public class SkuController  {
        List<SkuInfo> skuInfoList = skuInfoService.getSkuInfoList(spuId);
        return skuInfoList;
     }
+    @RequestMapping("deleteSkuInfoBySkuId")
+    @ResponseBody
+    public String deleteSkuInfoBySkuId(@RequestParam Map <String,String> map){
+        String skuId = map.get("skuId");
+         skuInfoService.deleteSkuInfoBySkuId(skuId);
+        return "delete success";
+    }
 
 }
