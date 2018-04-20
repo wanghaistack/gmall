@@ -88,7 +88,8 @@ public class ListServiceImpl implements ListService {
         if (skuLsParams.getValueId()!=null && skuLsParams.getValueId().length>0){
             for (int i=0;i<skuLsParams.getValueId().length;i++){
                 String valueId=skuLsParams.getValueId()[i];
-                TermsQueryBuilder termsQueryBuilder = new TermsQueryBuilder("field",valueId);
+               // TermsQueryBuilder termsQueryBuilder = new TermsQueryBuilder("field",valueId);
+                QueryBuilder termQueryBuilder = new TermQueryBuilder("field", valueId);
             }
         }
         searchSourceBuilder.query(boolQueryBuilder);
@@ -97,7 +98,7 @@ public class ListServiceImpl implements ListService {
         searchSourceBuilder.size(skuLsParams.getPageSize());
         searchSourceBuilder.sort("hotScore", SortOrder.DESC);
         String query = searchSourceBuilder.toString();
-        System.out.println("query = " + query);
+        System.out.println("query************* = " + query);
         return query;
     }
     @Override
