@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/templates/list.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/templates/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/data/elasticsearch/nodes/0/_state/global-23.st" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -793,14 +788,7 @@
       <workItem from="1524049559090" duration="14184000" />
       <workItem from="1524101556519" duration="36308000" />
       <workItem from="1524184372510" duration="41323000" />
-      <workItem from="1524270766884" duration="9541000" />
-    </task>
-    <task id="LOCAL-00006" summary="商品模块">
-      <created>1523322873348</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1523322873348</updated>
+      <workItem from="1524270766884" duration="9559000" />
     </task>
     <task id="LOCAL-00007" summary="商品模块">
       <created>1523323462139</created>
@@ -1138,7 +1126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524271126904</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="商品模块">
+      <created>1524299540363</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1524299540363</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1174,7 +1169,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398162000" />
+    <option name="totallyTimeSpent" value="398180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
