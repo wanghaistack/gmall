@@ -13,5 +13,7 @@ public interface ListService {
     public SkuLsInfo copySkuToList(SkuInfo skuInfo);
     //获取查询信息结果
     public SkuLsResult search(SkuLsParams skuLsParams);
+    //热度排行榜
+    public void incrHotScore(String skuId);
 
 }

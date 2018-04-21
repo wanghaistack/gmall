@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.bean.SkuSaleAttrValue;
 import com.atguigu.gmall.bean.SpuSaleAttr;
+import com.atguigu.gmall.service.ListService;
 import com.atguigu.gmall.service.SkuInfoService;
 import com.atguigu.gmall.service.SpuInfoService;
 import org.springframework.stereotype.Controller;
@@ -22,6 +23,8 @@ public class ItemController {
     SkuInfoService skuInfoService;
     @Reference
     SpuInfoService spuInfoService;
+    @Reference
+    ListService listService;
     @RequestMapping("/{skuId}.html")
     public String getSkuInfo(@PathVariable("skuId")String skuId, Model model){
        SkuInfo skuInfo= skuInfoService.getSkuInfo(skuId);
@@ -46,6 +49,7 @@ public class ItemController {
         //把map转换为Json串
         String valueIdSkuJson = JSON.toJSONString(vauleIdMap);
         model.addAttribute("valueIdSkuJson",valueIdSkuJson);
+        listService.incrHotScore(skuId);
         return "item";
     }
 

@@ -1,17 +1,19 @@
 package com.atguigu.gmall.list.serviceImpl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.bean.SkuLsInfo;
 import com.atguigu.gmall.bean.SkuLsParams;
 import com.atguigu.gmall.bean.SkuLsResult;
+import com.atguigu.gmall.config.RedisUtil;
+import com.atguigu.gmall.constutil.JedisConst;
 import com.atguigu.gmall.constutil.ListServiceCont;
 import com.atguigu.gmall.service.ListService;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
 import io.searchbox.core.Search;
 import io.searchbox.core.SearchResult;
+import io.searchbox.core.Update;
 import io.searchbox.core.search.aggregation.MetricAggregation;
 import io.searchbox.core.search.aggregation.TermsAggregation;
 import org.apache.commons.beanutils.BeanUtils;
@@ -22,6 +24,8 @@ import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.highlight.HighlightBuilder;
 import org.elasticsearch.search.sort.SortOrder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.elasticsearch.core.query.UpdateQueryBuilder;
+import redis.clients.jedis.Jedis;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -32,6 +36,8 @@ import java.util.List;
 public class ListServiceImpl implements ListService {
     @Autowired
     JestClient jestClient;
+    @Autowired
+    RedisUtil redisUtil;
 
     //保存skuLsInfo
     @Override
@@ -44,7 +50,31 @@ public class ListServiceImpl implements ListService {
         }
 
     }
+    @Override
+    public void incrHotScore(String skuId){
+        Jedis jedis = redisUtil.getJedis();
+        Double hotScore = jedis.zincrby("hotScore", 1, skuId);
+        jedis.close();
+        if (hotScore%10==0){
+            updateHotScore(hotScore,skuId);
+        }
 
+
+    }
+    public void updateHotScore(Double hotScore,String skuId){
+        String query="{\n" +
+                "  \"doc\": {\n" +
+                "    \"hotScore\":\""+hotScore+"\n" +
+                "  }\n" +
+                "}";
+        Update update = new Update.Builder(hotScore).index("gmall").type("skuInfo").id(skuId).build();
+        try {
+            jestClient.execute(update);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return ;
+    }
     @Override
     public  SkuLsInfo copySkuToList(SkuInfo skuInfo) {
         SkuLsInfo skuLsInfo=new SkuLsInfo();

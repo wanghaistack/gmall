@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -49,7 +50,7 @@ public class ListController {
         //定义页数
         int pageNo = skuLsParams.getPageNo();
         //定义面包屑
-        List<BaseAttrValue> baseAttrValueList=null;
+        List<BaseAttrValue> baseAttrValueList=new ArrayList<>();
         //定义attrInfoList
         List<BaseAttrInfo> attrInfoList=null;
         if (skuLsParams.getCatalog3Id()!=null && skuLsParams.getCatalog3Id().length()>0){
@@ -94,7 +95,10 @@ public class ListController {
         model.addAttribute("urlParam",urlParam);
         model.addAttribute("skuLsInfoList",skuLsInfoList);
         model.addAttribute("baseAttrValueList",baseAttrValueList);
-        model.addAttribute("keyword",keyword);
+        if (keyword!=null && keyword.length()>0){
+            model.addAttribute("keyword",keyword);
+        }
+
         model.addAttribute("attrInfoList", attrInfoList);
         return "list";
 
