@@ -76,28 +76,34 @@ public class ListServiceImpl implements ListService {
             highlightBuilder.postTags("</span>");
             //因为高亮显示与query是同一级目录，把hightlight放到searchSource里面
             searchSourceBuilder.highlight(highlightBuilder);
-            //聚合
-            TermsBuilder groupby_attr = AggregationBuilders.terms("groupby_attr").field("skuAttrValueList.valueId");
-            //把聚合添加进去
-            searchSourceBuilder.aggregation(groupby_attr);
+
         }
+
+        //3级分类
         if (skuLsParams.getCatalog3Id()!=null){
-            QueryBuilder termQueryBuilder=new TermQueryBuilder("catalog3Id",skuLsParams.getCatalog3Id());
+            TermQueryBuilder termQueryBuilder=new TermQueryBuilder("catalog3Id",skuLsParams.getCatalog3Id());
             boolQueryBuilder.filter(termQueryBuilder);
         }
-        if (skuLsParams.getValueId()!=null && skuLsParams.getValueId().length>0){
-            for (int i=0;i<skuLsParams.getValueId().length;i++){
-                String valueId=skuLsParams.getValueId()[i];
-               // TermsQueryBuilder termsQueryBuilder = new TermsQueryBuilder("field",valueId);
-                QueryBuilder termQueryBuilder = new TermQueryBuilder("field", valueId);
+        if(skuLsParams.getValueId()!=null&&skuLsParams.getValueId().length>0){
+            //平台属性过滤
+            for (int i = 0; i < skuLsParams.getValueId().length; i++) {
+                String valueId= skuLsParams.getValueId()[i];
+                TermQueryBuilder termQueryBuilder=new TermQueryBuilder("skuAttrValueList.valueId",valueId);
+                boolQueryBuilder.filter(termQueryBuilder);
             }
+
         }
         searchSourceBuilder.query(boolQueryBuilder);
         int from = (skuLsParams.getPageNo() - 1) * skuLsParams.getPageSize();
         searchSourceBuilder.from(from);
         searchSourceBuilder.size(skuLsParams.getPageSize());
+        //聚合
+        TermsBuilder groupby_attr = AggregationBuilders.terms("groupby_attr").field("skuAttrValueList.valueId");
+        //把聚合添加进去
+        searchSourceBuilder.aggregation(groupby_attr);
         searchSourceBuilder.sort("hotScore", SortOrder.DESC);
         String query = searchSourceBuilder.toString();
+
         System.out.println("query************* = " + query);
         return query;
     }

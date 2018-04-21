@@ -5,9 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="./font/iconfont.css">
-    <script src="./js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/font/iconfont.css">
+    <script src="/js/jquery-1.12.4.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
 <!--搜索导航-->
 <div class="header_sous">
     <div class="logo">
-        <a href="#"><img src="./image/logo1.jpg" alt=""></a>
+        <a href="#"><img src="/image/logo1.jpg" alt=""></a>
     </div>
     <div class="header_form">
         <input id="keyword" name="keyword" type="text" placeholder="手机" />
@@ -43,7 +43,7 @@
     <div class="header_ico">
         <div class="header_gw">
             <span><a href="#">我的购物车</a></span>
-            <img src="./image/settleup-@1x.png" />
+            <img src="/image/settleup-@1x.png" />
             <span>0</span>
         </div>
         <div class="header_ko">
@@ -65,15 +65,15 @@
 
 <br/>
 <div class="GM_ipone">
-    <div class="GM_ipone_bar">
+    <div class="GM_ipone_bar" >
         <div class="GM_ipone_one a">
             筛选条件	    
         </div>
-		<i><img src="./image/right-@1x.png" alt=""></i>
-        <span  >&quot;小米&quot;</span>
-		<a class="select-attr"     href="#"     > 2G<b> ✖ </b>
-		</a>
-		 <a class="select-attr"   href="#"      > 屏幕尺寸:5.1-5.5英寸<b> ✖ </b>
+		<i><img  src="/image/right-@1x.png" alt=""></i>
+        <span th:text="'&quot;'+${keyword}+'&quot;'" >&quot;小米&quot;</span>
+		<!--<a class="select-attr"     href="#"     > 2G<b> ✖ </b>
+		</a>-->
+		 <a class="select-attr" th:href="'/list.html'+${baseAttrSelected.urlParam}" th:each="baseAttrSelected:${baseAttrValueList}" th:text="${baseAttrSelected.valueName}"  href="#"      > 屏幕尺寸:5.1-5.5英寸<b> ✖ </b>
 		</a>
 
     </div>
@@ -90,18 +90,19 @@
             </div>
             <div class="GM_nav_logo">
 
-                <div class="GM_pre"  >
+                <div class="GM_pre" th:each="attrInfo:${attrInfoList}" >
                     <div class="sl_key">
-                        <span  >属性1111：</span>
+                        <span th:text="${attrInfo.attrName}+':'" >属性1111：</span>
                     </div>
-                    <div class="sl_value">
+                    <div class="sl_value" >
                         <ul>
-                            <li  ><a  href="#"  >属性值111</a></li>
-							<li  ><a  href="#"  >属性值222</a></li>
+                            <li th:each="attrValue:${attrInfo.attrValueList}">
+                                <a  th:href="'/list.html?'+${attrValue.urlParam}+'&valueId='+${attrValue.id}" th:text="${attrValue.valueName}" href="#"  >属性值111</a>
+                            </li>
 						  </ul>
                     </div>
                 </div>
-				 <div class="GM_pre"  >
+				 <!--<div class="GM_pre"  >
                     <div class="sl_key">
                         <span  >属性222：</span>
                     </div>
@@ -111,7 +112,7 @@
 							<li  ><a href="#"  >属性值444</a></li>
 							</ul>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 
@@ -129,7 +130,7 @@
                         <div class="mc">
                             <ul>
                                 <li>
-                                    <a href="#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img src="./img/59bf3c47n91d65c73.jpg" alt=""></a>
+                                    <a href="#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img src="/img/59bf3c47n91d65c73.jpg" alt=""></a>
                                     <a href="#" title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
@@ -148,7 +149,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img src="./img/59bf3c47n91d65c73.jpg" alt=""></a>
+                                    <a href="#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img src="/img/59bf3c47n91d65c73.jpg" alt=""></a>
                                     <a href="#" title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
@@ -167,7 +168,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img src="./img/593ba628n8794c6a6.jpg" alt=""></a>
+                                    <a href="#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img src="/img/593ba628n8794c6a6.jpg" alt=""></a>
                                     <a href="#" title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>诺基亚 7 (Nokia 7) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机</em>
                                     </a>
@@ -207,7 +208,22 @@
 
                     <!--排序内容-->
                     <div class="rig_tab" style="width:940px">
-                      <div style="width:215px"   >
+                        <div style="width:215px" th:each="skuLsInfo:${skuLsInfoList}"  >
+                            <p class="da">
+                                <a href="#" th:onclick="'javascript:item('+${skuLsInfo.id}+')'" onclick="javascript:item('1')">
+                                    <img  th:src="${skuLsInfo.skuDefaultImg}"   src="img/57d0d400Nfd249af4.jpg" class="dim">
+                                </a>
+                            </p>
+
+                            <p class="tab_R">
+                                <span th:text="'¥'+${skuLsInfo.price}">¥5199.00</span>
+                            </p>
+
+                            <a href="#" title="" th:utext="${skuLsInfo.skuName}" th:onclick="'javascript:item('+${skuLsInfo.id}+')'" onclick="javascript:item('1')"  class="tab_JE"  >
+                                Apple iPhone 7 Plus (A1661) 32G 黑色 移动联通电信4G手机
+                            </a>
+                        </div>
+				   <!-- <div style="width:215px"   >
                             <p class="da">
                                 <a href="#"  onclick="javascript:item('1')">
                                     <img     src="img/57d0d400Nfd249af4.jpg" class="dim">
@@ -221,22 +237,7 @@
                                 <a href="#" title=""  onclick="javascript:item('1')"  class="tab_JE"  >
                                     Apple iPhone 7 Plus (A1661) 32G 黑色 移动联通电信4G手机
                                 </a>
-                        </div>
-				    <div style="width:215px"   >
-                            <p class="da">
-                                <a href="#"  onclick="javascript:item('1')">
-                                    <img     src="img/57d0d400Nfd249af4.jpg" class="dim">
-                                </a>
-                            </p>
-
-                            <p class="tab_R">
-                                <span >¥5199.00</span>
-                            </p>
-
-                                <a href="#" title=""  onclick="javascript:item('1')"  class="tab_JE"  >
-                                    Apple iPhone 7 Plus (A1661) 32G 黑色 移动联通电信4G手机
-                                </a>
-                        </div>
+                        </div>-->
  
                     </div>
 
@@ -320,7 +321,7 @@
 
 
 
-<script src="./js/success.js"></script>
+<script src="/js/success.js"></script>
 <script language="JavaScript">
     function item(skuid) {
         console.log("skuid:"+skuid);
@@ -329,7 +330,7 @@
 
     function searchList(){
         var keyword = $("#keyword").val();
-        window.location.href="./list.html?keyword="+keyword;
+        window.location.href="/list.html?keyword="+keyword;
     }
 
 
@@ -479,7 +480,7 @@
         var urlParam = [[${urlParam}]];
 
         //上一页
-        var $lastPage =  '<a href="./list.html?'+urlParam+'&pageNo='+(pageNo-1)+'">< 上一页</a>';
+        var $lastPage =  '<a href="/list.html?'+urlParam+'&pageNo='+(pageNo-1)+'">< 上一页</a>';
         if(pageNo == 1){
             $lastPage = '<a disabled="true">< 上一页</a>';
         }
@@ -488,13 +489,13 @@
             if (i==pageNo){
                 $(".page_span1").append('<a style="border: 0;font-size: 20px;color: red;background: #fff">'+i+'</a>');
             }else if(i==1 || i==totalPage||(i>=(pageNo-2)&&i<=(pageNo+2))){
-                $(".page_span1").append('<a href="./list.html?'+urlParam+'&pageNo='+i+'">'+i+'</a>');
+                $(".page_span1").append('<a href="/list.html?'+urlParam+'&pageNo='+i+'">'+i+'</a>');
             } else if((i==(pageNo+3) && i<totalPage)||(i==(pageNo-3) && i>1)){
                 $(".page_span1").append('<a style="border: 0;font-size: 20px;color: #999;background: #fff">...</a>');
             }
         }
         //下一页
-        var $nextPage =  '<a href="./list.html?'+urlParam+'&pageNo='+(pageNo+1)+'">下一页 ></a>';
+        var $nextPage =  '<a href="/list.html?'+urlParam+'&pageNo='+(pageNo+1)+'">下一页 ></a>';
         if(pageNo == totalPage||totalPage==0){
             $nextPage = '<a disabled="true">下一页 ></a>';
         }

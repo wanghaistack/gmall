@@ -22,4 +22,6 @@ public interface ManageService {
     public void saveAttrInfo(BaseAttrInfo baseAttrInfo);
 
     public void deleteAttrInfoByPrimaryKey(String id);
+
+    List<BaseAttrInfo> getAttrValueList(List<String> attrValuelList);
 }

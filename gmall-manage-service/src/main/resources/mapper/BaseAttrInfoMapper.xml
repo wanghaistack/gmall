@@ -12,4 +12,15 @@
             <result property="id" column="attr_value_id"></result>
         </collection>
     </resultMap>
+    <select id="selectAttrValueListByValueId" resultMap="baseAttrInfoMap">
+  SELECT bai.`id`,bai.`attr_name`,bai.`catalog3_id`,bav.`id` attr_value_id,bav.`value_name`,bav.`attr_id`
+   FROM base_attr_info bai
+   INNER JOIN base_attr_value bav
+   ON bai.`id`=bav.`attr_id`
+   WHERE bav.id IN
+        <foreach collection="attrValuelList" item="valueId" open="(" close=")" separator=",">
+            #{valueId}
+        </foreach>
+
+    </select>
 </mapper>

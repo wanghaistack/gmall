@@ -9,6 +9,9 @@ public class RedisUtil {
     private JedisPool jedisPool;
     //初始化连接池
     public void initJedisPool(String host,int port,int database){
+
+
+
         //获取连接池对象
         JedisPoolConfig poolConfig=new JedisPoolConfig();
         //设置最大连接数
@@ -24,9 +27,9 @@ public class RedisUtil {
         //设置是否可以测试连接
         poolConfig.setTestOnBorrow(true);
         jedisPool=new JedisPool(poolConfig,host,port,20*1000);
-        Jedis jedis = getJedis();
+        /*Jedis jedis = getJedis();
         jedis.set("k2","200");
-        jedis.close();
+        jedis.close();*/
 
 
     }

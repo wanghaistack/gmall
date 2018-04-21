@@ -96,4 +96,9 @@ public class ManageServiceImpl implements ManageService {
     public void deleteAttrInfoByPrimaryKey(String id) {
         baseAttrInfoMapper.deleteByPrimaryKey(id);
     }
+
+    @Override
+    public List<BaseAttrInfo> getAttrValueList(List<String> attrValuelList) {
+        return baseAttrInfoMapper.selectAttrValueListByValueId(attrValuelList);
+    }
 }
