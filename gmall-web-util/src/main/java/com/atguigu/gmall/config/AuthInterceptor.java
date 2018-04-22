@@ -14,41 +14,40 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.net.URLEncoder;
-import java.util.HashMap;
 import java.util.Map;
 
 @Component
 public class AuthInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        String newToken= request.getParameter("newToken");
-        if (newToken!=null && newToken.length()>0){
-            CookieUtil.setCookie(request,response,"token",newToken, WebConst.COOKIE_TIME_OUT,false);
+        String newToken = request.getParameter("newToken");
+        if (newToken != null && newToken.length() > 0) {
+            CookieUtil.setCookie(request, response, "token", newToken, WebConst.COOKIE_TIME_OUT, false);
         }
-        if (newToken==null){
-            newToken=CookieUtil.getCookieValue(request,"token",false);
+        if (newToken == null) {
+            newToken = CookieUtil.getCookieValue(request, "token", false);
         }
-        if (newToken!=null){
+        if (newToken != null) {
             //读取token
-            String tokenUserInfo = StringUtils.substringBetween(newToken, ",");
-            Base64UrlCodec base64UrlCodec=new Base64UrlCodec();
+            String tokenUserInfo = StringUtils.substringBetween(newToken, ".");
+            Base64UrlCodec base64UrlCodec = new Base64UrlCodec();
             byte[] tookenBytes = base64UrlCodec.decode(tokenUserInfo);
             String tookenJson = new String(tookenBytes, "UTF-8");
             Map map = JSON.parseObject(tookenJson, Map.class);
-            String nickName =(String) map.get("nickName");
-            request.setAttribute("nickName",nickName);
+            String nickName = (String) map.get("nickName");
+            request.setAttribute("nickName", nickName);
 
             //检查是否需要验证用户已经登录
-            HandlerMethod handlerMethod= (HandlerMethod) handler;
+            HandlerMethod handlerMethod = (HandlerMethod) handler;
             LoginRequire methodAnnotation = handlerMethod.getMethodAnnotation(LoginRequire.class);
-            if (methodAnnotation!=null){
+            if (methodAnnotation != null) {
                 //获取当前登录ip
                 String currentIp = request.getHeader("x-forwarded-for");
-                if (newToken!=null){
+                if (newToken != null) {
                     String result = HttpclientUtil.doGet(WebConst.VERIFY_URL + "?token=" + newToken + "&currentIp=" + currentIp);
-                    if ("success".equals(result)){
-                        String userId =(String) map.get("userId");
-                        request.setAttribute("userId",userId);
+                    if ("success".equals(result)) {
+                        String userId = (String) map.get("userId");
+                        request.setAttribute("userId", userId);
                         return true;
                     }else {
                         if (methodAnnotation.autoRedirect()){
@@ -57,13 +56,14 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
                             response.sendRedirect(WebConst.LOGIN_ADDRESS+"?originUrl="+encode);
                             return true;
                         }
-                    }
                 }
             }
 
-
         }
 
-        return true;
+
     }
+
+        return true;
+}
 }

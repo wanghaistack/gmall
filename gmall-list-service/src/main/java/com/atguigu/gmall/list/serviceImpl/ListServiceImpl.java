@@ -67,7 +67,6 @@ public class ListServiceImpl implements ListService {
         try {
             DocumentResult result = jestClient.execute(update);
             System.out.println(result.toString());
-            jestClient.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -142,7 +141,6 @@ public class ListServiceImpl implements ListService {
         SearchResult searchResult=null;
         try {
             searchResult= jestClient.execute(search);
-            jestClient.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
