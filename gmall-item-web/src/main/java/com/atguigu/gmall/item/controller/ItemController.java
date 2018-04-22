@@ -8,6 +8,7 @@ import com.atguigu.gmall.bean.SpuSaleAttr;
 import com.atguigu.gmall.service.ListService;
 import com.atguigu.gmall.service.SkuInfoService;
 import com.atguigu.gmall.service.SpuInfoService;
+import com.atguigu.gmall.util.LoginRequire;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +27,7 @@ public class ItemController {
     @Reference
     ListService listService;
     @RequestMapping("/{skuId}.html")
+    @LoginRequire
     public String getSkuInfo(@PathVariable("skuId")String skuId, Model model){
        SkuInfo skuInfo= skuInfoService.getSkuInfo(skuId);
         List<SpuSaleAttr> spuSaleAttrList=spuInfoService.getSpuSaleAttrListes(skuInfo);
