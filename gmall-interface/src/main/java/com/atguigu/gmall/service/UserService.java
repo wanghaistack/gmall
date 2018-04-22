@@ -20,4 +20,6 @@ public interface UserService {
     public void updateUserInfo(UserInfo userInfo);
 
     public List<UserAddress> getUserAddressList(String userId);
+
+    public UserInfo login(UserInfo userInfo);
 }

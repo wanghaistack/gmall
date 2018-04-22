@@ -17,6 +17,7 @@
         <module name="gmall-manage-service" />
         <module name="gmall-manage-web" />
         <module name="gmall-ordernew-web" />
+        <module name="gmall-passport-web" />
         <module name="gmall-service-util" />
         <module name="gmall-user-manage" />
         <module name="gmall-web-util" />
@@ -42,6 +43,7 @@
       <module name="gmall-ordernew-web" target="1.8" />
       <module name="gmall-orders-web" target="1.8" />
       <module name="gmall-parent" target="1.8" />
+      <module name="gmall-passport-web" target="1.8" />
       <module name="gmall-service-util" target="1.8" />
       <module name="gmall-user-manage" target="1.8" />
       <module name="gmall-web-util" target="1.8" />

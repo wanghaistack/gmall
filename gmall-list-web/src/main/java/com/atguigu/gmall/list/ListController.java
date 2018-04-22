@@ -41,8 +41,7 @@ public class ListController {
         List<SkuLsInfo> skuLsInfoList = skuLsResult.getSkuLsInfoList();
         //获取传递参数的valueId集合
         List<String> attrValuelList = skuLsResult.getAttrValuelList();
-        //获取keyword的值然后放在页面
-        String keyword = skuLsParams.getKeyword();
+
         //获取跳转路径拼接串
         String urlParam = makeUrlParam(skuLsParams);
         //定义总页码
@@ -94,7 +93,11 @@ public class ListController {
         model.addAttribute("totalPages",totalPages);
         model.addAttribute("urlParam",urlParam);
         model.addAttribute("skuLsInfoList",skuLsInfoList);
-        model.addAttribute("baseAttrValueList",baseAttrValueList);
+        if (baseAttrValueList!=null && baseAttrValueList.size()>0){
+            model.addAttribute("baseAttrValueList",baseAttrValueList);
+        }
+        //获取keyword的值然后放在页面
+        String keyword = skuLsParams.getKeyword();
         if (keyword!=null && keyword.length()>0){
             model.addAttribute("keyword",keyword);
         }

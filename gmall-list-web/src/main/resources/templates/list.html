@@ -70,7 +70,7 @@
             筛选条件	    
         </div>
 		<i><img  src="/image/right-@1x.png" alt=""></i>
-        <span th:text="'&quot;'+${keyword}+'&quot;'">&quot;小米&quot;</span>
+        <span th:text="'&quot;'+${keyword}+'&quot;'" th:if="${keyword}!=null">&quot;小米&quot;</span>
 		<!--<a class="select-attr"     href="#"     > 2G<b> ✖ </b>
 		</a>-->
 		 <a class="select-attr" th:href="'/list.html?'+${baseAttrSelected.urlParam}" th:each="baseAttrSelected:${baseAttrValueList}" th:utext="${baseAttrSelected.valueName}+'<b> ✖ </b>'"  href="#"      > 屏幕尺寸:5.1-5.5英寸<b> ✖ </b>
