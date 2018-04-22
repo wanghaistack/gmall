@@ -1,4 +1,4 @@
-package com.atguigu.gmall;
+package com.atguigu.gmall.util;
 
 import io.jsonwebtoken.*;
 
@@ -20,16 +20,13 @@ public class JwtUtil {
         return token;
     }
 
-    public static Map<String, Object> decode(String token, String key, String salt) {
+    public static Map<String, Object> decode(String key,String token , String salt) throws SignatureException{
         Claims claims = null;
         if (salt != null && salt.length() > 0) {
             key += salt;
         }
-        try {
-            claims = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
-        } catch (JwtException e) {
-            return null;
-        }
+
+        claims = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
         return claims;
     }
 }

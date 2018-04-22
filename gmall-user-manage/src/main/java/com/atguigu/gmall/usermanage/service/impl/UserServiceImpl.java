@@ -94,18 +94,20 @@ public class UserServiceImpl implements UserService {
        //获取用户登录信息，设置密码md5加密看查询的数据库是否一致
         String md5Hex = DigestUtils.md5Hex(userInfo.getPasswd());
         userInfo.setPasswd(md5Hex);
+        //1.获取jedis用于存放redis数据
+        String userInfoKey=UserConst.USER_PREFIX+userInfo.getId()+UserConst.USER_SUFFIX;
+        Jedis jedis = redisUtil.getJedis();
         //调用dao层查询数据库
         UserInfo userInfoResult = userInfoMapper.selectOne(userInfo);
         //判断数据库中是否有这个用户
         //如果该用户存在，则放到redis缓存中，设置有效时间方便查询
         if (userInfoResult!=null){
             //存放用户信息，key一般为:user:userId:info
-            //1.获取jedis用于存放redis数据
-            Jedis jedis = redisUtil.getJedis();
+
             //把查询出来的用户对象转为json串以方便存入redis中
             String userInfoJson = JSON.toJSONString(userInfoResult);
             //设置过期时间为3小时并存放Key,Value
-            jedis.setex(UserConst.USER_PREFIX+userInfo.getId()+UserConst.USER_SUFFIX,UserConst.TIME_OUT,userInfoJson);
+            jedis.setex(userInfoKey,UserConst.TIME_OUT,userInfoJson);
             //关闭jedis
             jedis.close();
             //把查询结果返回
@@ -116,5 +118,21 @@ public class UserServiceImpl implements UserService {
             return null;
         }
 
+    }
+
+    @Override
+    public UserInfo verify(String userId) {
+        Jedis jedis = redisUtil.getJedis();
+        String userIdKey=UserConst.USER_PREFIX+userId+UserConst.USER_SUFFIX;
+        String userInfoJson = jedis.get(userIdKey);
+        if (userInfoJson!=null &&userInfoJson.length()>0){
+            //把JSon串转换为Java对象
+            UserInfo userInfo = JSON.parseObject(userInfoJson, UserInfo.class);
+            //再次更新用户时效
+            jedis.expire(userIdKey,UserConst.TIME_OUT);
+            jedis.close();
+            return  userInfo;
+        }
+        return null;
     }
 }

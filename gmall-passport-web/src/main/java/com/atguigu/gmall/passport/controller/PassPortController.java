@@ -1,9 +1,10 @@
 package com.atguigu.gmall.passport.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.atguigu.gmall.JwtUtil;
+import com.atguigu.gmall.util.JwtUtil;
 import com.atguigu.gmall.bean.UserInfo;
 import com.atguigu.gmall.service.UserService;
+import io.jsonwebtoken.SignatureException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -54,17 +55,33 @@ public class PassPortController {
                     String userInfoId = userInfoLogin.getId();
                     Map<String,Object> map=new HashMap<String,Object>();
                     map.put("nickName",nickName);
-                    map.put("userInfoId",userInfoId);
+                    map.put("userId",userInfoId);
                     String token = JwtUtil.encode(TOKEN_KEY, map, remoteAddr);
                     return token;
-
             }
         }
 
-
         return "fail";
-
-
+    }
+    @RequestMapping(value = "verify",method = RequestMethod.GET)
+    @ResponseBody
+    public String verify(HttpServletRequest request){
+        String token = request.getParameter("token");
+        String currentIp = request.getParameter("currentIp");
+        Map<String, Object> map = null;
+        try {
+            map = JwtUtil.decode(TOKEN_KEY, token, currentIp);
+        } catch (SignatureException e) {
+            return "fail";
+        }
+        if (map!=null && map.size()>0){
+           String userId = (String) map.get("userId");
+           String nickName = (String)map.get("nickName");
+           UserInfo userInfo = userService.verify(userId);
+           return "success";
+       }
+       return "fail";
 
     }
+
 }

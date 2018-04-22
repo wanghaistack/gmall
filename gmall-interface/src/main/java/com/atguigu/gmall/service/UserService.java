@@ -22,4 +22,6 @@ public interface UserService {
     public List<UserAddress> getUserAddressList(String userId);
 
     public UserInfo login(UserInfo userInfo);
+
+    UserInfo verify(String userId);
 }
