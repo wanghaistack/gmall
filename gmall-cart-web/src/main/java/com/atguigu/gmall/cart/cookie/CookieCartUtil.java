@@ -1,4 +1,4 @@
-package com.atguigu.gmall.cart;
+package com.atguigu.gmall.cart.cookie;
 
 import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.CartInfo;
@@ -47,5 +47,13 @@ public class CookieCartUtil {
         String cartInfoCookie = JSON.toJSONString(cartInfoCookieList);
         CookieUtil.setCookie(request,response,COOKIE_CART_NAME,cartInfoCookie,COOKIE_TIME_OUT,true);
 
+    }
+    public List<CartInfo> getCartInfoList(HttpServletRequest request){
+        String cookieCartList = CookieUtil.getCookieValue(request, COOKIE_CART_NAME, true);
+        List<CartInfo> cartInfoList = JSON.parseArray(cookieCartList, CartInfo.class);
+        return  cartInfoList;
+    }
+    public void deleteCookie(HttpServletRequest request,HttpServletResponse response){
+        CookieUtil.deleteCookie(request,response,COOKIE_CART_NAME);
     }
 }

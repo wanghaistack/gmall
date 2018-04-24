@@ -87,6 +87,9 @@ public class CookieUtil {
         System.out.println("domainName = " + domainName);
         return domainName;
     }
+    public static void deleteCookie(HttpServletRequest request, HttpServletResponse response, String cookieName) {
+        setCookie(request, response, cookieName, null, 0, false);
+    }
 }
 
 

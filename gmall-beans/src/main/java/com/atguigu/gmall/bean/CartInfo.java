@@ -24,7 +24,7 @@ public class CartInfo implements Serializable {
     String skuName;
 
     @Transient
-    BigDecimal skuPrice;
+    BigDecimal skuPrice=new BigDecimal(0);
 
     @Transient
     String isChecked="0";
@@ -99,6 +99,11 @@ public class CartInfo implements Serializable {
 
     public void setIsChecked(String isChecked) {
         this.isChecked = isChecked;
+    }
+
+    public BigDecimal getTotolPrice(){
+        BigDecimal totalPrice=skuPrice.multiply(new BigDecimal(skuNum));
+        return totalPrice;
     }
 }
 
