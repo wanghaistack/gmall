@@ -2,183 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/data/elasticsearch/nodes/0/_state/global-40.st" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/1fb04a3972bf9f4592bdb705fe497c08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/57b191f2N15993cbb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/5874a54dNcec29924.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/5874a555Ne8192324.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/58ff269fN7b7e087b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/59a51bf6Nb8e478cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/59ae02fcN529cc4a1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/59ce706fN6f3f2a4a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/5b0329eb8920f541b8b2cba483365577.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/8104b36ae6b72043ae838599d36d007d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/a64b429ebf83d2459a0a73830f4ad4c4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/c0935b2c6504a5419e6ee507a5381bbe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/header_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/image/header_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/DengluJd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/QQ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/buyNumleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/buyNumright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/footer9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/huangou.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/i.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/logo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/loopShop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/main_one8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/myshop_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/myshop_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/myshop_20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/myshop_25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_main9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_mian_gwc1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/one_mian_gwc2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/saoyisao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/shop1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/shop2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/shop3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/shop4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/shop_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/上 箭头.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/上箭头red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/下箭头.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/下箭头black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/京东支付.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/写.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/写作.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/包.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/头像.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/安全.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/微信.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/心04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/思考.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/感叹三角形 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/灯.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/猪.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/疑问.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/箭头fix.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/锁.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/错误.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/img/闪电.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/GmallCartServiceApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/cartconst/CartConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/mapper/CartInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/test/java/com/atguigu/gmall/cart/GmallCartServiceApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/GmallCartWebApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/bootstrap/js/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/One_bdyStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/One_mainFoot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/success.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/css/swiper.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/js/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/js/success.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/js/swiper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/test/java/com/atguigu/gmall/cart/GmallCartWebApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../gmall1108/data/elasticsearch/nodes/0/_state/global-40.st" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -224,8 +54,8 @@
       <file leaf-file-name="CartCotroller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="348">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,11 +63,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="success.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PassPortController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2160#2175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/util/CookieUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/success.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -246,33 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkuInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookieCartUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CartServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+            <state relative-caret-position="203">
+              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -280,11 +135,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java">
+      <file leaf-file-name="CartInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GmallCartServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/GmallCartServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -309,7 +177,6 @@
       <find>termsqueryBuilder</find>
       <find>./</find>
       <find>javascript:item</find>
-      <find>item</find>
       <find>order</find>
       <find>src=&quot;/</find>
       <find>src=&quot;./</find>
@@ -320,6 +187,8 @@
       <find>Arraylist</find>
       <find>itemForm</find>
       <find>href=&quot;./</find>
+      <find>item</find>
+      <find>itemf</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -493,16 +362,16 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/GmallCartWebApplication.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/mapper/CartInfoMapper.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/GmallCartServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/cartconst/CartConst.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -545,16 +414,25 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="gmall-web-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall1108" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall1108" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-173" />
+    <option name="y" value="73" />
     <option name="width" value="1942" />
-    <option name="height" value="1042" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -610,51 +488,25 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -662,123 +514,77 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="cartconst" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="cartconst" type="462c0819:PsiDirectoryNode" />
-              <item name="CartConst" type="1a9f42e2:ClassTreeNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="ItemController" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="CartServiceImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -838,7 +644,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallUserManageApplication">
+  <component name="RunManager" selected="Spring Boot.GmallCartServiceApplication">
     <configuration name="GmallCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.cart.GmallCartServiceApplication" />
@@ -1059,9 +865,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.GmallItemWebApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PassPortController.test" />
       </list>
     </recent_temporary>
@@ -1113,14 +919,7 @@
       <workItem from="1524310266085" duration="4513000" />
       <workItem from="1524377069507" duration="31404000" />
       <workItem from="1524473684439" duration="4818000" />
-      <workItem from="1524530918131" duration="12948000" />
-    </task>
-    <task id="LOCAL-00013" summary="商品模块">
-      <created>1523442812609</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1523442812609</updated>
+      <workItem from="1524530918131" duration="19373000" />
     </task>
     <task id="LOCAL-00014" summary="商品模块">
       <created>1523462536160</created>
@@ -1458,7 +1257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524537264815</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="商品模块">
+      <created>1524571706067</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1524571706068</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1494,7 +1300,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453924000" />
+    <option name="totallyTimeSpent" value="460349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1510,15 +1316,16 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3484487" sideWeight="0.33909288" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3484487" sideWeight="0.33909288" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15226781" sideWeight="0.70987654" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5453461" sideWeight="0.4762419" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5453461" sideWeight="0.4762419" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37350836" sideWeight="0.66090715" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.4913607" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.4913607" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26511878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1529,13 +1336,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40095466" sideWeight="0.63714904" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38663486" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05399568" sideWeight="0.29012346" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29116946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1688,75 +1494,87 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="279" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="280" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="281" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java</url>
           <line>80</line>
           <properties />
           <option name="timeStamp" value="282" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="288" />
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="289" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
           <line>33</line>
           <properties />
-          <option name="timeStamp" value="290" />
+          <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java</url>
           <line>46</line>
           <properties />
-          <option name="timeStamp" value="296" />
+          <option name="timeStamp" value="325" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java</url>
+          <line>47</line>
           <properties />
-          <option name="timeStamp" value="298" />
+          <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="299" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="300" />
+          <option name="timeStamp" value="327" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="306" />
+      <option name="time" value="328" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1768,20 +1586,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1829,13 +1633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/util/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-common-util/src/main/java/com/atguigu/gmall/constutil/HttpclientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1880,6 +1677,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="102" column="92" lean-forward="false" selection-start-line="102" selection-start-column="92" selection-end-line="102" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1911,27 +1711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2160#2175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="51" column="59" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_141/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2739">
@@ -1947,38 +1726,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2442">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../RepMaven/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/method/HandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="373" column="7" lean-forward="true" selection-start-line="373" selection-start-column="7" selection-end-line="373" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2013,14 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2065,59 +1810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -2134,37 +1826,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/GmallCartServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-common-util/src/main/java/com/atguigu/gmall/constutil/UserConst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/mapper/CartInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2176,26 +1842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -2204,10 +1850,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java">
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="51" column="59" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="261" column="92" lean-forward="false" selection-start-line="261" selection-start-column="92" selection-end-line="261" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/http/Cookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/CookieCartUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2217,10 +1905,114 @@
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/GmallCartServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/mapper/CartInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/util/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2160#2175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

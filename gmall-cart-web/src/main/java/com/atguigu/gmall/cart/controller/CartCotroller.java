@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.List;
 
 @Controller
 public class CartCotroller {
@@ -29,21 +28,21 @@ public class CartCotroller {
     //从item页面中发起的请求路径
     @RequestMapping(value = "addToCart",method = RequestMethod.POST)
     public String addToCart(CartInfo cartInfo, HttpServletRequest request, HttpServletResponse response){
-
+        SkuInfo skuInfo = skuInfoService.getSkuInfo(cartInfo.getSkuId());
+        if (skuInfo!=null){
+            request.setAttribute("skuInfo",skuInfo);
+        }
         //从拦截器中放在request域中获取的userid
         String userId = (String) request.getAttribute("userId");
 
         //如果userId不为空则说明用户已登录，则存放到数据库中并存放到redis缓存中
         if (userId!=null){
-           cartService.addCartInfoList(cartInfo,userId);
+           cartService.addCartInfoList(cartInfo,userId,skuInfo);
         }else {
             //如果为空，则把cartInfo放入到cookie中
-            cookieCartUtil.addCookieCartInfo(request,response,cartInfo.getSkuId(),cartInfo.getSkuNum());
+            cookieCartUtil.addCookieCartInfo(request,response,skuInfo,cartInfo.getSkuNum());
         }
-        SkuInfo skuInfo = skuInfoService.getSkuInfo(cartInfo.getSkuId());
-        if (skuInfo!=null){
-            request.setAttribute("skuInfo",skuInfo);
-        }
+
         request.setAttribute("skuNum",cartInfo.getSkuNum());
         return "success";
     }

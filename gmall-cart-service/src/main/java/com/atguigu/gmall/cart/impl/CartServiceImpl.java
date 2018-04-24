@@ -25,12 +25,12 @@ public class CartServiceImpl implements CartService {
     @Autowired
     RedisUtil redisUtil;
     @Override
-    public void addCartInfoList(CartInfo cartInfo, String userId) {
-        //获取skuId查询skuInfo信息
-        String skuId = cartInfo.getSkuId();
-        //调用skuInfoService处理业务查询skuInfo信息
-        SkuInfo skuInfo = skuInfoService.getSkuInfo(skuId);
+    public void addCartInfoList(CartInfo cartInfo, String userId,SkuInfo skuInfo) {
         //添加前先查询数据库中有没有
+        String skuId = cartInfo.getSkuId();
+        CartInfo cartInfos=new CartInfo();
+        cartInfos.setSkuId(skuId);
+        cartInfos.setUserId(userId);
         CartInfo cartInfoQuery = cartInfoMapper.selectOne(cartInfo);
         //如果有值，则追加数量，更新最新price
         if (cartInfoQuery!=null){
