@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fastdfs-client-java" />
         <module name="gmall-beans" />
+        <module name="gmall-cart-service" />
+        <module name="gmall-cart-web" />
         <module name="gmall-common-util" />
         <module name="gmall-indent-web" />
         <module name="gmall-interface" />
@@ -31,6 +33,8 @@
       <module name="fastdfs-client-java" target="1.6" />
       <module name="gmall-bean" target="1.8" />
       <module name="gmall-beans" target="1.8" />
+      <module name="gmall-cart-service" target="1.8" />
+      <module name="gmall-cart-web" target="1.8" />
       <module name="gmall-common-util" target="1.8" />
       <module name="gmall-indent-web" target="1.8" />
       <module name="gmall-interface" target="1.8" />

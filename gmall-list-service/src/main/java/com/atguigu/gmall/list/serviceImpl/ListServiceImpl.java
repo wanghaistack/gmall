@@ -1,7 +1,6 @@
 package com.atguigu.gmall.list.serviceImpl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.bean.SkuLsInfo;
 import com.atguigu.gmall.bean.SkuLsParams;
@@ -51,7 +50,7 @@ public class ListServiceImpl implements ListService {
         Jedis jedis = redisUtil.getJedis();
         Double hotScore = jedis.zincrby("hotScore", 1, skuId);
         jedis.close();
-        if (hotScore%2==0){
+        if (hotScore%100==0){
             updateHotScore(hotScore,skuId);
         }
 
