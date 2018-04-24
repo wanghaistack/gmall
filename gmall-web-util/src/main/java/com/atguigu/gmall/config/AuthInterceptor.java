@@ -13,6 +13,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.Map;
 
@@ -28,42 +29,50 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
             newToken = CookieUtil.getCookieValue(request, "token", false);
         }
         if (newToken != null) {
-            //读取token
-            String tokenUserInfo = StringUtils.substringBetween(newToken, ".");
-            Base64UrlCodec base64UrlCodec = new Base64UrlCodec();
-            byte[] tookenBytes = base64UrlCodec.decode(tokenUserInfo);
-            String tookenJson = new String(tookenBytes, "UTF-8");
-            Map map = JSON.parseObject(tookenJson, Map.class);
+            Map map=getMap(newToken);
             String nickName = (String) map.get("nickName");
             request.setAttribute("nickName", nickName);
-
-            //检查是否需要验证用户已经登录
-            HandlerMethod handlerMethod = (HandlerMethod) handler;
-            LoginRequire methodAnnotation = handlerMethod.getMethodAnnotation(LoginRequire.class);
-            if (methodAnnotation != null) {
-                //获取当前登录ip
-                String currentIp = request.getHeader("x-forwarded-for");
-                if (newToken != null) {
-                    String result = HttpclientUtil.doGet(WebConst.VERIFY_URL + "?token=" + newToken + "&currentIp=" + currentIp);
-                    if ("success".equals(result)) {
-                        String userId = (String) map.get("userId");
-                        request.setAttribute("userId", userId);
+        }
+        //检查是否需要验证用户已经登录
+        HandlerMethod handlerMethod = (HandlerMethod) handler;
+        LoginRequire methodAnnotation = handlerMethod.getMethodAnnotation(LoginRequire.class);
+        if (methodAnnotation != null) {
+            //获取当前登录ip
+            String currentIp = request.getHeader("x-forwarded-for");
+            if (newToken != null) {
+                String result = HttpclientUtil.doGet(WebConst.VERIFY_URL + "?token=" + newToken + "&currentIp=" + currentIp);
+                if ("success".equals(result)) {
+                    Map map=getMap(newToken);
+                    String userId = (String) map.get("userId");
+                    request.setAttribute("userId", userId);
+                    return true;
+                } else {
+                    if (methodAnnotation.autoRedirect()) {
+                        String requestUrl = request.getRequestURL().toString();
+                        String encode = URLEncoder.encode(requestUrl, "UTF-8");
+                        response.sendRedirect(WebConst.LOGIN_ADDRESS + "?originUrl=" + encode);
                         return true;
-                    }else {
-                        if (methodAnnotation.autoRedirect()){
-                            String requestUrl= request.getRequestURL().toString();
-                            String encode = URLEncoder.encode(requestUrl, "UTF-8");
-                            response.sendRedirect(WebConst.LOGIN_ADDRESS+"?originUrl="+encode);
-                            return true;
-                        }
+                    }
                 }
             }
 
+
         }
 
-
-    }
-
         return true;
-}
+    }
+    public Map getMap(String newToken){
+        //读取token
+        String tokenUserInfo = StringUtils.substringBetween(newToken, ".");
+        Base64UrlCodec base64UrlCodec = new Base64UrlCodec();
+        byte[] tookenBytes = base64UrlCodec.decode(tokenUserInfo);
+        String tookenJson = null;
+        try {
+            tookenJson = new String(tookenBytes, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        Map map = JSON.parseObject(tookenJson, Map.class);
+        return map;
+    }
 }
