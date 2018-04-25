@@ -101,7 +101,7 @@ public class CartInfo implements Serializable {
         this.isChecked = isChecked;
     }
 
-    public BigDecimal getTotolPrice(){
+    public BigDecimal getTotalPrice(){
         BigDecimal totalPrice=skuPrice.multiply(new BigDecimal(skuNum));
         return totalPrice;
     }

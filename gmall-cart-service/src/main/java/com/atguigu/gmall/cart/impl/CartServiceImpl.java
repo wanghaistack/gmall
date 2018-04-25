@@ -39,6 +39,7 @@ public class CartServiceImpl implements CartService {
         if (cartInfoQuery!=null){
             cartInfoQuery.setSkuNum(cartInfo.getSkuNum()+cartInfoQuery.getSkuNum());
             cartInfoQuery.setCartPrice(skuInfo.getPrice());
+            cartInfoQuery.setSkuPrice(skuInfo.getPrice());
             cartInfoMapper.updateByPrimaryKeySelective(cartInfoQuery);
             loadRedis(cartInfoQuery,userId);
         }else {
@@ -53,6 +54,7 @@ public class CartServiceImpl implements CartService {
             cartInfo.setSkuId(skuInfo.getId());
             //设置选中的skuName
             cartInfo.setSkuName(skuInfo.getSkuName());
+            cartInfo.setSkuPrice(skuInfo.getPrice());
             //添加到数据库中
             cartInfoMapper.insertSelective(cartInfo);
             //设置到redis缓存中
@@ -88,6 +90,7 @@ public class CartServiceImpl implements CartService {
         }else {
 
             List<CartInfo> cartInfoList = loadCartCache(userId);
+
             return cartInfoList;
 
         }
@@ -158,13 +161,13 @@ public class CartServiceImpl implements CartService {
         CartInfo cartInfo = JSON.parseObject(cartfInfoJson, CartInfo.class);
         cartInfo.setIsChecked(isChecked);
         String cartInfoChecked = JSON.toJSONString(cartInfo);
-        jedis.hset(cartInfoKey,userId,cartInfoChecked );
+        jedis.hset(cartInfoKey,skuId,cartInfoChecked );
         //新增已选中的购物车
         String cartCheckKey=CartConst.CART_CHECKED_PREFIX+userId+CartConst.CART_CHECKED_SUFFIX;
         if ("1".equals(isChecked)){
             jedis.hset(cartCheckKey,skuId,cartInfoChecked);
         }else {
-            jedis.hdel(cartInfoKey,skuId);
+            jedis.hdel(cartCheckKey,skuId);
         }
         jedis.close();
 

@@ -6,7 +6,6 @@ import com.atguigu.gmall.bean.SkuInfo;
 import com.atguigu.gmall.cart.cookie.CookieCartUtil;
 import com.atguigu.gmall.service.CartService;
 import com.atguigu.gmall.service.SkuInfoService;
-import com.atguigu.gmall.util.CookieUtil;
 import com.atguigu.gmall.util.LoginRequire;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,9 +27,10 @@ public class CartCotroller {
     @Autowired
     CookieCartUtil cookieCartUtil;
    //自定义注解，加上之后被拦截器拦下，不需要转发到登录页面，但必须得走拦截器
-    @LoginRequire(autoRedirect = false)
+
     //从item页面中发起的请求路径
     @RequestMapping(value = "addToCart",method = RequestMethod.POST)
+    @LoginRequire(autoRedirect = false)
     public String addToCart(CartInfo cartInfo, HttpServletRequest request, HttpServletResponse response){
         SkuInfo skuInfo = skuInfoService.getSkuInfo(cartInfo.getSkuId());
         if (skuInfo!=null){
@@ -51,10 +51,9 @@ public class CartCotroller {
         return "success";
     }
     @RequestMapping("cartList")
-    @ResponseBody
     @LoginRequire(autoRedirect = false)
     public String toCartList(HttpServletRequest request,HttpServletResponse response){
-        String userId = request.getParameter("userId");
+        String userId =(String) request.getAttribute("userId");
         List<CartInfo> cartInfoList=new ArrayList<>();
          List<CartInfo> cartInfoFromCookie= cookieCartUtil.getCartInfoList(request);
         //如果用户已登录
@@ -72,7 +71,10 @@ public class CartCotroller {
         }else {
             //用户未登录
             cartInfoList = cookieCartUtil.getCartInfoList(request);
-            request.setAttribute("cartInfoList",cartInfoList);
+            if(cartInfoList!=null){
+                request.setAttribute("cartInfoList",cartInfoList);
+            }
+
 
         }
         return "cartList";

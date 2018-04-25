@@ -51,7 +51,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
                         String requestUrl = request.getRequestURL().toString();
                         String encode = URLEncoder.encode(requestUrl, "UTF-8");
                         response.sendRedirect(WebConst.LOGIN_ADDRESS + "?originUrl=" + encode);
-                        return true;
+                        return false;
                     }
                 }
             }
