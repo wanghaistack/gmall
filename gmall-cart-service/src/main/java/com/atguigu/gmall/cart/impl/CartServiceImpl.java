@@ -103,6 +103,8 @@ public class CartServiceImpl implements CartService {
        CartInfo cartInfo=new CartInfo();
        cartInfo.setUserId(userId);
        boolean isLoad=false;
+       //根据userId查询cartInfo信息
+        //先循环cookie中list信息，看数据库中是否有值与之相匹配，如果有，则更新数据库，如果没有，则加载到数据库中
         List<CartInfo> cartInfoList = cartInfoMapper.select(cartInfo);
         for (CartInfo cartInfoCookie : cartInfoFromCookie) {
             for (CartInfo cartInfoDB : cartInfoList) {
@@ -120,6 +122,7 @@ public class CartServiceImpl implements CartService {
                 cartInfoMapper.insertSelective(cartInfoCookie);
             }
         }
+        //更新缓存
         List<CartInfo> cartInfoLists = loadCartCache(userId);
         return cartInfoLists;
     }
@@ -172,5 +175,21 @@ public class CartServiceImpl implements CartService {
         jedis.close();
 
 
+    }
+    public List<CartInfo> getCheckedList(String userId){
+        String cartCheckKey=CartConst.CART_CHECKED_PREFIX+userId+CartConst.CART_CHECKED_SUFFIX;
+        Jedis jedis = redisUtil.getJedis();
+        List<CartInfo>cartInfoList=new ArrayList<>();
+        List<String> cartCheckJson = jedis.hvals(cartCheckKey);
+        if (cartCheckJson!=null && cartCheckJson.size()>0){
+
+            for (String cartJson : cartCheckJson) {
+                CartInfo cartInfo = JSON.parseObject(cartJson, CartInfo.class);
+                cartInfoList.add(cartInfo);
+            }
+
+        }
+        jedis.close();
+        return cartInfoList;
     }
 }

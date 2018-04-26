@@ -83,13 +83,35 @@ public class CartCotroller {
     @RequestMapping("checkCart")
     @ResponseBody
     @LoginRequire(autoRedirect = false)
-    public void checkCart(HttpServletRequest request){
+    public void checkCart(HttpServletRequest request,HttpServletResponse response){
+        //获取请求参数skuId
         String skuId = request.getParameter("skuId");
+        //获取是否被选中参数
         String isChecked = request.getParameter("isChecked");
+        //获取用户Id
         String userId=(String) request.getAttribute("userId");
+        //根据用户Id是否为空判断用户是否登录
         if (userId!=null){
             cartService.checkCart(skuId,isChecked,userId);
+        }else {
+            //如果用户未登录，则放置到cookie中
+            cookieCartUtil.checkCart(skuId,isChecked,request,response);
         }
         return ;
+    }
+    @RequestMapping("toTrade")
+    @LoginRequire
+    public String toTrade(HttpServletRequest request,HttpServletResponse response){
+        //从cookie中获取值判断是否有购物车信息
+        List<CartInfo> cartInfoFromCookieList = cookieCartUtil.getCartInfoList(request);
+        String userId =(String) request.getAttribute("userId");
+        if (cartInfoFromCookieList!=null && cartInfoFromCookieList.size()>0){
+        //合并购物信息
+            List<CartInfo> cartInfoList = cartService.mergeCartInfoList(cartInfoFromCookieList, userId);
+            //合并之后把cookie中信息删除
+            cookieCartUtil.deleteCookie(request,response);
+        }
+        //重定向到trade订单页面
+        return "redirect:http://order.gmall.com/trade";
     }
 }

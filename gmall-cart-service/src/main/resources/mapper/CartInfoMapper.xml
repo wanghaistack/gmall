@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.atguigu.gmall.cart.mapper.CartInfoMapper" >
+    <select id="selectCartInfoListByUserId" resultMap="cartInfoList">
+        SELECT c.`id`,c.`cart_price`,c.`img_url`,c.`sku_id`,c.`sku_name`,c.`sku_num`,c.`user_id`,s.`price` sku_price
+        FROM cart_info c,sku_info s
+        WHERE c.`sku_id`=s.`id`
+        AND c.`user_id`=#{userId}
+    </select>
+    <resultMap id="cartInfoList" type="com.atguigu.gmall.bean.CartInfo" autoMapping="true">
+        <result property="id" column="id"></result>
+    </resultMap>
+
+</mapper>

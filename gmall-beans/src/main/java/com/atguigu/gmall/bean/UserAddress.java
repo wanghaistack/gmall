@@ -1,10 +1,13 @@
 package com.atguigu.gmall.bean;
 
 import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
 public class UserAddress implements Serializable {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
     @Id
     private String id;
@@ -12,6 +15,7 @@ public class UserAddress implements Serializable {
     private String userAddress;
     @Column
     private String userId;
+    //收件人
     @Column
     private String consignee;
     @Column

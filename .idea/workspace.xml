@@ -2,16 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/data/elasticsearch/nodes/0/_state/global-44.st" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/1fb04a3972bf9f4592bdb705fe497c08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/1xb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/1xb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/2xb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/2xb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/3xb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/3xb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/54b8871eNa9a7067e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/54b8872dNe37a9860.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/54b8875fNad1e0c4c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/5698dc03N23f2e3b8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/5698dc16Nb2ab99df.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/56a89b8fNfbaade9a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/57b191f2N15993cbb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/5874a54dNcec29924.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/5874a555Ne8192324.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/58ff269fN7b7e087b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/59126ae3N1b306e2c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/59a3ca01Nc53707d5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/59a51bf6Nb8e478cc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/59ae02fcN529cc4a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/59ce706fN6f3f2a4a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/5b0329eb8920f541b8b2cba483365577.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/8104b36ae6b72043ae838599d36d007d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/BAITIAO_2.0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/CMB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/XJKCONSUME.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/a64b429ebf83d2459a0a73830f4ad4c4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/bu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/bu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/bu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/bu3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/c0935b2c6504a5419e6ee507a5381bbe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/cen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/datu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/datu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/ding.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/ding1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/ding2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/ding3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/ding4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/foots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/header_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/header_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/i_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/i_07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/i_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/i_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/ico_footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/icon (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/im_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/im_06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/im_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/jd2015img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/live.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/live1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/live2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/live3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/logo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/logo2018.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/order-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/saoyisao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/service_items_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/service_items_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/service_items_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/service_items_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/sprite-im.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/tese.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/xb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/xb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/yihangka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/img/zhaodapei.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/OrderStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/PaymentWay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/ProcessStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/mapper/CartInfoMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/css/JD2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/css/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/js/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/trade.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/tradeFail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/mvnw.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/GmallOrderServiceApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mapper/OrderDetailMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mapper/OrderInfoMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/test/java/com/atguigu/gmall/order/GmallOrderServiceApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/UserAddress.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/UserAddress.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-web-util/pom.xml" afterPath="$PROJECT_DIR$/../gmall1108/gmall-web-util/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/GmallIndentWebApplication.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/GmallIndentWebApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/order/controller/OrderController.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/order/controller/OrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -39,6 +155,7 @@
     <ignored path="$PROJECT_DIR$/../gmall1108/gmall-passport-web/target/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/gmall-cart-web/target/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/gmall-cart-service/target/" />
+    <ignored path="$PROJECT_DIR$/../gmall1108/gmall-order-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +170,17 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -92,6 +210,7 @@
       <find>chkbox</find>
       <find>skuId</find>
       <find>.zj</find>
+      <find>win</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -224,23 +343,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/ListService.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/templates/list.html" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-passport-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/GmallPassportWebApplication.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-common-util/src/main/java/com/atguigu/gmall/constutil/UserConst.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-manage-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/GmallUserManageApplication.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/JwtUtil.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/WebMvcConfigration.java" />
@@ -263,7 +365,6 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/mapper/CartInfoMapper.xml.fxml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/mapper/CartInfoMapper.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/util/CookieUtil.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/cartconst/CartConst.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/resources/application.properties" />
@@ -273,8 +374,26 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-web-util/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/GmallIndentWebApplication.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderDetail.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/OrderStatus.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/ProcessStatus.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/PaymentWay.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/UserAddress.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/trade.html" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mapper/OrderInfoMapper.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/GmallOrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mapper/OrderDetailMapper.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -312,30 +431,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gmall-web-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gmall1108" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gmall1108" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-173" />
-    <option name="y" value="73" />
-    <option name="width" value="1942" />
-    <option name="height" value="1015" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -377,7 +481,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,81 +491,25 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="cookie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="cookie" type="462c0819:PsiDirectoryNode" />
-              <item name="CookieCartUtil" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -470,51 +517,71 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-list-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-list-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-list-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-list-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-list-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-list-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="GmallOrderServiceApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -564,23 +631,14 @@
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-web-util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,11 +675,11 @@
       <recent name="com.atguigu.gmall.manage.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gmall1108\gmall-indent-web\src\main\resources\templates" />
+      <recent name="D:\gmall1108\gmall-indent-web\src\main\resources\static" />
       <recent name="D:\gmall1108\gmall-cart-service\src\main\resources\mapper" />
       <recent name="D:\gmall1108\gmall-cart-web\src\main\resources\templates" />
       <recent name="D:\gmall1108\gmall-cart-web\src\main\resources\static" />
-      <recent name="D:\gmall1108\gmall-passport-web\src\main\resources\static" />
-      <recent name="D:\gmall1108\gmall-list-web\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -719,6 +777,14 @@
       <option name="VM_PARAMETERS" value="-server -Xmx128m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="gmall-manage-web" />
+      <envs />
+    </configuration>
+    <configuration name="GmallOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.order.GmallOrderServiceApplication" />
+      <option name="VM_PARAMETERS" value="-server -Xmx128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="gmall-order-service" />
       <envs />
     </configuration>
     <configuration name="GmallPassportWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -850,18 +916,19 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="11">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.GmallPassportWebApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.GmallIndentWebApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.GmallUserManageApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.GmallCartWebApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.GmallCartServiceApplication" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PassPortController.test" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.GmallItemWebApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.GmallManageWebApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.GmallManageWebApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.GmallOrderServiceApplication" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.PassPortController.test" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.GmallItemWebApplication" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -921,14 +988,8 @@
       <workItem from="1524377069507" duration="31404000" />
       <workItem from="1524473684439" duration="4818000" />
       <workItem from="1524530918131" duration="29711000" />
-      <workItem from="1524616419176" duration="14996000" />
-    </task>
-    <task id="LOCAL-00016" summary="商品模块">
-      <created>1523502160658</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1523502160658</updated>
+      <workItem from="1524616419176" duration="26846000" />
+      <workItem from="1524741223585" duration="6712000" />
     </task>
     <task id="LOCAL-00017" summary="商品模块">
       <created>1523512622639</created>
@@ -1266,7 +1327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524589528384</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="商品模块">
+      <created>1524652667520</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1524652667520</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1302,7 +1370,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485683000" />
+    <option name="totallyTimeSpent" value="504245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1318,7 +1386,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1330,22 +1397,23 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2699784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22084233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29116946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36634845" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36634845" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05399568" sideWeight="0.29012346" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29116946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1398,341 +1466,185 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java</url>
           <line>162</line>
           <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java</url>
           <line>165</line>
           <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java</url>
           <line>174</line>
           <properties />
           <option name="timeStamp" value="192" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java</url>
           <line>161</line>
           <properties />
           <option name="timeStamp" value="197" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
           <line>105</line>
           <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
           <line>104</line>
           <properties />
           <option name="timeStamp" value="240" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
           <line>96</line>
           <properties />
           <option name="timeStamp" value="243" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
           <line>83</line>
           <properties />
           <option name="timeStamp" value="244" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java</url>
           <line>59</line>
           <properties />
           <option name="timeStamp" value="268" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="271" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java</url>
           <line>95</line>
           <properties />
           <option name="timeStamp" value="272" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java</url>
           <line>109</line>
           <properties />
           <option name="timeStamp" value="273" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java</url>
           <line>112</line>
           <properties />
           <option name="timeStamp" value="274" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java</url>
           <line>117</line>
           <properties />
           <option name="timeStamp" value="275" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="310" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="311" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
           <line>43</line>
           <properties />
           <option name="timeStamp" value="312" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="315" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="320" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="321" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="322" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="324" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="327" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>105</line>
-          <properties />
-          <option name="timeStamp" value="332" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="333" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="335" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="337" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="338" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="339" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="341" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="342" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="343" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="346" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>160</line>
-          <properties />
-          <option name="timeStamp" value="347" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>166</line>
-          <properties />
-          <option name="timeStamp" value="348" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>165</line>
-          <properties />
-          <option name="timeStamp" value="349" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="350" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="351" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>130</line>
-          <properties />
-          <option name="timeStamp" value="354" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>133</line>
-          <properties />
-          <option name="timeStamp" value="355" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>169</line>
-          <properties />
-          <option name="timeStamp" value="356" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
           <line>153</line>
           <properties />
           <option name="timeStamp" value="357" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
           <line>154</line>
           <properties />
           <option name="timeStamp" value="358" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="359" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-web/src/main/java/com/atguigu/gmall/list/ListController.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="360" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
           <line>138</line>
           <properties />
           <option name="timeStamp" value="361" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
           <line>92</line>
           <properties />
           <option name="timeStamp" value="362" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-list-service/src/main/java/com/atguigu/gmall/list/serviceImpl/ListServiceImpl.java</url>
           <line>109</line>
           <properties />
           <option name="timeStamp" value="364" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="365" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>115</line>
-          <properties />
-          <option name="timeStamp" value="366" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>120</line>
-          <properties />
-          <option name="timeStamp" value="367" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>123</line>
-          <properties />
-          <option name="timeStamp" value="368" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java</url>
-          <line>122</line>
-          <properties />
-          <option name="timeStamp" value="369" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="370" />
+      <option name="time" value="372" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1744,208 +1656,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuLsParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/static/img/logo1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_141/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2739">
-          <caret line="457" column="21" lean-forward="true" selection-start-line="457" selection-start-column="21" selection-end-line="457" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_141/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="495" column="0" lean-forward="true" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../RepMaven/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/method/HandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="373" column="7" lean-forward="true" selection-start-line="373" selection-start-column="7" selection-end-line="373" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-list-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="49" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-common-util/src/main/java/com/atguigu/gmall/constutil/UserConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/SkuInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/resources/templates/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="261" column="92" lean-forward="false" selection-start-line="261" selection-start-column="92" selection-end-line="261" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/http/Cookie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/GmallManageServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2160#2175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-item-web/src/main/java/com/atguigu/gmall/item/GmallItemWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/resources/mapper/SkuInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="67" />
-          <folding>
-            <marker date="1524122783518" expanded="true" signature="254:841" ph="SELECT sf.*,... sku_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/resources/mapper/BaseAttrInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524220800452" expanded="true" signature="262:471" ph="SELECT ai.id... base_attr_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/mapper/CartInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="90" column="113" lean-forward="false" selection-start-line="90" selection-start-column="113" selection-end-line="90" selection-end-column="113" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1953,7 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1961,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1985,7 +1697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1997,19 +1708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2017,23 +1719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/WebMvcConfigration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2041,7 +1726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2049,9 +1733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <marker date="1524627528486" expanded="true" signature="256:466" ph="SELECT c.`id... cart_info" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2060,17 +1741,6 @@
         <state relative-caret-position="426">
           <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="449" column="36" lean-forward="false" selection-start-line="449" selection-start-column="36" selection-end-line="449" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#li#4;n#ol#0;n#div#1;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#div#2;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2086,10 +1756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2516">
           <caret line="327" column="12" lean-forward="false" selection-start-line="327" selection-start-column="8" selection-end-line="327" selection-end-column="12" />
-          <folding>
-            <marker date="1524300125760" expanded="true" signature="17540:17593" ph="..." />
-            <marker date="1524300125760" expanded="true" signature="17915:17969" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2097,7 +1763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2106,8 +1771,8 @@
         <state relative-caret-position="308">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2116,46 +1781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1409">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4727#4742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2171,6 +1796,270 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="268" column="53" lean-forward="true" selection-start-line="268" selection-start-column="53" selection-end-line="268" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1057">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-manage-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/GmallIndentWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/static/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="183" column="49" lean-forward="true" selection-start-line="183" selection-start-column="49" selection-end-line="183" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2104">
+          <caret line="114" column="48" lean-forward="false" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/PaymentWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/WebMvcConfigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/src/main/java/com/atguigu/gmall/usermanage/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="86" column="38" lean-forward="true" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/UserAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/ProcessStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/GmallOrderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/trade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="131" column="77" lean-forward="false" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/tradeFail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mapper/OrderDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="118" column="41" lean-forward="true" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mapper/OrderInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
