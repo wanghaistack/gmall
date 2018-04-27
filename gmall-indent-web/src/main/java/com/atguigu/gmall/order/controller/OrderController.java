@@ -5,11 +5,13 @@ import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.*;
 import com.atguigu.gmall.bean.enums.OrderStatus;
 import com.atguigu.gmall.bean.enums.ProcessStatus;
+import com.atguigu.gmall.constutil.HttpclientUtil;
 import com.atguigu.gmall.service.CartService;
 import com.atguigu.gmall.service.OrderInfoService;
 import com.atguigu.gmall.service.SkuInfoService;
 import com.atguigu.gmall.service.UserService;
 import com.atguigu.gmall.util.LoginRequire;
+import org.apache.http.client.HttpClient;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,9 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
-import static com.atguigu.gmall.bean.enums.OrderStatus.UNPAID;
 
 @Controller
 public class OrderController {
@@ -114,14 +114,38 @@ public class OrderController {
                 request.setAttribute("errMsg",errMsg);
                 return "tradeFail";
             }
+            //验证库存是否存在
+            Boolean isExist = hasStorkBySkuidAndNum(orderDetail.getSkuId(), orderDetail.getSkuNum());
+            if (!isExist){
+                String errMsg="你选择的商品"+orderDetail.getSkuName()+"库存不足，为你带来的不便敬请谅解！";
+                request.setAttribute("errMsg",errMsg);
+                return "tradeFail";
+            }
         }
+
         //如果相匹配，则存放到数据库中
         orderInfoService.save(orderInfo);
         //删除唯一标识
         orderInfoService.deleteTradeCode(userId);
         return "redirect://payment.gmall.com/index";
+    }
+    //获取我的订单详情页面
+    @RequestMapping("list")
+    @LoginRequire
+    public String toCartInfoListPage(HttpServletRequest request){
+        String userId = (String) request.getAttribute("userId");
+        List<OrderInfo>orderInfoList=orderInfoService.getOrderInfoList(userId);
+       request.setAttribute("orderInfoList",orderInfoList);
+        return "list";
+    }
 
-
+    private Boolean hasStorkBySkuidAndNum(String skuId,Integer skuNum){
+        String url="http://www.gware.com/hasStock?skuId="+skuId+"&num="+skuNum;
+        String result = HttpclientUtil.doGet(url);
+        if ("1".equals(result)){
+            return  true;
+        }
+        return false;
     }
 
 

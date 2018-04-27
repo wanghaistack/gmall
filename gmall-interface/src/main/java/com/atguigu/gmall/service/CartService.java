@@ -15,4 +15,7 @@ public interface CartService {
     void checkCart(String skuId, String isChecked, String userId);
 
     public List<CartInfo> loadCartCache(String userId);
+
+    //删除用户购物车信息
+    public void deleteCheckedCartInfo(String userId,List<String>skuIds);
 }

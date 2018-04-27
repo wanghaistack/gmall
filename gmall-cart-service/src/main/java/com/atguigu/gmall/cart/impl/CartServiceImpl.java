@@ -13,6 +13,7 @@ import com.atguigu.gmall.service.CartService;
 import com.atguigu.gmall.service.SkuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.*;
 
@@ -176,6 +177,7 @@ public class CartServiceImpl implements CartService {
 
 
     }
+    //在redis缓存中获取所选中的购物车集合
     public List<CartInfo> getCheckedList(String userId){
         String cartCheckKey=CartConst.CART_CHECKED_PREFIX+userId+CartConst.CART_CHECKED_SUFFIX;
         Jedis jedis = redisUtil.getJedis();
@@ -191,5 +193,23 @@ public class CartServiceImpl implements CartService {
         }
         jedis.close();
         return cartInfoList;
+    }
+    //删除购物车
+    @Override
+    public void deleteCheckedCartInfo(String userId,List<String>skuIds){
+        String cartCheckKey=CartConst.CART_CHECKED_PREFIX+userId+CartConst.CART_CHECKED_SUFFIX;
+        String cartInfoKey= CartConst.CART_INFO_PREFIX+userId+CartConst.CART_INFO_SUFFIX;
+        Example example=new Example(CartInfo.class);
+        example.createCriteria().andIn("skuId",skuIds);
+        //删除数据库中的购物车信息
+        cartInfoMapper.deleteByExample(example);
+        Jedis jedis = redisUtil.getJedis();
+        for (String skuId : skuIds) {
+            jedis.hdel(cartCheckKey,skuId);
+            jedis.hdel(cartInfoKey,skuId);
+        }
+        jedis.sync();
+        jedis.close();
+
     }
 }

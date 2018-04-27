@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-service/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall1108/gware-manage/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

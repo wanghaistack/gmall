@@ -1,6 +1,7 @@
 package com.atguigu.gmall.order.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.OrderDetail;
 import com.atguigu.gmall.bean.OrderInfo;
 import com.atguigu.gmall.config.RedisUtil;
@@ -23,6 +24,8 @@ public class OrderInfoServiceImpl implements OrderInfoService {
     private String ORDER_PREFIX = "order:";
     private String ORDER_SUFFIX = ":code";
     private int TIME_OUT = 60 * 60;
+    private  String ORDER_INFO_PREFIX="order";
+    private  String ORDER_INFO_SUFFIX=":info";
 
     @Override
     public String getUniquIdentifier(String userId) {
@@ -78,8 +81,44 @@ public class OrderInfoServiceImpl implements OrderInfoService {
             orderDetail.setOrderId(orderInfo.getId());
             orderDetailMapper.insertSelective(orderDetail);
         }
+        //把订单信息存放到redis缓存中
+        Jedis jedis = redisUtil.getJedis();
+        String orderInfoKey=ORDER_INFO_PREFIX+orderInfo.getUserId()+ORDER_INFO_SUFFIX;
+        String orderInfoJson = JSON.toJSONString(orderInfo);
+        jedis.setex(orderInfoKey,TIME_OUT,orderInfoJson);
+        jedis.close();
+    }
 
+    @Override
+    //获取订单信息详情
+    public OrderInfo getOrderInfo(String orederId) {
+        //获取orderInfo信息
+        OrderInfo orderInfo = orderInfoMapper.selectByPrimaryKey(orederId);
+        OrderDetail orderDetail=new OrderDetail();
+        orderDetail.setOrderId(orederId);
+        //根据订单信息id,查询订单详细列表集合
+        List<OrderDetail> orderDetailList = orderDetailMapper.select(orderDetail);
+        //把查询中的集合封装到orderInfo中
+        orderInfo.setOrderDetailList(orderDetailList);
+        return orderInfo;
+    }
 
+    //获取orderInfo的信息
+    @Override
+    public List<OrderInfo> getOrderInfoList(String userId) {
+        //遍历查询耗性能
+      /*  OrderInfo orderInfoQuery=new OrderInfo();
+        orderInfoQuery.setUserId(userId);
+        List<OrderInfo> orderInfoList = orderInfoMapper.select(orderInfoQuery);
+        OrderDetail orderDetail=new OrderDetail();
+        for (OrderInfo orderInfo : orderInfoList) {
+            orderDetail.setOrderId(orderInfo.getId());
+            List<OrderDetail> orderDetailList = orderDetailMapper.select(orderDetail);
+            orderInfo.setOrderDetailList(orderDetailList);
+        }*/
+      //两表关联查询
+       List<OrderInfo>orderInfoList= orderInfoMapper.selectOrderInfoListByUserId(Long.parseLong(userId));
+        return orderInfoList;
     }
 
 

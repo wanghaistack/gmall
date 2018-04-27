@@ -99,7 +99,7 @@
           </ul>
         </div>
 
-          <table class="table" th:each="orderInfo:${orderList}">
+          <table class="table" th:each="orderInfo:${orderInfoList}">
             <tr>
               <td colspan="7" style="background:#F7F7F7"  class="order-header" >
                 <span style="color:#AAAAAA" text="2018-04-22 19:33:00"> </span>
@@ -111,24 +111,24 @@
             <!--不拆单情况------------------->
             <!--不拆单情况------------------->
             <!--不拆单情况------------------->
-            <tr >
-              <td colspan="3" class="item">
-                <img    src="img/ding.jpg" alt="" class="img">
+            <tr  >
+              <td colspan="3" class="item" th:each="orderDetail:${orderInfo.orderDetailList}">
+                <img  th:src="${orderDetail.imgUrl}"  src="img/ding.jpg" alt="" class="img">
                 <div>
-                  <p >商品名称11111111111111</p>
+                  <p th:text="${orderDetail.skuName}" >商品名称11111111111111</p>
                 </div>
                 <div style="margin-left:15px;"  >X 1</div>
               </td>
 
-              <td    rowspan="2" ><span  >张晨</span> </td>
+              <td    rowspan="2" ><span th:text="${orderInfo.consignee}"  >张晨</span> </td>
               <td  rowspan="2">
-                <div style="margin-left:15px;"> 总额 9999</div>
+                <div style="margin-left:15px;" th:text="'总金额:¥'+${orderInfo.totalAmount}"> 总金额 9999</div>
                 <hr style="width:90%;">
                 <p   >在线支付</p>
               </td>
             <td     rowspan="2">
               <ul>
-                <li style="color:#71B247;"  >等待收货</li>
+                <li style="color:#71B247;" th:text="${orderInfo.orderStatus}"  >等待收货</li>
                 <li     style="margin:4px 0;" class="hide"><i class="table_i2"></i>跟踪<i class="table_i3"></i>
                   <div class="hi">
                     <div class="p-tit" >
@@ -145,7 +145,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="tdLi">订单详情</li>
+                <li class="tdLi" onclick="toOrderDetailInfo()">订单详情</a></li>
               </ul>
             </td>
             <td   rowspan="2">
@@ -443,5 +443,11 @@
 </body>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/list.js"></script>
+<script type="text/javascript">
+function toOrderDetailInfo(){
+    window.location.href="http://order.gmall.com/trade";
+}
+
+</script>
 
 </html>

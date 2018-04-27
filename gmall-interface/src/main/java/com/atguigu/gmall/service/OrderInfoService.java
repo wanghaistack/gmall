@@ -2,6 +2,8 @@ package com.atguigu.gmall.service;
 
 import com.atguigu.gmall.bean.OrderInfo;
 
+import java.util.List;
+
 public interface OrderInfoService {
     String getUniquIdentifier(String userId);
 
@@ -10,4 +12,8 @@ public interface OrderInfoService {
     void deleteTradeCode(String userId);
 
     void save(OrderInfo orderInfo);
+
+    OrderInfo getOrderInfo(String orederId);
+
+    public List<OrderInfo> getOrderInfoList(String userId);
 }

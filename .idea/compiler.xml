@@ -26,6 +26,7 @@
         <module name="gmall-user-manage" />
         <module name="gmall-web-util" />
         <module name="gmallbean" />
+        <module name="gware-manage" />
         <module name="order-web" />
         <module name="order-web (1)" />
       </profile>
@@ -56,6 +57,7 @@
       <module name="gmall-web-util" target="1.8" />
       <module name="gmall1108" target="1.5" />
       <module name="gmallbean" target="1.8" />
+      <module name="gware-manage" target="1.8" />
       <module name="order-web" target="1.8" />
       <module name="order-web (1)" target="1.8" />
     </bytecodeTargetLevel>

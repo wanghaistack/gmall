@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/../gmall1108/gmall-user-manage/gmall-user-manage.iml" filepath="$PROJECT_DIR$/../gmall1108/gmall-user-manage/gmall-user-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/gmall-web-util.iml" filepath="$PROJECT_DIR$/../gmall1108/gmall-web-util/gmall-web-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gmall1108/gmall1108.iml" filepath="$PROJECT_DIR$/../gmall1108/gmall1108.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gmall1108/gware-manage/gware-manage.iml" filepath="$PROJECT_DIR$/../gmall1108/gware-manage/gware-manage.iml" />
     </modules>
   </component>
 </project>
