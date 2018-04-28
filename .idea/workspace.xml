@@ -2,12 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/img/CMB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/img/alipay.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/img/logo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/img/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/img/weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/img/yihangka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__com_alipay_alipay_sdk_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_14_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_14_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_15_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_1_5_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_springframework_spring_jms_4_3_14_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_14_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/PaymentInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/enums/PaymentStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/resources/mapper/OrderInfoMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/mvnw.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/GmallPaymentApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/config/AlipayConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mapper/PaymentInfoMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/alipay.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/static/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/test/java/com/atguigu/gmall/payment/GmallPaymentApplicationTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -319,7 +355,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="698" />
     <option name="y" value="29" />
     <option name="width" value="1301" />
@@ -365,10 +401,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -542,6 +577,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -845,12 +881,12 @@
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.GmallManageWebApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.GmallOrderServiceApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.GwareManageApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.GmallIndentWebApplication (1)" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.com.atguigu.gware.mq in gware-manage" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.GmallPaymentApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.GmallPaymentApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.GmallListServiceApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.GmallListWebApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.GmallManageServiceApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.GmallIndentWebApplication (1)" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.com.atguigu.gware.mq in gware-manage" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -915,14 +951,8 @@
       <workItem from="1524756854103" duration="120000" />
       <workItem from="1524789231252" duration="15383000" />
       <workItem from="1524830308085" duration="752000" />
-      <workItem from="1524831110086" duration="13087000" />
-    </task>
-    <task id="LOCAL-00019" summary="商品模块">
-      <created>1523514387954</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1523514387954</updated>
+      <workItem from="1524831110086" duration="13173000" />
+      <workItem from="1524875594117" duration="92000" />
     </task>
     <task id="LOCAL-00020" summary="商品模块">
       <created>1523514535177</created>
@@ -1260,7 +1290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524833708268</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="商品模块">
+      <created>1524847248341</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1524847248341</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1296,7 +1333,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="537456000" />
+    <option name="totallyTimeSpent" value="537634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1308,11 +1345,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1324,7 +1360,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2526998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25701943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1332,11 +1368,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37828162" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37828162" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05399568" sideWeight="0.29012346" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29116946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1774,7 +1811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1782,9 +1818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522307060360" expanded="true" signature="314:428" ph="select w.id,... ware_info" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1800,7 +1833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1808,7 +1840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1584">
           <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1826,7 +1857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1842,7 +1872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1850,7 +1879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1858,9 +1886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="69" />
-          <folding>
-            <marker date="1524220800452" expanded="true" signature="262:471" ph="SELECT ai.id... base_attr_info" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1868,7 +1893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1889,7 +1913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1897,7 +1920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1905,7 +1927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="41" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,7 +1934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1921,7 +1941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1929,7 +1948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1937,7 +1955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2066,7 +2083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
