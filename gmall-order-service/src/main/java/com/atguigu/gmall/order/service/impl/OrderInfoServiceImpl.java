@@ -10,6 +10,7 @@ import com.atguigu.gmall.config.RedisUtil;
 import com.atguigu.gmall.order.mapper.OrderDetailMapper;
 import com.atguigu.gmall.order.mapper.OrderInfoMapper;
 import com.atguigu.gmall.service.OrderInfoService;
+import org.apache.activemq.command.ActiveMQTextMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 
@@ -131,7 +132,7 @@ public class OrderInfoServiceImpl implements OrderInfoService {
         return orderInfoList;
     }
     @Override
-    public void updateOrderStatus(String orderId, ProcessStatus processStatus,Map<String,String>...paramMap){
+    public void updateOrderStatus(String orderId, ProcessStatus processStatus){
         OrderInfo orderInfo = orderInfoMapper.selectByPrimaryKey(orderId);
         //设置进程状态
         orderInfo.setProcessStatus(processStatus);
@@ -141,7 +142,68 @@ public class OrderInfoServiceImpl implements OrderInfoService {
 
     @Override
     public void sendOrderResult(String orderId) {
+        //获取提供者
+        //1.获取工厂连接
+        ConnectionFactory connectionFactory = activeMQUtil.getConnectionFactory();
+        //2.创建连接
+        try {
+            Connection connection = connectionFactory.createConnection();
+            //3.开启连接
+            connection.start();
+            //创建带有事务的session
+            Session session = connection.createSession(true, Session.SESSION_TRANSACTED);
+            //创建消息队列
+            Queue order_result_queue = session.createQueue("ORDER_RESULT_QUEUE");
+            //设置发送消息队列的类型
+            TextMessage textMessage=new ActiveMQTextMessage();
+           //获取访问仓库类型的json
+            String mapJson = getMapJson(orderId);
+            //设置要发送的文本信息
+            textMessage.setText(mapJson);
+            //创建生产者
+            MessageProducer producer = session.createProducer(order_result_queue);
+            //发送信息
+            producer.send(textMessage);
+            //提交事务
+            session.commit();
+            session.close();
+            connection.close();
+            producer.close();
+            //纵向代理  横向抽取  13120287773
+            //动态数据源
+            //动态代理
+            //动态代理：字节码重组
+            //NIO 1.5 BIO AIO1.7   1000万条数写入数据库中怎么实现
+            //一次性hash值
+            //netty
+            //springbean的生命周期
 
+        } catch (JMSException e) {
+            e.printStackTrace();
+        }
+    }
+    public String getMapJson(String orderId){
+        Map<String,Object> map=new HashMap<>();
+        OrderInfo orderInfo = getOrderInfo(orderId);
+        map.put("orderId",orderId);
+        map.put("consignee",orderInfo.getConsignee());
+        map.put("consigneeTel",orderInfo.getConsigneeTel());
+        map.put("orderComment",orderInfo.getOrderComment());
+        map.put("orderBody",orderInfo.getTradeBody());
+        map.put("deliveryAddress",orderInfo.getDeliveryAddress());
+        map.put("paymentWay","2");
+        Map<String,Object>orderDetailMap=new HashMap<>();
+        List<Map> mapList=new ArrayList<>();
+        List<OrderDetail> orderDetailList = orderInfo.getOrderDetailList();
+        for (OrderDetail orderDetail : orderDetailList) {
+            orderDetailMap.put("skuId",orderDetail.getSkuId());
+            orderDetailMap.put("skuNum",orderDetail.getSkuNum());
+            orderDetailMap.put("skuName",orderDetail.getSkuName());
+            mapList.add(orderDetailMap);
+        }
+        map.put("details",mapList);
+        String details = JSON.toJSONString(map);
+        return details;
     }
 
 

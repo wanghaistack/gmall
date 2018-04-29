@@ -19,7 +19,7 @@ public interface OrderInfoService {
 
     public List<OrderInfo> getOrderInfoList(String userId);
 
-    public void updateOrderStatus(String orderId, ProcessStatus processStatus, Map<String,String>...paramMap);
+    public void updateOrderStatus(String orderId, ProcessStatus processStatus);
 
     void sendOrderResult(String orderId);
 }
