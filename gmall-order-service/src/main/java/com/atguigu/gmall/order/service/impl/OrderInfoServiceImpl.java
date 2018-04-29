@@ -4,6 +4,8 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.OrderDetail;
 import com.atguigu.gmall.bean.OrderInfo;
+import com.atguigu.gmall.bean.enums.ProcessStatus;
+import com.atguigu.gmall.config.ActiveMQUtil;
 import com.atguigu.gmall.config.RedisUtil;
 import com.atguigu.gmall.order.mapper.OrderDetailMapper;
 import com.atguigu.gmall.order.mapper.OrderInfoMapper;
@@ -11,6 +13,8 @@ import com.atguigu.gmall.service.OrderInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 
+import javax.jms.*;
+import javax.jms.Queue;
 import java.util.*;
 
 @Service
@@ -21,6 +25,8 @@ public class OrderInfoServiceImpl implements OrderInfoService {
     OrderInfoMapper orderInfoMapper;
     @Autowired
     OrderDetailMapper orderDetailMapper;
+    @Autowired
+    ActiveMQUtil activeMQUtil;
     private String ORDER_PREFIX = "order:";
     private String ORDER_SUFFIX = ":code";
     private int TIME_OUT = 60 * 60;
@@ -123,6 +129,19 @@ public class OrderInfoServiceImpl implements OrderInfoService {
       //两表关联查询
        List<OrderInfo>orderInfoList= orderInfoMapper.selectOrderInfoListByUserId(Long.parseLong(userId));
         return orderInfoList;
+    }
+    @Override
+    public void updateOrderStatus(String orderId, ProcessStatus processStatus,Map<String,String>...paramMap){
+        OrderInfo orderInfo = orderInfoMapper.selectByPrimaryKey(orderId);
+        //设置进程状态
+        orderInfo.setProcessStatus(processStatus);
+        //更新进程状态
+        orderInfoMapper.updateByPrimaryKeySelective(orderInfo);
+    }
+
+    @Override
+    public void sendOrderResult(String orderId) {
+
     }
 
 

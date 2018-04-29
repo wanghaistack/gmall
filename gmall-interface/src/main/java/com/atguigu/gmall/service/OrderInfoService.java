@@ -1,8 +1,10 @@
 package com.atguigu.gmall.service;
 
 import com.atguigu.gmall.bean.OrderInfo;
+import com.atguigu.gmall.bean.enums.ProcessStatus;
 
 import java.util.List;
+import java.util.Map;
 
 public interface OrderInfoService {
     String getUniquIdentifier(String userId);
@@ -16,4 +18,8 @@ public interface OrderInfoService {
     OrderInfo getOrderInfo(String orederId);
 
     public List<OrderInfo> getOrderInfoList(String userId);
+
+    public void updateOrderStatus(String orderId, ProcessStatus processStatus, Map<String,String>...paramMap);
+
+    void sendOrderResult(String orderId);
 }
