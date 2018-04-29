@@ -11,7 +11,7 @@ public interface OrderInfoService {
 
     void deleteTradeCode(String userId);
 
-    void save(OrderInfo orderInfo);
+    String save(OrderInfo orderInfo);
 
     OrderInfo getOrderInfo(String orederId);
 

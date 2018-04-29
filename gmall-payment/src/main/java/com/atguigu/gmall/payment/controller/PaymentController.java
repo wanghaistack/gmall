@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSON;
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.internal.util.AlipaySignature;
+import com.alipay.api.request.AlipayTradePagePayRequest;
 import com.alipay.api.request.AlipayTradePayRequest;
 import com.atguigu.gmall.bean.OrderInfo;
 import com.atguigu.gmall.bean.PaymentInfo;
@@ -42,6 +43,7 @@ public class PaymentController {
         String userId = (String) request.getAttribute("userId");
         OrderInfo orderInfo = orderInfoService.getOrderInfo(orderId);
         request.setAttribute("userId",userId);
+        request.setAttribute("orderId",orderId);
         request.setAttribute("totalAmount",orderInfo.getTotalAmount());
         return "index";
     }
@@ -59,9 +61,12 @@ public class PaymentController {
         paymentInfo.setPaymentStatus(PaymentStatus.UNPAID);
         paymentInfo.setAlipayTradeNo(orderInfo.getOutTradeNo());
         paymentInfo.setSubject(orderInfo.getTradeBody());
+        paymentInfo.setOutTradeNo(orderInfo.getOutTradeNo());
+        paymentInfo.setTotalAmount(orderInfo.getTotalAmount());
         paymentService.savePaymentInfo(paymentInfo);
         //制作支付宝参数
-        AlipayTradePayRequest alipayTradePayRequest=new AlipayTradePayRequest();
+        AlipayTradePayRequest alipayTradePay=new AlipayTradePayRequest();
+        AlipayTradePagePayRequest alipayTradePayRequest=new AlipayTradePagePayRequest();
         alipayTradePayRequest.setNotifyUrl(AlipayConfig.notify_payment_url);
         alipayTradePayRequest.setReturnUrl(AlipayConfig.return_payment_url);
         Map<String,Object> map=new HashMap<>();
@@ -73,7 +78,7 @@ public class PaymentController {
         alipayTradePayRequest.setBizContent(bizContent);
         String form=null;
         try {
-            alipayClient.pageExecute(alipayTradePayRequest).getBody();
+            form=alipayClient.pageExecute(alipayTradePayRequest).getBody();
         } catch (AlipayApiException e) {
             e.printStackTrace();
         }
@@ -101,7 +106,7 @@ public class PaymentController {
         String sign = request.getParameter("sign");
         boolean isChecked=false;
         try {
-           isChecked = AlipaySignature.rsaCheckV2(paramMap, AlipayConfig.alipay_public_key, "UTF-8");
+           isChecked = AlipaySignature.rsaCheckV1(paramMap, AlipayConfig.alipay_public_key, "UTF-8");
         } catch (AlipayApiException e) {
             e.printStackTrace();
         }
@@ -127,6 +132,14 @@ public class PaymentController {
             }
         }
         return "fail";
+    }
+
+    @RequestMapping("sendResult")
+    @ResponseBody
+    public String sendAliPaymentInfo(@RequestParam("orderId")String orderId,@RequestParam("result")String result){
+        paymentService.sendPaymentResult(orderId,result);
+        return "send activeMQ success";
+
     }
 
 

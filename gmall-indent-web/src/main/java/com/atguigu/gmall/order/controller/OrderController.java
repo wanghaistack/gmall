@@ -84,7 +84,7 @@ public class OrderController {
     @RequestMapping(value = "submitOrder", method = RequestMethod.POST)
     @LoginRequire
     //orderInfo用于接收用户传递的参数
-    public String toList(OrderInfo orderInfo, HttpServletRequest request) {
+    public String toPayment(OrderInfo orderInfo, HttpServletRequest request) {
         //获取userId
         String userId = (String) request.getAttribute("userId");
         //获取验证唯一标识，如果认证通过则通过，如果没有，则返回错误页面,主要防止重复提交
@@ -124,10 +124,10 @@ public class OrderController {
         }
 
         //如果相匹配，则存放到数据库中
-        orderInfoService.save(orderInfo);
+        String orderId=orderInfoService.save(orderInfo);
         //删除唯一标识
         orderInfoService.deleteTradeCode(userId);
-        return "redirect://payment.gmall.com/index";
+        return "redirect://payment.gmall.com/index?orderId="+orderId;
     }
     //获取我的订单详情页面
     @RequestMapping("list")

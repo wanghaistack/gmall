@@ -63,14 +63,16 @@ public class OrderInfoServiceImpl implements OrderInfoService {
     }
 
     @Override
-    public void save(OrderInfo orderInfo) {
+    public String save(OrderInfo orderInfo) {
         //设置订单创建时间
         orderInfo.setCreateTime(new Date());
-        Calendar calendar = Calendar.getInstance();
         //日期相对于增加一天
-        calendar.add(Calendar.DATE, 1);
         //设置订单过期时间
+        Calendar calendar=Calendar.getInstance();
+        calendar.add(Calendar.DATE,1);
+
         orderInfo.setExpectDeliveryTime(calendar.getTime());
+
         //设置tradeNo
         String outTradeNo = "ORDER_TRADE" + UUID.randomUUID().toString() + new Random().nextInt(1000);
         orderInfo.setOutTradeNo(outTradeNo);
@@ -81,12 +83,14 @@ public class OrderInfoServiceImpl implements OrderInfoService {
             orderDetail.setOrderId(orderInfo.getId());
             orderDetailMapper.insertSelective(orderDetail);
         }
+        String orderId=orderInfo.getId();
         //把订单信息存放到redis缓存中
         Jedis jedis = redisUtil.getJedis();
         String orderInfoKey=ORDER_INFO_PREFIX+orderInfo.getUserId()+ORDER_INFO_SUFFIX;
         String orderInfoJson = JSON.toJSONString(orderInfo);
         jedis.setex(orderInfoKey,TIME_OUT,orderInfoJson);
         jedis.close();
+        return orderId;
     }
 
     @Override

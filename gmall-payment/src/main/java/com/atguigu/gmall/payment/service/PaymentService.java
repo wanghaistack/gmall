@@ -8,4 +8,6 @@ public interface PaymentService {
     PaymentInfo getPaymentInfo(PaymentInfo paymentInfoQuery);
 
     void updatePaymentInfo(String outTradeNo, PaymentInfo paymentInfoForUpdate);
+
+    public void sendPaymentResult(String orderId, String result);
 }
