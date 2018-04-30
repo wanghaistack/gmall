@@ -9,6 +9,7 @@ import com.atguigu.gmall.bean.enums.PaymentStatus;
 import com.atguigu.gmall.config.ActiveMQUtil;
 import com.atguigu.gmall.payment.mapper.PaymentInfoMapper;
 import com.atguigu.gmall.payment.service.PaymentService;
+import org.apache.activemq.ScheduledMessage;
 import org.apache.activemq.command.ActiveMQMapMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -72,15 +73,13 @@ public class PaymentImpl implements PaymentService {
     }
     @Override
     public Boolean checkAlipayStatus(PaymentInfo paymentInfo){
-        String outTradeNo = paymentInfo.getOutTradeNo();
         PaymentInfo paymentInfoQuery =getPaymentInfo(paymentInfo);
         if (paymentInfoQuery.getPaymentStatus().equals(PaymentStatus.PAID)||paymentInfoQuery.getPaymentStatus().equals(PaymentStatus.ClOSED)){
             return true;
         }
         AlipayTradeQueryRequest request = new AlipayTradeQueryRequest();
         request.setBizContent("{" +
-                "\"out_trade_no\":\""+outTradeNo+"\"," +
-
+                "    \"out_trade_no\":\""+paymentInfoQuery.getOutTradeNo()+"\" "+
                 "  }");
         AlipayTradeQueryResponse response = null;
         try {
@@ -93,7 +92,7 @@ public class PaymentImpl implements PaymentService {
             if ("TRADE_SUCCESS".equals(response.getTradeStatus())||"TRADE_FINISHED".equals(response.getTradeStatus())){
                 paymentInfoQuery.setPaymentStatus(PaymentStatus.PAID);
                 System.out.println("调用成功");
-                updatePaymentInfo( outTradeNo, paymentInfoQuery);
+                updatePaymentInfo( paymentInfoQuery.getOutTradeNo(), paymentInfoQuery);
                 sendPaymentResult(paymentInfoQuery.getOrderId(),"success");
                 return true;
             }else {
@@ -103,6 +102,32 @@ public class PaymentImpl implements PaymentService {
         } else {
             System.out.println("调用失败");
             return false;
+        }
+
+    }
+    @Override
+    public void sendActiveMQMessage(String outTradeNo,int deySc,int checkCount ){
+        //创建消息队列发送结果
+        ConnectionFactory connectionFactory = activeMQUtil.getConnectionFactory();
+        try {
+            Connection connection = connectionFactory.createConnection();
+            connection.start();
+            Session session = connection.createSession(true,Session.SESSION_TRANSACTED);
+            MapMessage mapMessage=new ActiveMQMapMessage();
+            mapMessage.setString("outTradeNo",outTradeNo);
+            mapMessage.setInt("deySc",deySc);
+            mapMessage.setInt("checkCount",checkCount);
+            //设置消息队列延迟的时间  //毫秒数
+            mapMessage.setLongProperty(ScheduledMessage.AMQ_SCHEDULED_DELAY,deySc*1000);
+            Queue test_send_active_status = session.createQueue("TEST_SEND_ACTIVE_STATUS");
+            MessageProducer producer = session.createProducer(test_send_active_status);
+            producer.send(mapMessage);
+            session.close();
+            producer.close();
+            connection.close();
+
+        } catch (JMSException e) {
+            e.printStackTrace();
         }
 
     }

@@ -12,4 +12,6 @@ public interface PaymentService {
     public void sendPaymentResult(String orderId, String result);
 
     public Boolean checkAlipayStatus(PaymentInfo paymentInfo);
+
+    public void sendActiveMQMessage(String outTradeNo,int deySc,int checkCount );
 }

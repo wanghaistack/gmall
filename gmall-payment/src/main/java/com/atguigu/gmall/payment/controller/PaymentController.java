@@ -83,6 +83,7 @@ public class PaymentController {
             e.printStackTrace();
         }
         response.setContentType("text/html;charset=UTF-8");
+        paymentService.sendActiveMQMessage(paymentInfo.getOutTradeNo(),15,3);
         return form;
 
 
@@ -150,6 +151,7 @@ public class PaymentController {
         PaymentInfo paymentInfo=new PaymentInfo();
         paymentInfo.setOrderId(orderId);
         Boolean checkResult = paymentService.checkAlipayStatus(paymentInfo);
+
        return "检查状态结果"+checkResult;
     }
 
