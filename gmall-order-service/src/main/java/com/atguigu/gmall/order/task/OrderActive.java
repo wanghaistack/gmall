@@ -15,10 +15,6 @@ import java.util.List;
 public class OrderActive {
    @Autowired
     OrderInfoService orderInfoService;
-    @Scheduled(cron = "0/5 * * * * ?")
-    public void test(){
-        System.out.println("每隔五秒轮询扫描信息");
-    }
     @Scheduled(cron = "0/15 * * * * ?")
     public void checkOrderExpireInfo(){
         //获取过期订单的集合
