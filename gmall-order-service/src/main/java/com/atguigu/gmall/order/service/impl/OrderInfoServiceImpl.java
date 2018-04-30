@@ -14,6 +14,7 @@ import com.atguigu.gmall.service.OrderInfoService;
 import com.atguigu.gmall.service.PaymentService;
 import org.apache.activemq.command.ActiveMQTextMessage;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import redis.clients.jedis.Jedis;
 import tk.mybatis.mapper.entity.Example;
 
@@ -222,6 +223,7 @@ public class OrderInfoServiceImpl implements OrderInfoService {
 
     }
     @Override
+    @Async
     public void setOrderStatus(OrderInfo orderInfo){
         //更新订单状态
         updateOrderStatus(orderInfo.getId(),ProcessStatus.CLOSED);
