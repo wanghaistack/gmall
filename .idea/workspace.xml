@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42cd1e7-074d-41ea-bb54-5811155f5763" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/task/OrderActive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gmall1108/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java" afterPath="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/PaymentService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../gmall1108/out/" />
     <ignored path="$PROJECT_DIR$/../gmall1108/target/" />
@@ -51,35 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="OrderInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PaymentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            <state relative-caret-position="284">
+              <caret line="153" column="76" lean-forward="true" selection-start-line="153" selection-start-column="76" selection-end-line="153" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java">
+      <file leaf-file-name="OrderConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mq/OrderConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="15" column="81" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="437">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActiveMQUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQUtil.java">
+      <file leaf-file-name="OrderActive.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/task/OrderActive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -122,7 +94,7 @@
       <file leaf-file-name="ActiveMQConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="88">
               <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
@@ -303,8 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/CartInfo.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-web-util/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/resources/templates/cartList.html" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/cookie/CookieCartUtil.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartCotroller.java" />
@@ -335,7 +305,6 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/config/AlipayClient.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/alipay.properties" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/resources/templates/tradeFail.html" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/WebMvcConfigration.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-indent-web/src/main/java/com/atguigu/gmall/order/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-service-util/pom.xml" />
@@ -343,17 +312,20 @@
         <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/Consumer.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQConfig.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQUtil.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../gmall1108/gware-manage/src/main/java/com/atguigu/gware/mq/WareConsumer.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gware-manage/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mq/OrderConsumer.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java" />
-        <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/task/OrderActive.java" />
       </list>
     </option>
   </component>
@@ -454,41 +426,6 @@
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-beans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
               <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -527,63 +464,20 @@
               <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="passport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="passport" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-passport-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="passport" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="PassPortController" type="1a9f42e2:ClassTreeNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderActive" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
@@ -619,70 +513,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="payment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-payment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-payment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="PaymentController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-payment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-payment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-payment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall1108" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-payment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="PaymentImpl" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gmall1108" type="b2602c69:ProjectViewProjectNode" />
@@ -1190,14 +1020,7 @@
       <workItem from="1524831110086" duration="13173000" />
       <workItem from="1524875594117" duration="26097000" />
       <workItem from="1524962164163" duration="24669000" />
-      <workItem from="1525065012399" duration="11209000" />
-    </task>
-    <task id="LOCAL-00025" summary="商品模块">
-      <created>1523545599223</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1523545599223</updated>
+      <workItem from="1525065012399" duration="15649000" />
     </task>
     <task id="LOCAL-00026" summary="商品模块">
       <created>1523622842700</created>
@@ -1535,7 +1358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525078347601</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="商品模块">
+      <created>1525082932603</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1525082932604</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1571,7 +1401,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="599517000" />
+    <option name="totallyTimeSpent" value="603957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1587,7 +1417,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.48488122" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32458234" sideWeight="0.4874477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1608,7 +1438,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3770883" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375895" sideWeight="0.63714904" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1935,13 +1765,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>77</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="388" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>90</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="390" />
         </line-breakpoint>
@@ -1959,13 +1789,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>83</line>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="398" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>86</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="400" />
         </line-breakpoint>
@@ -2001,7 +1831,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>92</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="409" />
         </line-breakpoint>
@@ -2055,7 +1885,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java</url>
-          <line>106</line>
+          <line>107</line>
           <properties />
           <option name="timeStamp" value="420" />
         </line-breakpoint>
@@ -2085,7 +1915,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java</url>
-          <line>142</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="427" />
         </line-breakpoint>
@@ -2127,13 +1957,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>155</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="442" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>149</line>
+          <line>155</line>
           <properties />
           <option name="timeStamp" value="444" />
         </line-breakpoint>
@@ -2151,19 +1981,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>165</line>
+          <line>171</line>
           <properties />
           <option name="timeStamp" value="449" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>167</line>
+          <line>173</line>
           <properties />
           <option name="timeStamp" value="450" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>169</line>
+          <line>175</line>
           <properties />
           <option name="timeStamp" value="451" />
         </line-breakpoint>
@@ -2205,43 +2035,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java</url>
-          <line>121</line>
+          <line>122</line>
           <properties />
           <option name="timeStamp" value="459" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java</url>
-          <line>109</line>
+          <line>110</line>
           <properties />
           <option name="timeStamp" value="460" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>106</line>
+          <line>112</line>
           <properties />
           <option name="timeStamp" value="462" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>113</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="463" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>107</line>
+          <line>113</line>
           <properties />
           <option name="timeStamp" value="464" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java</url>
-          <line>110</line>
+          <line>116</line>
           <properties />
           <option name="timeStamp" value="466" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java</url>
-          <line>152</line>
+          <line>153</line>
           <properties />
           <option name="timeStamp" value="467" />
         </line-breakpoint>
@@ -2269,11 +2099,53 @@
           <properties />
           <option name="timeStamp" value="472" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="473" />
+      <option name="time" value="481" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -2285,21 +2157,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/util/LoginRequire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/GmallCartServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-web-util/src/main/java/com/atguigu/gmall/config/WebMvcConfigration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -2416,6 +2273,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2530,16 +2388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mq/OrderConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alipay/alipay-sdk/3.0.0/alipay-sdk-3.0.0.jar!/com/alipay/api/AlipayClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -2580,36 +2428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/PassPortController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -2622,22 +2444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/PaymentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -2646,28 +2452,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/mq/PaymentConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="216">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/PaymentService.java">
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-beans/src/main/java/com/atguigu/gmall/bean/OrderInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="15" column="81" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        <state relative-caret-position="132">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/service/impl/PaymentImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="41" />
+        <state relative-caret-position="327">
+          <caret line="140" column="72" lean-forward="false" selection-start-line="140" selection-start-column="72" selection-end-line="140" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/service/impl/OrderInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="228" column="61" lean-forward="false" selection-start-line="228" selection-start-column="61" selection-end-line="228" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2676,11 +2524,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-payment/src/main/java/com/atguigu/gmall/payment/controller/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="284">
+          <caret line="153" column="76" lean-forward="true" selection-start-line="153" selection-start-column="76" selection-end-line="153" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-service-util/src/main/java/com/atguigu/gmall/config/ActiveMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/mq/OrderConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall1108/gmall-order-service/src/main/java/com/atguigu/gmall/order/task/OrderActive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

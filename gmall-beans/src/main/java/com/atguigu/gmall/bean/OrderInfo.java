@@ -40,7 +40,7 @@ public class OrderInfo implements Serializable {
     private PaymentWay paymentWay;
 
     @Column
-    private Date expectDeliveryTime=new Date();
+    private Date expectDeliveryTime;
 
     @Column
     private String deliveryAddress;

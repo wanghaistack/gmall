@@ -1,4 +1,4 @@
-package com.atguigu.gmall.payment.service;
+package com.atguigu.gmall.service;
 
 import com.atguigu.gmall.bean.PaymentInfo;
 
@@ -13,5 +13,7 @@ public interface PaymentService {
 
     public Boolean checkAlipayStatus(PaymentInfo paymentInfo);
 
-    public void sendActiveMQMessage(String outTradeNo,int deySc,int checkCount );
+    public void sendActiveMQMessage(String outTradeNo,int deySc,int checkCount);
+
+    public void closePaymentStatus(String orderId);
 }

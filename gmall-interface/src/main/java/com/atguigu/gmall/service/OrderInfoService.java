@@ -22,4 +22,8 @@ public interface OrderInfoService {
     public void updateOrderStatus(String orderId, ProcessStatus processStatus);
 
     void sendOrderResult(String orderId);
+
+    public List<OrderInfo> getOrderInfoExpireList();
+
+    public void setOrderStatus(OrderInfo orderInfo);
 }

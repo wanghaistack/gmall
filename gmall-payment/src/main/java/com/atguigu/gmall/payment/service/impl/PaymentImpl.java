@@ -8,7 +8,7 @@ import com.atguigu.gmall.bean.PaymentInfo;
 import com.atguigu.gmall.bean.enums.PaymentStatus;
 import com.atguigu.gmall.config.ActiveMQUtil;
 import com.atguigu.gmall.payment.mapper.PaymentInfoMapper;
-import com.atguigu.gmall.payment.service.PaymentService;
+import com.atguigu.gmall.service.PaymentService;
 import org.apache.activemq.ScheduledMessage;
 import org.apache.activemq.command.ActiveMQMapMessage;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -106,7 +106,7 @@ public class PaymentImpl implements PaymentService {
 
     }
     @Override
-    public void sendActiveMQMessage(String outTradeNo,int deySc,int checkCount ){
+    public void sendActiveMQMessage(String outTradeNo,int deySc,int checkCount){
         //创建消息队列发送结果
         ConnectionFactory connectionFactory = activeMQUtil.getConnectionFactory();
         try {
@@ -122,6 +122,7 @@ public class PaymentImpl implements PaymentService {
             Queue test_send_active_status = session.createQueue("TEST_SEND_ACTIVE_STATUS");
             MessageProducer producer = session.createProducer(test_send_active_status);
             producer.send(mapMessage);
+            session.commit();
             session.close();
             producer.close();
             connection.close();
@@ -130,5 +131,13 @@ public class PaymentImpl implements PaymentService {
             e.printStackTrace();
         }
 
+    }
+    @Override
+    public void closePaymentStatus(String orderId){
+        Example example=new Example(PaymentInfo.class);
+        example.createCriteria().andEqualTo("orderId",orderId);
+        PaymentInfo paymentInfo=new PaymentInfo();
+        paymentInfo.setPaymentStatus(PaymentStatus.ClOSED);
+        paymentInfoMapper.updateByExampleSelective(paymentInfo,example);
     }
 }

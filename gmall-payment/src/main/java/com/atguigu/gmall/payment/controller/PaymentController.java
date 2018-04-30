@@ -11,7 +11,7 @@ import com.atguigu.gmall.bean.OrderInfo;
 import com.atguigu.gmall.bean.PaymentInfo;
 import com.atguigu.gmall.bean.enums.PaymentStatus;
 import com.atguigu.gmall.payment.config.AlipayConfig;
-import com.atguigu.gmall.payment.service.PaymentService;
+import com.atguigu.gmall.service.PaymentService;
 import com.atguigu.gmall.service.OrderInfoService;
 import com.atguigu.gmall.util.LoginRequire;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -83,7 +83,8 @@ public class PaymentController {
             e.printStackTrace();
         }
         response.setContentType("text/html;charset=UTF-8");
-        paymentService.sendActiveMQMessage(paymentInfo.getOutTradeNo(),15,3);
+        String outTradeNo=paymentInfo.getOutTradeNo();
+        paymentService.sendActiveMQMessage(outTradeNo,15,3);
         return form;
 
 

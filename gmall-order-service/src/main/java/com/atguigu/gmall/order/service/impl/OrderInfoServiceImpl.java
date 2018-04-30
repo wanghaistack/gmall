@@ -1,5 +1,6 @@
 package com.atguigu.gmall.order.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.OrderDetail;
@@ -10,9 +11,11 @@ import com.atguigu.gmall.config.RedisUtil;
 import com.atguigu.gmall.order.mapper.OrderDetailMapper;
 import com.atguigu.gmall.order.mapper.OrderInfoMapper;
 import com.atguigu.gmall.service.OrderInfoService;
+import com.atguigu.gmall.service.PaymentService;
 import org.apache.activemq.command.ActiveMQTextMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
+import tk.mybatis.mapper.entity.Example;
 
 import javax.jms.*;
 import javax.jms.Queue;
@@ -28,6 +31,9 @@ public class OrderInfoServiceImpl implements OrderInfoService {
     OrderDetailMapper orderDetailMapper;
     @Autowired
     ActiveMQUtil activeMQUtil;
+    @Reference
+    PaymentService paymentService;
+
     private String ORDER_PREFIX = "order:";
     private String ORDER_SUFFIX = ":code";
     private int TIME_OUT = 60 * 60;
@@ -207,6 +213,22 @@ public class OrderInfoServiceImpl implements OrderInfoService {
         String details = JSON.toJSONString(map);
         return details;
     }
+    @Override
+    public List<OrderInfo> getOrderInfoExpireList(){
+        Example example=new Example(OrderInfo.class);
+        example.createCriteria().andLessThan("expectDeliveryTime",new Date()).andEqualTo("processStatus",ProcessStatus.UNPAID);
+        List<OrderInfo> orderInfoList = orderInfoMapper.selectByExample(example);
+        return orderInfoList;
+
+    }
+    @Override
+    public void setOrderStatus(OrderInfo orderInfo){
+        //更新订单状态
+        updateOrderStatus(orderInfo.getId(),ProcessStatus.CLOSED);
+        //关闭支付状态
+        paymentService.closePaymentStatus(orderInfo.getId());
+    }
+
 
 
 }
