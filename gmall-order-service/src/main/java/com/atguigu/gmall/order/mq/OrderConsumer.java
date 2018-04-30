@@ -23,6 +23,8 @@ public class OrderConsumer {
             //给库存发布信息，减库存验库
             orderInfoService.sendOrderResult(orderId);
             orderInfoService.updateOrderStatus(orderId,ProcessStatus.WAITING_DELEVER);
+        }else {
+            orderInfoService.updateOrderStatus(orderId,ProcessStatus.PAY_FAIL);
         }
 
 

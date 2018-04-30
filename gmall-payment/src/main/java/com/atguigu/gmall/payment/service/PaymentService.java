@@ -10,4 +10,6 @@ public interface PaymentService {
     void updatePaymentInfo(String outTradeNo, PaymentInfo paymentInfoForUpdate);
 
     public void sendPaymentResult(String orderId, String result);
+
+    public Boolean checkAlipayStatus(PaymentInfo paymentInfo);
 }

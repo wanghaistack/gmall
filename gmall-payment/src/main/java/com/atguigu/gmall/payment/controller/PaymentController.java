@@ -128,18 +128,29 @@ public class PaymentController {
                 paymentInfoForUpdate.setConfirmTime(new Date());
                 paymentInfoForUpdate.setCallbackContent(paramMap.toString());
                 paymentService.updatePaymentInfo(paymentInfo.getOutTradeNo(),paymentInfoForUpdate);
+                paymentService.sendPaymentResult(paymentInfo.getOrderId(),"success");
+                System.out.println("订单号为:"+paymentInfo.getOrderId()+"的商品支付成功!");
                 return "success";
             }
         }
         return "fail";
     }
 
-    @RequestMapping("sendResult")
+    @RequestMapping("sendPaymentResult")
     @ResponseBody
     public String sendAliPaymentInfo(@RequestParam("orderId")String orderId,@RequestParam("result")String result){
         paymentService.sendPaymentResult(orderId,result);
         return "send activeMQ success";
 
+    }
+    @RequestMapping("queryPaymentResult")
+    @ResponseBody
+    public String checkPaymentResult(HttpServletRequest request){
+        String orderId = request.getParameter("orderId");
+        PaymentInfo paymentInfo=new PaymentInfo();
+        paymentInfo.setOrderId(orderId);
+        Boolean checkResult = paymentService.checkAlipayStatus(paymentInfo);
+       return "检查状态结果"+checkResult;
     }
 
 

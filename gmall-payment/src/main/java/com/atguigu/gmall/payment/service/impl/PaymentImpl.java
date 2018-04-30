@@ -1,6 +1,11 @@
 package com.atguigu.gmall.payment.service.impl;
 
+import com.alipay.api.AlipayApiException;
+import com.alipay.api.AlipayClient;
+import com.alipay.api.request.AlipayTradeQueryRequest;
+import com.alipay.api.response.AlipayTradeQueryResponse;
 import com.atguigu.gmall.bean.PaymentInfo;
+import com.atguigu.gmall.bean.enums.PaymentStatus;
 import com.atguigu.gmall.config.ActiveMQUtil;
 import com.atguigu.gmall.payment.mapper.PaymentInfoMapper;
 import com.atguigu.gmall.payment.service.PaymentService;
@@ -18,6 +23,8 @@ public class PaymentImpl implements PaymentService {
     PaymentInfoMapper paymentInfoMapper;
     @Autowired
     ActiveMQUtil activeMQUtil;
+    @Autowired
+    AlipayClient alipayClient;
 
     @Override
     public void savePaymentInfo(PaymentInfo paymentInfo) {
@@ -62,5 +69,41 @@ public class PaymentImpl implements PaymentService {
         } catch (JMSException e) {
             e.printStackTrace();
         }
+    }
+    @Override
+    public Boolean checkAlipayStatus(PaymentInfo paymentInfo){
+        String outTradeNo = paymentInfo.getOutTradeNo();
+        PaymentInfo paymentInfoQuery =getPaymentInfo(paymentInfo);
+        if (paymentInfoQuery.getPaymentStatus().equals(PaymentStatus.PAID)||paymentInfoQuery.getPaymentStatus().equals(PaymentStatus.ClOSED)){
+            return true;
+        }
+        AlipayTradeQueryRequest request = new AlipayTradeQueryRequest();
+        request.setBizContent("{" +
+                "\"out_trade_no\":\""+outTradeNo+"\"," +
+
+                "  }");
+        AlipayTradeQueryResponse response = null;
+        try {
+            response = alipayClient.execute(request);
+
+        } catch (AlipayApiException e) {
+            e.printStackTrace();
+        }
+        if(response.isSuccess()){
+            if ("TRADE_SUCCESS".equals(response.getTradeStatus())||"TRADE_FINISHED".equals(response.getTradeStatus())){
+                paymentInfoQuery.setPaymentStatus(PaymentStatus.PAID);
+                System.out.println("调用成功");
+                updatePaymentInfo( outTradeNo, paymentInfoQuery);
+                sendPaymentResult(paymentInfoQuery.getOrderId(),"success");
+                return true;
+            }else {
+                return false;
+            }
+
+        } else {
+            System.out.println("调用失败");
+            return false;
+        }
+
     }
 }

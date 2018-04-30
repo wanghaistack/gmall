@@ -136,6 +136,8 @@ public class OrderInfoServiceImpl implements OrderInfoService {
         OrderInfo orderInfo = orderInfoMapper.selectByPrimaryKey(orderId);
         //设置进程状态
         orderInfo.setProcessStatus(processStatus);
+        //更新订单状态
+        orderInfo.setOrderStatus(processStatus.getOrderStatus());
         //更新进程状态
         orderInfoMapper.updateByPrimaryKeySelective(orderInfo);
     }
